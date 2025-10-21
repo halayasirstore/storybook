@@ -1,144 +1,104 @@
 {
   "levels": [
     {
-      "name": "Level 1: Beginner Stories 1",
+      "name": "Level 1: Beginner Stories",
       "color": 4283215696,
       "gradient": {
         "colors": [4283215696, 4283215696]
       },
       "stories": [
+        // ... your existing stories ...
+        
         {
-          "name": "The Lost Key 100s",
-          "image": "https://ia601302.us.archive.org/4/items/ol85oYG/ol85oYG.jpeg",
+          "name": "The Friendly Dragon",
+          "image": "https://i.imgur.com/kL9mN2X.jpeg",
           "story": {
-            "coverImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-            "title": "The Mystery of the Lost Key",
-            "segments": 5,
-            "audio": "https://ia600601.us.archive.org/27/items/eleven-labs-2025-10-05-t-16-21-49-ghizlane-moroccan-darija-dialect-pvc-sp-100-s-50-sb-30-v-3/ElevenLabs_2025-10-05T16_21_49_Ghizlane%20-%20Moroccan%20Darija%20Dialect_pvc_sp100_s50_sb30_v3.mp3",
+            "coverImage": "https://i.imgur.com/kL9mN2X.jpeg",
+            "title": "The Friendly Dragon",
+            "segments": 4,
+            "audio": "https://ia804508.us.archive.org/5/items/dragon-story-audio/dragon_story.mp3",
             "segmentsList": [
               {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "00:07",
+                "segmentTitle": "A Strange Friend",
+                "segmentImage": "https://i.imgur.com/kL9mN2X.jpeg",
+                "segmentAudio": "assets/audio/segments/dragon_1.mp3",
+                "duration": "00:12",
                 "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
+                  "arabic": "صديق غريب",
+                  "french": "Un Ami Étrange"
                 },
-                "content": "Elara lived inside the light. Not in the beam, of course, but in the spiraling white tower of the Mirkwood Lighthouse, ",
+                "content": "In a small village near the mountains, lived a little dragon named Spark. Unlike other dragons, Spark couldn't breathe fire, only colorful smoke.",
                 "contentTranslation": {
-                  "arabic": "عاشت إلارا داخل الضوء. ليس في الشعاع، بالطبع، ولكن في البرج الأبيض المتعرج من منارة ميرك وود، المت perched على إبهام من الصخور التي تبرز في المحيط المضطرب. كانت في السابعة والعشرين من عمرها، وحيدة، وكانت تعرف الإيقاع المحدد لكل كسر موجة لمسافة مئتي ميل.",
-                  "french": "Elara vivait à l'intérieur de la lumière. Pas dans le faisceau, bien sûr, mais dans la tour blanche en spirale du phare de Mirkwood, perchée sur un pouce de roche qui avançait dans l'océan agité. Elle avait vingt-sept ans, était solitaire et connaissait le rythme spécifique de chaque rupture de vague sur deux cents miles."
+                  "arabic": "في قرية صغيرة بالقرب من الجبال، عاش تنين صغير يدعى سبارك. على عكس التنانين الأخرى، لم يستطع سبارك أن ينفث النار، فقط دخان ملون.",
+                  "french": "Dans un petit village près des montagnes, vivait un petit dragon nommé Spark. Contrairement aux autres dragons, Spark ne pouvait pas cracher du feu, seulement de la fumée colorée."
                 },
                 "wordTranslations": [
                   {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
+                    "word": "village",
+                    "arabic": "قرية",
+                    "french": "village"
                   },
                   {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
+                    "word": "mountains",
+                    "arabic": "جبال",
+                    "french": "montagnes"
                   },
                   {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
+                    "word": "dragon",
+                    "arabic": "تنين",
+                    "french": "dragon"
                   },
                   {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
+                    "word": "breathe",
+                    "arabic": "ينفث",
+                    "french": "cracher"
                   },
                   {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
+                    "word": "colorful",
+                    "arabic": "ملون",
+                    "french": "coloré"
                   }
                 ]
               },
-                 {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "00:09",
-                "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
-                },
-                "content": "perched on a thumb of rock that jutted into the restless ocean. She was twenty-seven, ",
-                "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
-                  },
-                  {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
-                  },
-                  {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
-                  },
-                  {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
-                  },
-                  {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
-                  }
-                ]
-              },
-                 {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
+              {
+                "segmentTitle": "The First Meeting",
+                "segmentImage": "https://i.imgur.com/mN8pQ9Z.jpeg",
+                "segmentAudio": "assets/audio/segments/dragon_2.mp3",
                 "duration": "00:15",
                 "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
+                  "arabic": "اللقاء الأول",
+                  "french": "La Première Rencontre"
                 },
-                "content": "solitary, and knew the specific rhythm of every wave break for two hundred miles.",
+                "content": "One day, a brave girl named Lily found Spark crying behind a big rock. He was sad because the other dragons laughed at him.",
                 "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
+                  "arabic": "ذات يوم، وجدت فتاة شجاعة تدعى ليلي سبارك يبكي خلف صخرة كبيرة. كان حزينًا لأن التنانين الأخرى ضحكت عليه.",
+                  "french": "Un jour, une fille courageuse nommée Lily trouva Spark en pleurs derrière un gros rocher. Il était triste parce que les autres dragons se moquaient de lui."
                 },
                 "wordTranslations": [
                   {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
+                    "word": "brave",
+                    "arabic": "شجاعة",
+                    "french": "courageuse"
                   },
                   {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
+                    "word": "crying",
+                    "arabic": "يبكي",
+                    "french": "pleurs"
                   },
                   {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
+                    "word": "rock",
+                    "arabic": "صخرة",
+                    "french": "rocher"
                   },
                   {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
+                    "word": "sad",
+                    "arabic": "حزين",
+                    "french": "triste"
                   },
                   {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
+                    "word": "laughed",
+                    "arabic": "ضحكت",
+                    "french": "moquaient"
                   }
                 ]
               }
@@ -147,116 +107,68 @@
           "quiz": {
             "questions": [
               {
-                "question": "Where was the shiny object found?",
-                "options": ["Under an oak tree", "On a mountain", "In a river", "On a bench"],
+                "question": "What was special about Spark the dragon?",
+                "options": ["He breathed colorful smoke", "He could fly very high", "He was very big", "He had golden scales"],
                 "correctAnswer": 0,
-                "explanation": "The story mentions the shiny object was found under the oak tree."
+                "explanation": "Spark breathed colorful smoke instead of fire."
               },
               {
-                "question": "What was the main character doing when they found the object?",
-                "options": ["Walking through the forest", "Running in a park", "Swimming in a lake", "Sleeping at home"],
+                "question": "Where did Lily find Spark?",
+                "options": ["Behind a big rock", "In a cave", "In the village", "By the river"],
                 "correctAnswer": 0,
-                "explanation": "The character was walking through the old forest."
-              },
-              {
-                "question": "How would you describe the forest?",
-                "options": ["Old", "New", "Small", "Colorful"],
-                "correctAnswer": 0,
-                "explanation": "The story describes it as an 'old forest'."
-              },
-              {
-                "question": "What time of day was it probably?",
-                "options": ["Daytime", "Night", "Evening", "Morning"],
-                "correctAnswer": 0,
-                "explanation": "Since they could see something shiny, it was likely daytime."
-              },
-              {
-                "question": "What kind of tree was mentioned?",
-                "options": ["Oak tree", "Pine tree", "Apple tree", "Palm tree"],
-                "correctAnswer": 0,
-                "explanation": "The story specifically mentions an oak tree."
-              },
-              {
-                "question": "How did the character feel when they saw the shiny object?",
-                "options": ["Curious", "Scared", "Angry", "Sad"],
-                "correctAnswer": 0,
-                "explanation": "Finding something shiny would likely make someone curious."
-              },
-              {
-                "question": "What was the weather probably like?",
-                "options": ["Clear enough to see shiny objects", "Rainy", "Snowy", "Foggy"],
-                "correctAnswer": 0,
-                "explanation": "They could see something shiny, suggesting good visibility."
-              },
-              {
-                "question": "Where is this story likely set?",
-                "options": ["In a natural area", "In a city", "At a beach", "In a desert"],
-                "correctAnswer": 0,
-                "explanation": "Forests are natural areas with trees and wildlife."
-              },
-              {
-                "question": "What might happen next in the story?",
-                "options": ["They investigate the shiny object", "They go home", "They meet a friend", "They start running"],
-                "correctAnswer": 0,
-                "explanation": "Finding something shiny usually leads to investigation."
-              },
-              {
-                "question": "What is the main theme of this segment?",
-                "options": ["Discovery", "Friendship", "Danger", "Travel"],
-                "correctAnswer": 0,
-                "explanation": "The segment is about discovering something unusual."
+                "explanation": "Spark was hiding behind a big rock."
               }
             ]
           }
         },
         {
-          "name": "The Secret ",
-          "image": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+          "name": "Ocean Adventure",
+          "image": "https://i.imgur.com/b7r9fK6.jpeg",
           "story": {
-            "coverImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-            "title": "The Hidden ",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
+            "coverImage": "https://i.imgur.com/b7r9fK6.jpeg",
+            "title": "The Underwater City",
+            "segments": 5,
+            "audio": "https://ia804508.us.archive.org/5/items/ocean-story-audio/ocean_story.mp3",
             "segmentsList": [
               {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
+                "segmentTitle": "The Discovery",
+                "segmentImage": "https://i.imgur.com/b7r9fK6.jpeg",
+                "segmentAudio": "assets/audio/segments/ocean_1.mp3",
+                "duration": "00:10",
                 "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
+                  "arabic": "الاكتشاف",
+                  "french": "La Découverte"
                 },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
+                "content": "While swimming in the clear blue ocean, Maya found a glowing shell that showed her the way to an underwater city.",
                 "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
+                  "arabic": "أثناء السباحة في المحيط الأزرق الصافي، وجدت مايا صدفة متوهجة أظهرت لها الطريق إلى مدينة تحت الماء.",
+                  "french": "En nageant dans l'océan bleu clair, Maya trouva un coquillage lumineux qui lui montra le chemin vers une ville sous-marine."
                 },
                 "wordTranslations": [
                   {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
+                    "word": "swimming",
+                    "arabic": "السباحة",
+                    "french": "nageant"
                   },
                   {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
+                    "word": "ocean",
+                    "arabic": "المحيط",
+                    "french": "océan"
                   },
                   {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
+                    "word": "glowing",
+                    "arabic": "متوهجة",
+                    "french": "lumineux"
                   },
                   {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
+                    "word": "shell",
+                    "arabic": "صدفة",
+                    "french": "coquillage"
                   },
                   {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
+                    "word": "underwater",
+                    "arabic": "تحت الماء",
+                    "french": "sous-marine"
                   }
                 ]
               }
@@ -265,300 +177,10 @@
           "quiz": {
             "questions": [
               {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
+                "question": "What did Maya find in the ocean?",
+                "options": ["A glowing shell", "A treasure chest", "A friendly dolphin", "A sunken ship"],
                 "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
-              }
-            ]
-          }
-        },
-         {
-          "name": "The  Garden",
-          "image": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-          "story": {
-            "coverImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-            "title": "The  Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
-              }
-            ]
-          }
-        },
-         {
-          "name": " Secret Garden",
-          "image": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-          "story": {
-            "coverImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": " Old Gate",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
+                "explanation": "Maya found a glowing shell that showed her the way."
               }
             ]
           }
@@ -572,96 +194,56 @@
         "colors": [4286381056, 4282615280]
       },
       "stories": [
+        // ... your existing stories ...
+        
         {
-          "name": "Mountain Quest",
-          "image": "https://i.imgur.com/gsVVrKB.jpeg",
+          "name": "Space Explorer",
+          "image": "https://i.imgur.com/qR3sT8p.jpeg",
           "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Dragon's Peak",
-            "segments": 3,
-            "audio": "assets/audio/stories/mountain_quest_full.mp3",
+            "coverImage": "https://i.imgur.com/qR3sT8p.jpeg",
+            "title": "Journey to Mars",
+            "segments": 6,
+            "audio": "https://ia804508.us.archive.org/5/items/space-story-audio/space_story.mp3",
             "segmentsList": [
               {
-                "segmentTitle": "The Call to Adventure",
-                "segmentImage": "https://i.imgur.com/7Z1X8W9.jpeg",
-                "segmentAudio": "assets/audio/segments/mountain_1.mp3",
-                "duration": "4:15",
+                "segmentTitle": "The Mission",
+                "segmentImage": "https://i.imgur.com/qR3sT8p.jpeg",
+                "segmentAudio": "assets/audio/segments/space_1.mp3",
+                "duration": "00:18",
                 "translation": {
-                  "arabic": "نداء المغامرة",
-                  "french": "L'Appel de l'Aventure"
+                  "arabic": "المهمة",
+                  "french": "La Mission"
                 },
-                "content": "The village elder told us about the legendary dragon that lived atop the highest mountain peak. The village elder told us about the legendary dragon that lived atop the highest mountain peak.",
+                "content": "Captain Alex received the most important mission of his career: to lead the first human settlement on Mars. The spaceship was equipped with advanced technology for the long journey.",
                 "contentTranslation": {
-                  "arabic": "أخبرنا شيخ القرية عن التنين الأسطوري الذي يعيش على قمة أعلى جبل.",
-                  "french": "L'ancien du village nous a parlé du dragon légendaire qui vivait au sommet de la plus haute montagne."
+                  "arabic": "تلقى الكابتن أليكس أهم مهمة في مسيرته: قيادة أول مستوطنة بشرية على المريخ. كانت المركبة الفضائية مجهزة بتكنولوجيا متطورة للرحلة الطويلة.",
+                  "french": "Le capitaine Alex a reçu la mission la plus importante de sa carrière : diriger la première colonie humaine sur Mars. Le vaisseau spatial était équipé d'une technologie avancée pour le long voyage."
                 },
                 "wordTranslations": [
                   {
-                    "word": "village",
-                    "arabic": "قرية",
-                    "french": "village"
+                    "word": "captain",
+                    "arabic": "كابتن",
+                    "french": "capitaine"
                   },
                   {
-                    "word": "elder",
-                    "arabic": "شيخ",
-                    "french": "ancien"
+                    "word": "mission",
+                    "arabic": "مهمة",
+                    "french": "mission"
                   },
                   {
-                    "word": "legendary",
-                    "arabic": "أسطوري",
-                    "french": "légendaire"
+                    "word": "settlement",
+                    "arabic": "مستوطنة",
+                    "french": "colonie"
                   },
                   {
-                    "word": "dragon",
-                    "arabic": "تنين",
-                    "french": "dragon"
+                    "word": "spaceship",
+                    "arabic": "مركبة فضائية",
+                    "french": "vaisseau spatial"
                   },
                   {
-                    "word": "peak",
-                    "arabic": "قمة",
-                    "french": "sommet"
-                  }
-                ]
-              },
-              {
-                "segmentTitle": "The Difficult Climb",
-                "segmentImage": "https://i.imgur.com/8A2Y9X0.jpeg",
-                "segmentAudio": "assets/audio/segments/mountain_2.mp3",
-                "duration": "3:50",
-                "translation": {
-                  "arabic": "التسلق الصعب",
-                  "french": "L'Ascension Difficile"
-                },
-                "content": "The mountain path was steep and dangerous, with icy winds making every step a challenge.",
-                "contentTranslation": {
-                  "arabic": "كان مسار الجبل شديد الانحدار وخطير، مع رياح جليدية تجعل كل خطوة تحديًا.",
-                  "french": "Le sentier de montagne était raide et dangereux, avec des vents glacials qui rendaient chaque pas un défi."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "mountain",
-                    "arabic": "جبل",
-                    "french": "montagne"
-                  },
-                  {
-                    "word": "steep",
-                    "arabic": "حاد",
-                    "french": "raide"
-                  },
-                  {
-                    "word": "dangerous",
-                    "arabic": "خطير",
-                    "french": "dangereux"
-                  },
-                  {
-                    "word": "icy",
-                    "arabic": "جليدي",
-                    "french": "glacial"
-                  },
-                  {
-                    "word": "challenge",
-                    "arabic": "تحدي",
-                    "french": "défi"
+                    "word": "technology",
+                    "arabic": "تكنولوجيا",
+                    "french": "technologie"
                   }
                 ]
               }
@@ -670,64 +252,74 @@
           "quiz": {
             "questions": [
               {
-                "question": "Who told the characters about the dragon?",
-                "options": ["The village elder", "A friend", "A book", "A stranger"],
+                "question": "Where was Captain Alex's mission?",
+                "options": ["Mars", "Moon", "Jupiter", "Venus"],
                 "correctAnswer": 0,
-                "explanation": "The village elder shared information about the dragon."
-              },
+                "explanation": "He was leading the first human settlement on Mars."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Magic Library",
+          "image": "https://i.imgur.com/tY4mK9L.jpeg",
+          "story": {
+            "coverImage": "https://i.imgur.com/tY4mK9L.jpeg",
+            "title": "The Book of Spells",
+            "segments": 5,
+            "audio": "https://ia804508.us.archive.org/5/items/magic-story-audio/magic_story.mp3",
+            "segmentsList": [
               {
-                "question": "Where does the dragon live?",
-                "options": ["On the highest mountain peak", "In a cave", "In a forest", "By a lake"],
-                "correctAnswer": 0,
-                "explanation": "The dragon lives atop the highest mountain peak."
-              },
+                "segmentTitle": "The Hidden Room",
+                "segmentImage": "https://i.imgur.com/tY4mK9L.jpeg",
+                "segmentAudio": "assets/audio/segments/magic_1.mp3",
+                "duration": "00:14",
+                "translation": {
+                  "arabic": "الغرفة المخفية",
+                  "french": "La Pièce Cachée"
+                },
+                "content": "In the old city library, Emma discovered a secret room behind a moving bookshelf. The room was filled with ancient books that glowed with magical energy.",
+                "contentTranslation": {
+                  "arabic": "في مكتبة المدينة القديمة، اكتشفت إيما غرفة سرية خلف خزانة كتب متحركة. كانت الغرفة مليئة بالكتب القديمة التي تتوهج بالطاقة السحرية.",
+                  "french": "Dans la vieille bibliothèque de la ville, Emma découvrit une pièce secrète derrière une étagère à livres mobile. La pièce était remplie de livres anciens qui brillaient d'énergie magique."
+                },
+                "wordTranslations": [
+                  {
+                    "word": "library",
+                    "arabic": "مكتبة",
+                    "french": "bibliothèque"
+                  },
+                  {
+                    "word": "secret",
+                    "arabic": "سرية",
+                    "french": "secrète"
+                  },
+                  {
+                    "word": "bookshelf",
+                    "arabic": "خزانة كتب",
+                    "french": "étagère à livres"
+                  },
+                  {
+                    "word": "ancient",
+                    "arabic": "قديمة",
+                    "french": "anciens"
+                  },
+                  {
+                    "word": "magical",
+                    "arabic": "سحرية",
+                    "french": "magique"
+                  }
+                ]
+              }
+            ]
+          },
+          "quiz": {
+            "questions": [
               {
-                "question": "How is the mountain path described?",
-                "options": ["Steep and dangerous", "Easy and flat", "Wide and smooth", "Narrow but safe"],
+                "question": "Where did Emma find the secret room?",
+                "options": ["Behind a moving bookshelf", "Under the stairs", "In the basement", "On the roof"],
                 "correctAnswer": 0,
-                "explanation": "The path was steep and dangerous."
-              },
-              {
-                "question": "What made the climb challenging?",
-                "options": ["Icy winds", "Hot sun", "Heavy rain", "Thick fog"],
-                "correctAnswer": 0,
-                "explanation": "Icy winds made every step a challenge."
-              },
-              {
-                "question": "How is the dragon described?",
-                "options": ["Legendary", "Small", "Friendly", "Invisible"],
-                "correctAnswer": 0,
-                "explanation": "The dragon is called legendary."
-              },
-              {
-                "question": "What might be the characters' goal?",
-                "options": ["To reach the dragon", "To find treasure", "To climb for fun", "To escape danger"],
-                "correctAnswer": 0,
-                "explanation": "They were told about the dragon, suggesting they want to reach it."
-              },
-              {
-                "question": "What does 'steep' mean?",
-                "options": ["Having a sharp slope", "Easy to climb", "Very high", "Rocky"],
-                "correctAnswer": 0,
-                "explanation": "Steep means having a sharp incline or slope."
-              },
-              {
-                "question": "How might the characters feel during the climb?",
-                "options": ["Challenged but determined", "Relaxed", "Bored", "Happy"],
-                "correctAnswer": 0,
-                "explanation": "A difficult climb would be challenging but they seem determined."
-              },
-              {
-                "question": "What time of year might it be?",
-                "options": ["Cold season", "Summer", "Spring", "Autumn"],
-                "correctAnswer": 0,
-                "explanation": "Icy winds suggest cold weather."
-              },
-              {
-                "question": "What role does the village elder play?",
-                "options": ["Guide and informer", "Villain", "Companion", "Student"],
-                "correctAnswer": 0,
-                "explanation": "The elder guides and informs the characters."
+                "explanation": "The secret room was behind a moving bookshelf."
               }
             ]
           }
@@ -741,138 +333,56 @@
         "colors": [4294945280, 4294932224]
       },
       "stories": [
+        // ... your existing stories ...
+        
         {
-          "name": "Time Traveler",
-          "image": "assets/images/stories/time_traveler.jpg",
+          "name": "Ancient Civilization",
+          "image": "https://i.imgur.com/wX9pK2M.jpeg",
           "story": {
-            "coverImage": "assets/images/covers/time_cover.jpg",
-            "title": "Chronos Paradox",
-            "segments": 3,
-            "audio": "assets/audio/stories/time_traveler_full.mp3",
+            "coverImage": "https://i.imgur.com/wX9pK2M.jpeg",
+            "title": "The Lost Pyramid",
+            "segments": 7,
+            "audio": "https://ia804508.us.archive.org/5/items/pyramid-story-audio/pyramid_story.mp3",
             "segmentsList": [
               {
-                "segmentTitle": "The Invention",
-                "segmentImage": "https://i.imgur.com/0C4D5E6.jpeg",
-                "segmentAudio": "assets/audio/segments/time_1.mp3",
-                "duration": "5:20",
+                "segmentTitle": "The Archaeologist's Dream",
+                "segmentImage": "https://i.imgur.com/wX9pK2M.jpeg",
+                "segmentAudio": "assets/audio/segments/pyramid_1.mp3",
+                "duration": "00:22",
                 "translation": {
-                  "arabic": "الاختراع",
-                  "french": "L'Invention"
+                  "arabic": "حلم عالم الآثار",
+                  "french": "Le Rêve de l'Archéologue"
                 },
-                "content": "After years of research, Professor Elara finally completed her temporal displacement device.",
+                "content": "Dr. Sarah Mitchell had spent her entire career searching for evidence of a lost civilization mentioned in ancient texts. Her breakthrough came when she deciphered a mysterious map found in a Cairo museum.",
                 "contentTranslation": {
-                  "arabic": "بعد سنوات من البحث، أكملت البروفيسورة إلارا أخيرًا جهاز الانزياح الزمني الخاص بها.",
-                  "french": "Après des années de recherche, le professeur Elara a finalement terminé son dispositif de déplacement temporel."
+                  "arabic": "قضت الدكتورة سارة ميتشل مسيرتها المهنية بأكملها في البحث عن أدلة لحضارة مفقودة مذكورة في النصوص القديمة. جاء اكتشافها الكبير عندما فكت شفرة خريطة غامضة وجدت في متحف القاهرة.",
+                  "french": "Le Dr Sarah Mitchell avait passé toute sa carrière à rechercher des preuves d'une civilisation perdue mentionnée dans des textes anciens. Sa percée est survenue lorsqu'elle a déchiffré une carte mystérieuse trouvée dans un musée du Caire."
                 },
                 "wordTranslations": [
                   {
-                    "word": "research",
-                    "arabic": "بحث",
-                    "french": "recherche"
+                    "word": "archaeologist",
+                    "arabic": "عالم آثار",
+                    "french": "archéologue"
                   },
                   {
-                    "word": "professor",
-                    "arabic": "أستاذ",
-                    "french": "professeur"
-                  },
-                  {
-                    "word": "completed",
-                    "arabic": "أكمل",
-                    "french": "terminé"
-                  },
-                  {
-                    "word": "temporal",
-                    "arabic": "زمني",
-                    "french": "temporel"
-                  },
-                  {
-                    "word": "device",
-                    "arabic": "جهاز",
-                    "french": "dispositif"
-                  }
-                ]
-              },
-              {
-                "segmentTitle": "First Journey",
-                "segmentImage": "https://i.imgur.com/1D5E6F7.jpeg",
-                "segmentAudio": "assets/audio/segments/time_2.mp3",
-                "duration": "4:45",
-                "translation": {
-                  "arabic": "الرحلة الأولى",
-                  "french": "Premier Voyage"
-                },
-                "content": "The machine hummed to life, and suddenly I found myself standing in ancient Rome during its glory days.",
-                "contentTranslation": {
-                  "arabic": "همت الآلة بالحياة، وفجأة وجدت نفسي واقفًا في روما القديمة خلال أيام مجدها.",
-                  "french": "La machine s'est mise en marche et soudain je me suis retrouvé debout dans la Rome antique pendant ses jours de gloire."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "machine",
-                    "arabic": "آلة",
-                    "french": "machine"
-                  },
-                  {
-                    "word": "hummed",
-                    "arabic": "هم",
-                    "french": "bourdonné"
-                  },
-                  {
-                    "word": "suddenly",
-                    "arabic": "فجأة",
-                    "french": "soudainement"
+                    "word": "civilization",
+                    "arabic": "حضارة",
+                    "french": "civilisation"
                   },
                   {
                     "word": "ancient",
-                    "arabic": "قديم",
-                    "french": "antique"
+                    "arabic": "قديمة",
+                    "french": "anciens"
                   },
                   {
-                    "word": "glory",
-                    "arabic": "مجد",
-                    "french": "gloire"
-                  }
-                ]
-              },
-              {
-                "segmentTitle": "The Paradox",
-                "segmentImage": "https://i.imgur.com/2E6F7G8.jpeg",
-                "segmentAudio": "assets/audio/segments/time_3.mp3",
-                "duration": "6:15",
-                "translation": {
-                  "arabic": "المفارقة",
-                  "french": "Le Paradoxe"
-                },
-                "content": "I realized that my presence in the past was already recorded in historical documents I had studied.",
-                "contentTranslation": {
-                  "arabic": "أدركت أن وجودي في الماضي كان مسجلًا بالفعل في الوثائق التاريخية التي درستها.",
-                  "french": "J'ai réalisé que ma présence dans le passé était déjà enregistrée dans les documents historiques que j'avais étudiés."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "realized",
-                    "arabic": "أدرك",
-                    "french": "réalisé"
+                    "word": "breakthrough",
+                    "arabic": "اكتشاف كبير",
+                    "french": "percée"
                   },
                   {
-                    "word": "presence",
-                    "arabic": "وجود",
-                    "french": "présence"
-                  },
-                  {
-                    "word": "recorded",
-                    "arabic": "مسجل",
-                    "french": "enregistré"
-                  },
-                  {
-                    "word": "historical",
-                    "arabic": "تاريخي",
-                    "french": "historique"
-                  },
-                  {
-                    "word": "documents",
-                    "arabic": "وثائق",
-                    "french": "documents"
+                    "word": "deciphered",
+                    "arabic": "فكت شفرة",
+                    "french": "déchiffré"
                   }
                 ]
               }
@@ -881,327 +391,62 @@
           "quiz": {
             "questions": [
               {
-                "question": "Who created the time machine?",
-                "options": ["Professor Elara", "A student", "An engineer", "A scientist"],
+                "question": "What was Dr. Mitchell searching for?",
+                "options": ["A lost civilization", "Buried treasure", "Ancient weapons", "Royal tombs"],
                 "correctAnswer": 0,
-                "explanation": "Professor Elara completed the temporal displacement device."
-              },
-              {
-                "question": "How long did the research take?",
-                "options": ["Years", "Months", "Weeks", "Days"],
-                "correctAnswer": 0,
-                "explanation": "The research took years to complete."
-              },
-              {
-                "question": "Where did the first time travel journey go?",
-                "options": ["Ancient Rome", "Ancient Egypt", "Medieval Europe", "Future world"],
-                "correctAnswer": 0,
-                "explanation": "The traveler went to ancient Rome."
-              },
-              {
-                "question": "What was the paradox discovered?",
-                "options": ["Their presence was already recorded", "They couldn't return", "The machine broke", "They met themselves"],
-                "correctAnswer": 0,
-                "explanation": "Their presence was already in historical documents."
-              },
-              {
-                "question": "How did the machine start?",
-                "options": ["It hummed to life", "It exploded", "It flashed lights", "It made no sound"],
-                "correctAnswer": 0,
-                "explanation": "The machine hummed to life."
-              },
-              {
-                "question": "What period of Rome did they visit?",
-                "options": ["Glory days", "Decline", "Beginning", "Middle ages"],
-                "correctAnswer": 0,
-                "explanation": "They visited during Rome's glory days."
-              },
-              {
-                "question": "What does 'temporal' mean?",
-                "options": ["Related to time", "Related to space", "Related to temperature", "Related to size"],
-                "correctAnswer": 0,
-                "explanation": "Temporal means related to time."
-              },
-              {
-                "question": "How did the traveler feel about the discovery?",
-                "options": ["Surprised and thoughtful", "Angry", "Happy", "Scared"],
-                "correctAnswer": 0,
-                "explanation": "Realizing the paradox would be surprising and make one thoughtful."
-              },
-              {
-                "question": "What is a paradox?",
-                "options": ["A contradictory situation", "A type of machine", "A historical period", "A scientific method"],
-                "correctAnswer": 0,
-                "explanation": "A paradox is a seemingly contradictory situation."
-              },
-              {
-                "question": "What might happen because of the paradox?",
-                "options": ["Complications in timeline", "Nothing", "The machine improves", "They travel more"],
-                "correctAnswer": 0,
-                "explanation": "Time paradoxes often cause complications in stories."
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Level 1: Beginner Stories",
-      "color": 4283215696,
-      "gradient": {
-        "colors": [4283215696, 4283215696]
-      },
-      "stories": [
-        {
-          "name": "The Lost Key",
-          "image": "https://i.imgur.com/Yd8RWaY.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/wLJGiNU.jpeg",
-            "title": "The Mystery of the Lost Key",
-            "segments": 5,
-            "audio": "assets/audio/stories/lost_key_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://i.imgur.com/wLJGiNU.jpeg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "2:30",
-                "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
-                },
-                "content": "I was walking through the old forest when I noticed something shiny under the oak tree.",
-                "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
-                  },
-                  {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
-                  },
-                  {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
-                  },
-                  {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
-                  },
-                  {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
-                  }
-                ]
-              },
-                 {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://i.imgur.com/wLJGiNU.jpeg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "2:30",
-                "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
-                },
-                "content": "I was walking through the old forest when I noticed something shiny under the oak tree.",
-                "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
-                  },
-                  {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
-                  },
-                  {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
-                  },
-                  {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
-                  },
-                  {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
-                  }
-                ]
-              },
-                 {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://i.imgur.com/wLJGiNU.jpeg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "2:30",
-                "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
-                },
-                "content": "I was walking through the old forest when I noticed something shiny under the oak tree.",
-                "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
-                  },
-                  {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
-                  },
-                  {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
-                  },
-                  {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
-                  },
-                  {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the shiny object found?",
-                "options": ["Under an oak tree", "On a mountain", "In a river", "On a bench"],
-                "correctAnswer": 0,
-                "explanation": "The story mentions the shiny object was found under the oak tree."
-              },
-              {
-                "question": "What was the main character doing when they found the object?",
-                "options": ["Walking through the forest", "Running in a park", "Swimming in a lake", "Sleeping at home"],
-                "correctAnswer": 0,
-                "explanation": "The character was walking through the old forest."
-              },
-              {
-                "question": "How would you describe the forest?",
-                "options": ["Old", "New", "Small", "Colorful"],
-                "correctAnswer": 0,
-                "explanation": "The story describes it as an 'old forest'."
-              },
-              {
-                "question": "What time of day was it probably?",
-                "options": ["Daytime", "Night", "Evening", "Morning"],
-                "correctAnswer": 0,
-                "explanation": "Since they could see something shiny, it was likely daytime."
-              },
-              {
-                "question": "What kind of tree was mentioned?",
-                "options": ["Oak tree", "Pine tree", "Apple tree", "Palm tree"],
-                "correctAnswer": 0,
-                "explanation": "The story specifically mentions an oak tree."
-              },
-              {
-                "question": "How did the character feel when they saw the shiny object?",
-                "options": ["Curious", "Scared", "Angry", "Sad"],
-                "correctAnswer": 0,
-                "explanation": "Finding something shiny would likely make someone curious."
-              },
-              {
-                "question": "What was the weather probably like?",
-                "options": ["Clear enough to see shiny objects", "Rainy", "Snowy", "Foggy"],
-                "correctAnswer": 0,
-                "explanation": "They could see something shiny, suggesting good visibility."
-              },
-              {
-                "question": "Where is this story likely set?",
-                "options": ["In a natural area", "In a city", "At a beach", "In a desert"],
-                "correctAnswer": 0,
-                "explanation": "Forests are natural areas with trees and wildlife."
-              },
-              {
-                "question": "What might happen next in the story?",
-                "options": ["They investigate the shiny object", "They go home", "They meet a friend", "They start running"],
-                "correctAnswer": 0,
-                "explanation": "Finding something shiny usually leads to investigation."
-              },
-              {
-                "question": "What is the main theme of this segment?",
-                "options": ["Discovery", "Friendship", "Danger", "Travel"],
-                "correctAnswer": 0,
-                "explanation": "The segment is about discovering something unusual."
+                "explanation": "She was searching for evidence of a lost civilization."
               }
             ]
           }
         },
         {
-          "name": "The Secret Garden",
-          "image": "https://i.imgur.com/3XOgsPW.jpeg",
+          "name": "Future World",
+          "image": "https://i.imgur.com/v7rT2qN.jpeg",
           "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
+            "coverImage": "https://i.imgur.com/v7rT2qN.jpeg",
+            "title": "The AI Companion",
+            "segments": 8,
+            "audio": "https://ia804508.us.archive.org/5/items/future-story-audio/future_story.mp3",
             "segmentsList": [
               {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
+                "segmentTitle": "The Year 2150",
+                "segmentImage": "https://i.imgur.com/v7rT2qN.jpeg",
+                "segmentAudio": "assets/audio/segments/future_1.mp3",
+                "duration": "00:20",
                 "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
+                  "arabic": "عام 2150",
+                  "french": "L'Année 2150"
                 },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
+                "content": "In the technologically advanced world of 2150, every child was assigned an AI companion at birth. These companions helped with education, emotional development, and social skills.",
                 "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
+                  "arabic": "في العالم المتطور تكنولوجيًا عام 2150، تم تعيين رفيق ذكي اصطناعي لكل طفل عند الولادة. ساعد هؤلاء الرفقاء في التعليم، والتطور العاطفي، والمهارات الاجتماعية.",
+                  "french": "Dans le monde technologiquement avancé de 2150, chaque enfant se voyait attribuer un compagnon IA à la naissance. Ces compagnons aidaient à l'éducation, au développement émotionnel et aux compétences sociales."
                 },
                 "wordTranslations": [
                   {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
+                    "word": "technologically",
+                    "arabic": "تكنولوجيًا",
+                    "french": "technologiquement"
                   },
                   {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
+                    "word": "advanced",
+                    "arabic": "متطور",
+                    "french": "avancé"
                   },
                   {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
+                    "word": "companion",
+                    "arabic": "رفيق",
+                    "french": "compagnon"
                   },
                   {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
+                    "word": "education",
+                    "arabic": "تعليم",
+                    "french": "éducation"
                   },
                   {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
+                    "word": "emotional",
+                    "arabic": "عاطفي",
+                    "french": "émotionnel"
                   }
                 ]
               }
@@ -1210,1446 +455,15 @@
           "quiz": {
             "questions": [
               {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
+                "question": "What year is this story set in?",
+                "options": ["2150", "2050", "2100", "2200"],
                 "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
-              }
-            ]
-          }
-        },
-         {
-          "name": "The Secret Garden",
-          "image": "https://i.imgur.com/3XOgsPW.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
-              }
-            ]
-          }
-        },
-         {
-          "name": "The Secret Garden",
-          "image": "https://i.imgur.com/3XOgsPW.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Level 1: Beginner Stories",
-      "color": 4283215696,
-      "gradient": {
-        "colors": [4283215696, 4283215696]
-      },
-      "stories": [
-        {
-          "name": "The Lost Key",
-          "image": "https://i.imgur.com/Yd8RWaY.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/wLJGiNU.jpeg",
-            "title": "The Mystery of the Lost Key",
-            "segments": 5,
-            "audio": "assets/audio/stories/lost_key_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://i.imgur.com/wLJGiNU.jpeg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "2:30",
-                "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
-                },
-                "content": "I was walking through the old forest when I noticed something shiny under the oak tree.",
-                "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
-                  },
-                  {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
-                  },
-                  {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
-                  },
-                  {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
-                  },
-                  {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
-                  }
-                ]
-              },
-                 {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://i.imgur.com/wLJGiNU.jpeg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "2:30",
-                "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
-                },
-                "content": "I was walking through the old forest when I noticed something shiny under the oak tree.",
-                "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
-                  },
-                  {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
-                  },
-                  {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
-                  },
-                  {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
-                  },
-                  {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
-                  }
-                ]
-              },
-                 {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://i.imgur.com/wLJGiNU.jpeg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "2:30",
-                "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
-                },
-                "content": "I was walking through the old forest when I noticed something shiny under the oak tree.",
-                "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
-                  },
-                  {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
-                  },
-                  {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
-                  },
-                  {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
-                  },
-                  {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the shiny object found?",
-                "options": ["Under an oak tree", "On a mountain", "In a river", "On a bench"],
-                "correctAnswer": 0,
-                "explanation": "The story mentions the shiny object was found under the oak tree."
-              },
-              {
-                "question": "What was the main character doing when they found the object?",
-                "options": ["Walking through the forest", "Running in a park", "Swimming in a lake", "Sleeping at home"],
-                "correctAnswer": 0,
-                "explanation": "The character was walking through the old forest."
-              },
-              {
-                "question": "How would you describe the forest?",
-                "options": ["Old", "New", "Small", "Colorful"],
-                "correctAnswer": 0,
-                "explanation": "The story describes it as an 'old forest'."
-              },
-              {
-                "question": "What time of day was it probably?",
-                "options": ["Daytime", "Night", "Evening", "Morning"],
-                "correctAnswer": 0,
-                "explanation": "Since they could see something shiny, it was likely daytime."
-              },
-              {
-                "question": "What kind of tree was mentioned?",
-                "options": ["Oak tree", "Pine tree", "Apple tree", "Palm tree"],
-                "correctAnswer": 0,
-                "explanation": "The story specifically mentions an oak tree."
-              },
-              {
-                "question": "How did the character feel when they saw the shiny object?",
-                "options": ["Curious", "Scared", "Angry", "Sad"],
-                "correctAnswer": 0,
-                "explanation": "Finding something shiny would likely make someone curious."
-              },
-              {
-                "question": "What was the weather probably like?",
-                "options": ["Clear enough to see shiny objects", "Rainy", "Snowy", "Foggy"],
-                "correctAnswer": 0,
-                "explanation": "They could see something shiny, suggesting good visibility."
-              },
-              {
-                "question": "Where is this story likely set?",
-                "options": ["In a natural area", "In a city", "At a beach", "In a desert"],
-                "correctAnswer": 0,
-                "explanation": "Forests are natural areas with trees and wildlife."
-              },
-              {
-                "question": "What might happen next in the story?",
-                "options": ["They investigate the shiny object", "They go home", "They meet a friend", "They start running"],
-                "correctAnswer": 0,
-                "explanation": "Finding something shiny usually leads to investigation."
-              },
-              {
-                "question": "What is the main theme of this segment?",
-                "options": ["Discovery", "Friendship", "Danger", "Travel"],
-                "correctAnswer": 0,
-                "explanation": "The segment is about discovering something unusual."
-              }
-            ]
-          }
-        },
-        {
-          "name": "The Secret Garden",
-          "image": "https://i.imgur.com/3XOgsPW.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
-              }
-            ]
-          }
-        },
-         {
-          "name": "The Secret Garden",
-          "image": "https://i.imgur.com/3XOgsPW.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
-              }
-            ]
-          }
-        },
-         {
-          "name": "The Secret Garden",
-          "image": "https://i.imgur.com/3XOgsPW.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Level 1: Beginner Stories",
-      "color": 4283215696,
-      "gradient": {
-        "colors": [4283215696, 4283215696]
-      },
-      "stories": [
-        {
-          "name": "The Lost Key",
-          "image": "https://i.imgur.com/Yd8RWaY.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/wLJGiNU.jpeg",
-            "title": "The Mystery of the Lost Key",
-            "segments": 5,
-            "audio": "assets/audio/stories/lost_key_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://i.imgur.com/wLJGiNU.jpeg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "2:30",
-                "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
-                },
-                "content": "I was walking through the old forest when I noticed something shiny under the oak tree.",
-                "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
-                  },
-                  {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
-                  },
-                  {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
-                  },
-                  {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
-                  },
-                  {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
-                  }
-                ]
-              },
-                 {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://i.imgur.com/wLJGiNU.jpeg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "2:30",
-                "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
-                },
-                "content": "I was walking through the old forest when I noticed something shiny under the oak tree.",
-                "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
-                  },
-                  {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
-                  },
-                  {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
-                  },
-                  {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
-                  },
-                  {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
-                  }
-                ]
-              },
-                 {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://i.imgur.com/wLJGiNU.jpeg",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
-                "duration": "2:30",
-                "translation": {
-                  "arabic": "الاكتشاف",
-                  "french": "La Découverte"
-                },
-                "content": "I was walking through the old forest when I noticed something shiny under the oak tree.",
-                "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
-                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "walking",
-                    "arabic": "يمشي",
-                    "french": "marcher"
-                  },
-                  {
-                    "word": "forest", 
-                    "arabic": "غابة",
-                    "french": "forêt"
-                  },
-                  {
-                    "word": "shiny",
-                    "arabic": "لامع",
-                    "french": "brillant"
-                  },
-                  {
-                    "word": "oak tree",
-                    "arabic": "شجرة البلوط",
-                    "french": "chêne"
-                  },
-                  {
-                    "word": "noticed",
-                    "arabic": "لاحظ",
-                    "french": "remarqué"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the shiny object found?",
-                "options": ["Under an oak tree", "On a mountain", "In a river", "On a bench"],
-                "correctAnswer": 0,
-                "explanation": "The story mentions the shiny object was found under the oak tree."
-              },
-              {
-                "question": "What was the main character doing when they found the object?",
-                "options": ["Walking through the forest", "Running in a park", "Swimming in a lake", "Sleeping at home"],
-                "correctAnswer": 0,
-                "explanation": "The character was walking through the old forest."
-              },
-              {
-                "question": "How would you describe the forest?",
-                "options": ["Old", "New", "Small", "Colorful"],
-                "correctAnswer": 0,
-                "explanation": "The story describes it as an 'old forest'."
-              },
-              {
-                "question": "What time of day was it probably?",
-                "options": ["Daytime", "Night", "Evening", "Morning"],
-                "correctAnswer": 0,
-                "explanation": "Since they could see something shiny, it was likely daytime."
-              },
-              {
-                "question": "What kind of tree was mentioned?",
-                "options": ["Oak tree", "Pine tree", "Apple tree", "Palm tree"],
-                "correctAnswer": 0,
-                "explanation": "The story specifically mentions an oak tree."
-              },
-              {
-                "question": "How did the character feel when they saw the shiny object?",
-                "options": ["Curious", "Scared", "Angry", "Sad"],
-                "correctAnswer": 0,
-                "explanation": "Finding something shiny would likely make someone curious."
-              },
-              {
-                "question": "What was the weather probably like?",
-                "options": ["Clear enough to see shiny objects", "Rainy", "Snowy", "Foggy"],
-                "correctAnswer": 0,
-                "explanation": "They could see something shiny, suggesting good visibility."
-              },
-              {
-                "question": "Where is this story likely set?",
-                "options": ["In a natural area", "In a city", "At a beach", "In a desert"],
-                "correctAnswer": 0,
-                "explanation": "Forests are natural areas with trees and wildlife."
-              },
-              {
-                "question": "What might happen next in the story?",
-                "options": ["They investigate the shiny object", "They go home", "They meet a friend", "They start running"],
-                "correctAnswer": 0,
-                "explanation": "Finding something shiny usually leads to investigation."
-              },
-              {
-                "question": "What is the main theme of this segment?",
-                "options": ["Discovery", "Friendship", "Danger", "Travel"],
-                "correctAnswer": 0,
-                "explanation": "The segment is about discovering something unusual."
-              }
-            ]
-          }
-        },
-        {
-          "name": "The Secret Garden",
-          "image": "https://i.imgur.com/3XOgsPW.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
-              }
-            ]
-          }
-        },
-         {
-          "name": "The Secret Garden",
-          "image": "https://i.imgur.com/3XOgsPW.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
-              }
-            ]
-          }
-        },
-         {
-          "name": "The Secret Garden",
-          "image": "https://i.imgur.com/3XOgsPW.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              },
-              {
-                "question": "What was the condition of the gate?",
-                "options": ["Rusty", "New", "Golden", "Wooden"],
-                "correctAnswer": 0,
-                "explanation": "The gate was described as rusty."
-              },
-              {
-                "question": "Where was the key hidden?",
-                "options": ["Under a flower pot", "In a tree", "In a pocket", "On a hook"],
-                "correctAnswer": 0,
-                "explanation": "The key was hidden under a flower pot."
-              },
-              {
-                "question": "How long had the gate been closed?",
-                "options": ["For years", "For days", "For weeks", "For months"],
-                "correctAnswer": 0,
-                "explanation": "Nobody had opened it for years."
-              },
-              {
-                "question": "What material was the gate made of?",
-                "options": ["Iron", "Wood", "Steel", "Bronze"],
-                "correctAnswer": 0,
-                "explanation": "It was an iron gate."
-              },
-              {
-                "question": "What was the wall made of?",
-                "options": ["Stone", "Brick", "Wood", "Concrete"],
-                "correctAnswer": 0,
-                "explanation": "It was a stone wall."
-              },
-              {
-                "question": "How might the character feel about finding the gate?",
-                "options": ["Excited and curious", "Scared", "Angry", "Bored"],
-                "correctAnswer": 0,
-                "explanation": "Finding a hidden gate would likely excite curiosity."
-              },
-              {
-                "question": "What does 'rusty' mean?",
-                "options": ["Covered with rust", "Shiny", "New", "Broken"],
-                "correctAnswer": 0,
-                "explanation": "Rusty means covered with rust from age and weather."
-              },
-              {
-                "question": "Why was the key hidden?",
-                "options": ["To keep the garden secret", "Because it was lost", "To protect it", "By accident"],
-                "correctAnswer": 0,
-                "explanation": "The key was likely hidden to maintain the garden's secrecy."
-              },
-              {
-                "question": "What might be inside the garden?",
-                "options": ["Beautiful plants and flowers", "A swimming pool", "A playground", "A parking lot"],
-                "correctAnswer": 0,
-                "explanation": "Gardens typically contain plants and flowers."
+                "explanation": "The story is set in the year 2150."
               }
             ]
           }
         }
       ]
     }
-  ],
-  "translationSettings": {
-    "defaultLanguage": "arabic",
-    "availableLanguages": ["arabic", "french", "spanish"],
-    "longPressDelay": 500,
-    "showPhonetics": true
-  }
-
+  ]
 }
-
-
-
-
