@@ -11,14 +11,14 @@
           "name": "The Lost Key 100",
           "image": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
           "story": {
-            "coverImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+            "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205026.png",
             "title": "The Mystery of the Lost Key",
             "segments": 5,
             "audio": "https://ia600601.us.archive.org/27/items/eleven-labs-2025-10-05-t-16-21-49-ghizlane-moroccan-darija-dialect-pvc-sp-100-s-50-sb-30-v-3/ElevenLabs_2025-10-05T16_21_49_Ghizlane%20-%20Moroccan%20Darija%20Dialect_pvc_sp100_s50_sb30_v3.mp3",
             "segmentsList": [
               {
                 "segmentTitle": "The Discovery",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205026.png",
                 "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
                 "duration": "00:00",
                 "translation": {
@@ -60,7 +60,7 @@
               },
                  {
                 "segmentTitle": "The Discovery",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
                 "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
                 "duration": "00:09",
                 "translation": {
@@ -102,7 +102,7 @@
               },
                  {
                 "segmentTitle": "The Discovery",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205345.png",
                 "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
                 "duration": "00:15",
                 "translation": {
@@ -2648,4 +2648,5 @@
     "showPhonetics": true
   }
 }
+
 
