@@ -11,14 +11,14 @@
           "name": "Lina’s Lost Cat",
           "image": "https://github.com/halayasirstore/pictureStories/blob/main/Copilot_20251024_205026.png",
           "story": {
-            "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205026.png",
+            "coverImage": "https://github.com/halayasirstore/pictureStories/blob/main/Copilot_20251024_205026.png",
             "title": "Lina’s Lost Cat",
             "segments": 5,
             "audio": "https://ia600601.us.archive.org/27/items/eleven-labs-2025-10-05-t-16-21-49-ghizlane-moroccan-darija-dialect-pvc-sp-100-s-50-sb-30-v-3/ElevenLabs_2025-10-05T16_21_49_Ghizlane%20-%20Moroccan%20Darija%20Dialect_pvc_sp100_s50_sb30_v3.mp3",
             "segmentsList": [
               {
                 "segmentTitle": "Good morning, Mimi",
-                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205026.png",
+                "segmentImage": "https://github.com/halayasirstore/pictureStories/blob/main/Copilot_20251024_205026.png",
                 "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
                 "duration": "00:07",
                 "translation": {
@@ -2649,6 +2649,7 @@
   }
 
 }
+
 
 
 
