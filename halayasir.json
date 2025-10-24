@@ -9,7 +9,7 @@
       "stories": [
         {
           "name": "Lina’s Lost Cat",
-          "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205026.png",
+          "image": "https://github.com/halayasirstore/pictureStories/blob/main/Copilot_20251024_205026.png",
           "story": {
             "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205026.png",
             "title": "Lina’s Lost Cat",
@@ -2649,6 +2649,7 @@
   }
 
 }
+
 
 
 
