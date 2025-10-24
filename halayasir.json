@@ -59,17 +59,17 @@
                 ]
               },
                  {
-                "segmentTitle": "The Discovery",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+                "segmentTitle": "Mimi, where are you?",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
                 "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
                 "duration": "00:09",
                 "translation": {
                   "arabic": "الاكتشاف",
                   "french": "La Découverte"
                 },
-                "content": "perched on a thumb of rock that jutted into the restless ocean. She was twenty-seven, ",
+                "content": "Suddenly, Mimi sees a butterfly and runs away. Lina looks around, but she can’t see her cat.",
                 "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
+                  "arabic": "فجأة، رأت ميمي فراشة فهربت. نظرت لينا حولها، لكنها لم تر قطتها.",
                   "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
                 },
                 "wordTranslations": [
@@ -101,7 +101,7 @@
                 ]
               },
                  {
-                "segmentTitle": "The Discovery",
+                "segmentTitle": "Mimi! Come back!",
                 "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
                 "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
                 "duration": "00:15",
@@ -109,9 +109,90 @@
                   "arabic": "الاكتشاف",
                   "french": "La Découverte"
                 },
-                "content": "solitary, and knew the specific rhythm of every wave break for two hundred miles.",
+                "content": "Lina walks around the street. She looks behind trees and under benches. She wants to find her cat.",
                 "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
+                  "arabic": "لينا تتجول في الشارع. تبحث خلف الأشجار وتحت المقاعد. تريد أن تجد قطتها.",
+                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
+                },
+                "wordTranslations": [
+                  {
+                    "word": "walking",
+                    "arabic": "يمشي",
+                    "french": "marcher"
+                  },
+                  {
+                    "word": "forest", 
+                    "arabic": "غابة",
+                    "french": "forêt"
+                  },
+                  {
+                    "word": "shiny",
+                    "arabic": "لامع",
+                    "french": "brillant"
+                  },
+                  {
+                    "word": "oak tree",
+                    "arabic": "شجرة البلوط",
+                    "french": "chêne"
+                  },
+                  {
+                    "word": "noticed",
+                    "arabic": "لاحظ",
+                    "french": "remarqué"
+                  },
+
+                   {
+                "segmentTitle": "Are you looking for something?",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205345.png",
+                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
+                "duration": "00:15",
+                "translation": {
+                  "arabic": "الاكتشاف",
+                  "french": "La Découverte"
+                },
+                "content": "Lina walks around the street. She looks behind trees and under benches. She wants to find her cat.",
+                "contentTranslation": {
+                  "arabic": "لينا تتجول في الشارع. تبحث خلف الأشجار وتحت المقاعد. تريد أن تجد قطتها.",
+                  "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
+                },
+                "wordTranslations": [
+                  {
+                    "word": "walking",
+                    "arabic": "يمشي",
+                    "french": "marcher"
+                  },
+                  {
+                    "word": "forest", 
+                    "arabic": "غابة",
+                    "french": "forêt"
+                  },
+                  {
+                    "word": "shiny",
+                    "arabic": "لامع",
+                    "french": "brillant"
+                  },
+                  {
+                    "word": "oak tree",
+                    "arabic": "شجرة البلوط",
+                    "french": "chêne"
+                  },
+                  {
+                    "word": "noticed",
+                    "arabic": "لاحظ",
+                    "french": "remarqué"
+                  },
+                    {
+                "segmentTitle": "Mimi! There you are!",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205536.png",
+                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
+                "duration": "00:15",
+                "translation": {
+                  "arabic": "الاكتشاف",
+                  "french": "La Découverte"
+                },
+                "content": "Lina finds Mimi near the shop. She hugs her cat and smiles. They go home together.",
+                "contentTranslation": {
+                  "arabic": "تجد لينا ميمي قرب المتجر. تعانق قطتها وتبتسم. يعودان إلى المنزل معًا..",
                   "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
                 },
                 "wordTranslations": [
@@ -2649,6 +2730,7 @@
   }
 
 }
+
 
 
 
