@@ -12,12 +12,12 @@
           "image": "https://ia601302.us.archive.org/4/items/ol85oYG/ol85oYG.jpeg",
           "story": {
             "coverImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-            "title": "The Mystery of the Lost Key",
+            "title": "Lina’s Lost Cat",
             "segments": 5,
             "audio": "https://ia600601.us.archive.org/27/items/eleven-labs-2025-10-05-t-16-21-49-ghizlane-moroccan-darija-dialect-pvc-sp-100-s-50-sb-30-v-3/ElevenLabs_2025-10-05T16_21_49_Ghizlane%20-%20Moroccan%20Darija%20Dialect_pvc_sp100_s50_sb30_v3.mp3",
             "segmentsList": [
               {
-                "segmentTitle": "The Discovery",
+                "segmentTitle": "Good morning, Mimi",
                 "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
                 "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
                 "duration": "00:07",
@@ -25,9 +25,9 @@
                   "arabic": "الاكتشاف",
                   "french": "La Découverte"
                 },
-                "content": "Elara lived inside the light. Not in the beam, of course, but in the spiraling white tower of the Mirkwood Lighthouse, ",
+                "content": "Lina loves her little cat, Mimi. Every morning, they play in the garden. The sun is bright, and Lina is happy.",
                 "contentTranslation": {
-                  "arabic": "عاشت إلارا داخل الضوء. ليس في الشعاع، بالطبع، ولكن في البرج الأبيض المتعرج من منارة ميرك وود، المت perched على إبهام من الصخور التي تبرز في المحيط المضطرب. كانت في السابعة والعشرين من عمرها، وحيدة، وكانت تعرف الإيقاع المحدد لكل كسر موجة لمسافة مئتي ميل.",
+                  "arabic": "لينا تحب قطتها الصغيرة ميمي. كل صباح، يلعبان في الحديقة. الشمس مشرقة، ولينا سعيدة.",
                   "french": "Elara vivait à l'intérieur de la lumière. Pas dans le faisceau, bien sûr, mais dans la tour blanche en spirale du phare de Mirkwood, perchée sur un pouce de roche qui avançait dans l'océan agité. Elle avait vingt-sept ans, était solitaire et connaissait le rythme spécifique de chaque rupture de vague sur deux cents miles."
                 },
                 "wordTranslations": [
@@ -2649,3 +2649,4 @@
   }
 
 }
+
