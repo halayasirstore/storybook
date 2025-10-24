@@ -211,16 +211,16 @@
         },
         {
           "name": "The Secret Garden",
-          "image": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+          "image": https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205536.png",
           "story": {
-            "coverImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+            "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205536.png",
             "title": "The Hidden Garden",
             "segments": 4,
             "audio": "assets/audio/stories/secret_garden_full.mp3",
             "segmentsList": [
               {
                 "segmentTitle": "The Old Gate",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205822.png",
                 "segmentAudio": "assets/audio/segments/garden_1.mp3",
                 "duration": "3:15",
                 "translation": {
@@ -2648,5 +2648,6 @@
     "showPhonetics": true
   }
 }
+
 
 
