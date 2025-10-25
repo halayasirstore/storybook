@@ -19,7 +19,7 @@
               {
                 "segmentTitle": "The Discovery",
                 "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                "segmentAudio": "https://ia600601.us.archive.org/27/items/eleven-labs-2025-10-05-t-16-21-49-ghizlane-moroccan-darija-dialect-pvc-sp-100-s-50-sb-30-v-3/ElevenLabs_2025-10-05T16_21_49_Ghizlane%20-%20Moroccan%20Darija%20Dialect_pvc_sp100_s50_sb30_v3.mp3",
+                "segmentAudio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
                 "duration": "00:00",
                 "translation": {
                   "arabic": "الاكتشاف",
@@ -2648,5 +2648,6 @@
     "showPhonetics": true
   }
 }
+
 
 
