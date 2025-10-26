@@ -61,7 +61,7 @@
                  {
                 "segmentTitle": "The Discovery",
                 "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
-                "segmentAudio": "assets/audio/segments/lost_key_1.mp3",
+                "segmentAudio": "https://onlinetestcase.com/wp-content/uploads/2023/06/100-KB-MP3.mp3",
                 "duration": "00:09",
                 "translation": {
                   "arabic": "الاكتشاف",
@@ -2648,6 +2648,7 @@
     "showPhonetics": true
   }
 }
+
 
 
 
