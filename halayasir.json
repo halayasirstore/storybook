@@ -8,7 +8,7 @@
       },
       "stories": [
         {
-          "name": "The Lost Key 100s",
+          "name": "The Lost Key 100",
           "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
           "story": {
             "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
@@ -2648,6 +2648,7 @@
     "showPhonetics": true
   }
 }
+
 
 
 
