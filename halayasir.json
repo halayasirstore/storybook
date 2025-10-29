@@ -25,9 +25,9 @@
                   "arabic": "الاكتشاف",
                   "french": "La Découverte"
                 },
-                "content": "Elara lived inside the light. Not in the beam, of course, but in the spiraling white tower of the Mirkwood Lighthouse, ",
+                "content": "Tom is a young boy. He lives in a small house near a park. Every morning, he walks in the park. The sun is shining, and birds sing.",
                 "contentTranslation": {
-                  "arabic": "عاشت إلارا داخل الضوء. ليس في الشعاع، بالطبع، ولكن في البرج الأبيض المتعرج من منارة ميرك وود، المت perched على إبهام من الصخور التي تبرز في المحيط المضطرب. كانت في السابعة والعشرين من عمرها، وحيدة، وكانت تعرف الإيقاع المحدد لكل كسر موجة لمسافة مئتي ميل.",
+                  "arabic": "توم فتى صغير. يعيش في منزل صغير قرب حديقة. يتنزه في الحديقة كل صباح. الشمس مشرقة والطيور تغرد.",
                   "french": "Elara vivait à l'intérieur de la lumière. Pas dans le faisceau, bien sûr, mais dans la tour blanche en spirale du phare de Mirkwood, perchée sur un pouce de roche qui avançait dans l'océan agité. Elle avait vingt-sept ans, était solitaire et connaissait le rythme spécifique de chaque rupture de vague sur deux cents miles."
                 },
                 "wordTranslations": [
@@ -67,9 +67,9 @@
                   "arabic": "الاكتشاف",
                   "french": "La Découverte"
                 },
-                "content": "perched on a thumb of rock that jutted into the restless ocean. She was twenty-seven, ",
+                "content": "One day, Tom sees a small brown puppy under a tree. The puppy looks sad and hungry. Tom goes to the puppy and smiles.",
                 "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
+                  "arabic": "في أحد الأيام، رأى توم جروًا بنيًا صغيرًا تحت شجرة. بدا الجرو حزينًا وجائعًا. ذهب توم إلى الجرو وابتسم.",
                   "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
                 },
                 "wordTranslations": [
@@ -109,9 +109,9 @@
                   "arabic": "الاكتشاف",
                   "french": "La Découverte"
                 },
-                "content": "solitary, and knew the specific rhythm of every wave break for two hundred miles.",
+                "content": "Tom gives the puppy some water and food. The puppy wags its tail. Tom is happy and names the puppy ‘Lucky.’.",
                 "contentTranslation": {
-                  "arabic": "كنت أمشي في الغابة القديمة عندما لاحظت شيئًا لامعًا تحت شجرة البلوط.",
+                  "arabic": "يُعطي توم الجرو بعض الماء والطعام. يهزّ الجرو ذيله. توم سعيد ويسمي الجرو "محظوظ".",
                   "french": "Je marchais dans la vieille forêt quand j'ai remarqué quelque chose de brillant sous le chêne."
                 },
                 "wordTranslations": [
@@ -2648,6 +2648,7 @@
     "showPhonetics": true
   }
 }
+
 
 
 
