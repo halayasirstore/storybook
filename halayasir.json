@@ -160,6 +160,149 @@
               }
             ]
           }
+        },
+        {
+          "name": "yassine",
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6wjA4OEeIChJOWfvE67Ob2ZL2ZT-LH7fZ6w&s",
+          "story": {
+            "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6wjA4OEeIChJOWfvE67Ob2ZL2ZT-LH7fZ6w&s",
+            "title": "aaaaaaaaaaaaaaaa",
+            "segments": 1,
+            "audio": "",
+            "segmentsList": [
+              {
+                "segmentTitle": "",
+                "segmentImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6wjA4OEeIChJOWfvE67Ob2ZL2ZT-LH7fZ6w&s",
+                "segmentAudio": "",
+                "duration": "00:10",
+                "translation": {
+                  "arabic": "bbbbbbbbbbbbbbbbbbbbbb",
+                  "french": ""
+                },
+                "content": "aaaaaaaaaaaaaaaaaaa",
+                "contentTranslation": {
+                  "arabic": "bbbbbbbbbbbbbbbbbbbbbb",
+                  "french": ""
+                },
+                "wordTranslations": []
+              }
+            ]
+          },
+          "quiz": {
+            "title": "aaaaaaaaaaaaaaaa Quiz",
+            "questions": [
+              {
+                "question": "Question 1 for yassine",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 2 for yassine",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 3 for yassine",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 4 for yassine",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 5 for yassine",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 6 for yassine",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 7 for yassine",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 8 for yassine",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 9 for yassine",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 10 for yassine",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              }
+            ]
+          }
         }
       ]
     },
