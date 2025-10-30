@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ES-SAHABI Yassine - Technicien Spécialisé en Génie Électrique</title>
+    <style>
+        :root {
+            --primary: #0078D7;
+            --secondary: #6C757D;
+            --accent: #FFD700;
+            --bg-dark: #0a0a0a;
+            --bg-light: #1a1a1a;
+            --text-primary: #FFFFFF;
+            --text-secondary: #B0B0B0;
+            --glow-color: #00FFFF;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-dark);
+            color: var(--text-primary);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--bg-dark) 0%, var(--bg-light) 100%);
+            padding: 100px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        /* Electrical Background Animation */
+        .electrical-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+            overflow: hidden;
+        }
+        
+        .circuit-line {
+            position: absolute;
+            background: linear-gradient(90deg, transparent, var(--glow-color), transparent);
+            height: 1px;
+            animation: flowLine 8s linear infinite;
+            opacity: 0.3;
+        }
+        
+        @keyframes flowLine {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(200%); }
+        }
+        
+        .spark {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: var(--accent);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--accent);
+            animation: sparkMove 4s linear infinite;
+        }
+        
+        @keyframes sparkMove {
+            0% { transform: translate(0, 0); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translate(100px, 100px); opacity: 0; }
+        }
+        
+        .pulse-ring {
+            position: absolute;
+            border: 1px solid var(--primary);
+            border-radius: 50%;
+            animation: pulse 2s ease-out infinite;
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(0.8); opacity: 1; }
+            100% { transform: scale(1.5); opacity: 0; }
+        }
+        
+        .profile-img-container {
+            position: relative;
+            z-index: 1;
+            margin-bottom: 40px;
+        }
+        
+        .profile-img {
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            object-fit: cover;
+            transition: all 0.3s ease;
+            box-shadow: 0 0 50px rgba(0, 120, 215, 0.4);
+        }
+        
+        .profile-img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 0 80px rgba(0, 120, 215, 0.6);
+        }
+        
+        .profile-glow {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 350px;
+            height: 350px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(0, 255, 255, 0.1) 0%, transparent 70%);
+            animation: glowPulse 3s ease-in-out infinite;
+            z-index: -1;
+        }
+        
+        @keyframes glowPulse {
+            0%, 100% { transform: translate(-50%, -50%) scale(1); opacity: 0.5; }
+            50% { transform: translate(-50%, -50%) scale(1.1); opacity: 0.8; }
+        }
+        
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 15px;
+            letter-spacing: 2px;
+            text-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+            animation: textGlow 3s ease-in-out infinite alternate;
+        }
+        
+        @keyframes textGlow {
+            from { text-shadow: 0 0 20px rgba(0, 255, 255, 0.3); }
+            to { text-shadow: 0 0 30px rgba(0, 255, 255, 0.6); }
+        }
+        
+        .title {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 40px;
+            font-weight: 300;
+            letter-spacing: 1px;
+        }
+        
+        .amazing-text {
+            max-width: 900px;
+            margin: 0 auto 50px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .amazing-text p {
+            font-size: 1.3rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 20px;
+            position: relative;
+            padding: 20px;
+            background: rgba(0, 120, 215, 0.05);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 10px 10px 0;
+        }
+        
+        .amazing-text p::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -3px;
+            width: 3px;
+            height: 100%;
+            background: linear-gradient(to bottom, var(--accent), var(--primary));
+            animation: borderGlow 2s linear infinite;
+        }
+        
+        @keyframes borderGlow {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 1; }
+        }
+        
+        .highlight {
+            color: var(--accent);
+            font-weight: 600;
+            position: relative;
+            display: inline-block;
+        }
+        
+        .highlight::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: var(--accent);
+            animation: underlineGrow 2s ease-in-out infinite;
+        }
+        
+        @keyframes underlineGrow {
+            0%, 100% { transform: scaleX(0.8); opacity: 0.5; }
+            50% { transform: scaleX(1); opacity: 1; }
+        }
+        
+        .btn-container {
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(45deg, var(--primary), #005A9E);
+            color: white;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0, 120, 215, 0.3);
+        }
+        
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.2);
+            transition: left 0.5s ease;
+        }
+        
+        .btn:hover::before {
+            left: 100%;
+        }
+        
+        .btn:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0, 120, 215, 0.5);
+        }
+        
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid var(--primary);
+        }
+        
+        /* Electrical Grid Background */
+        .electrical-grid {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: 
+                linear-gradient(rgba(0, 120, 215, 0.1) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(0, 120, 215, 0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            z-index: 0;
+            opacity: 0.2;
+            animation: gridMove 20s linear infinite;
+        }
+        
+        @keyframes gridMove {
+            0% { background-position: 0 0; }
+            100% { background-position: 50px 50px; }
+        }
+        
+        /* Electrical Nodes */
+        .node {
+            position: absolute;
+            width: 10px;
+            height: 10px;
+            background: var(--accent);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--accent);
+            animation: nodePulse 2s ease-in-out infinite;
+        }
+        
+        @keyframes nodePulse {
+            0%, 100% { transform: scale(1); opacity: 0.7; }
+            50% { transform: scale(1.5); opacity: 1; }
+        }
+        
+        /* Sections */
+        section {
+            padding: 80px 0;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.6s ease;
+        }
+        
+        section.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        h2 {
+            font-size: 2.8rem;
+            margin-bottom: 50px;
+            text-align: center;
+            position: relative;
+            color: var(--primary);
+        }
+        
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+        }
+        
+        /* About Section */
+        .about-content {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            align-items: center;
+        }
+        
+        .about-text {
+            flex: 2;
+            min-width: 300px;
+        }
+        
+        .about-text p {
+            margin-bottom: 20px;
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+        
+        .contact-details {
+            flex: 1;
+            min-width: 300px;
+            background: rgba(0, 120, 215, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .contact-details h3 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .contact-details p {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .contact-details i {
+            color: var(--accent);
+        }
+        
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+        
+        .skill-item {
+            background: rgba(0, 120, 215, 0.05);
+            padding: 25px;
+            border-radius: 10px;
+            border: 1px solid rgba(0, 120, 215, 0.2);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .skill-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            transform: translateX(-100%);
+            transition: transform 0.5s ease;
+        }
+        
+        .skill-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            border-color: var(--primary);
+        }
+        
+        .skill-item:hover::before {
+            transform: translateX(0);
+        }
+        
+        .skill-icon {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: var(--primary);
+            display: block;
+        }
+        
+        .skill-item h3 {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+        
+        .skill-item p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+        }
+        
+        /* Education & Experience */
+        .timeline {
+            position: relative;
+            padding: 20px 0;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            width: 2px;
+            height: 100%;
+            background: linear-gradient(to bottom, var(--primary), var(--accent));
+            transform: translateX(-50%);
+        }
+        
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+            width: 45%;
+            padding: 30px;
+            background: rgba(0, 120, 215, 0.05);
+            border-radius: 10px;
+            border: 1px solid rgba(0, 120, 215, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .timeline-item:nth-child(odd) {
+            left: 0;
+        }
+        
+        .timeline-item:nth-child(even) {
+            left: 55%;
+        }
+        
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: var(--accent);
+            border: 3px solid var(--bg-dark);
+            border-radius: 50%;
+            top: 30px;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+        
+        .timeline-item:nth-child(odd)::before {
+            right: -10px;
+        }
+        
+        .timeline-item:nth-child(even)::before {
+            left: -10px;
+        }
+        
+        .timeline-item:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        .timeline-date {
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 5px;
+            font-size: 1.1rem;
+        }
+        
+        .timeline-title {
+            font-size: 1.3rem;
+            margin-bottom: 10px;
+            color: var(--text-primary);
+        }
+        
+        .timeline-company {
+            color: var(--accent);
+            margin-bottom: 15px;
+            font-weight: 500;
+        }
+        
+        .timeline-description {
+            color: var(--text-secondary);
+            line-height: 1.6;
+        }
+        
+        /* Contact Section */
+        .contact-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 40px;
+            justify-content: space-between;
+        }
+        
+        .contact-form {
+            flex: 1;
+            min-width: 300px;
+        }
+        
+        .form-group {
+            margin-bottom: 25px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 10px;
+            color: var(--primary);
+            font-weight: 600;
+        }
+        
+        .form-group input,
+        .form-group textarea {
+            width: 100%;
+            padding: 15px;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 120, 215, 0.3);
+            border-radius: 5px;
+            color: var(--text-primary);
+            transition: all 0.3s ease;
+        }
+        
+        .form-group input:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 3px rgba(0, 120, 215, 0.2);
+        }
+        
+        .contact-info-large {
+            flex: 1;
+            min-width: 300px;
+            background: rgba(0, 120, 215, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            border-left: 4px solid var(--primary);
+        }
+        
+        .contact-info-large h3 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.3rem;
+        }
+        
+        .contact-info-large p {
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: var(--text-secondary);
+        }
+        
+        .contact-info-large i {
+            color: var(--accent);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--bg-light);
+            color: var(--text-secondary);
+            text-align: center;
+            padding: 30px 0;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .profile-img {
+                width: 250px;
+                height: 250px;
+            }
+            
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item {
+                width: calc(100% - 40px);
+                left: 40px !important;
+            }
+            
+            .timeline-item::before {
+                left: -30px;
+            }
+            
+            .contact-container {
+                flex-direction: column;
+            }
+        }
+        
+        /* Notification */
+        .notification {
+            position: fixed;
+            top: 30px;
+            left: 50%;
+            transform: translateX(-50%) translateY(-100px);
+            background: linear-gradient(45deg, var(--primary), #005A9E);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 30px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            opacity: 0;
+            transition: all 0.3s ease;
+        }
+        
+        .notification.show {
+            transform: translateX(-50%) translateY(0);
+            opacity: 1;
+        }
+        
+        /* CV File Download Animation */
+        .cv-download-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+        }
+        
+        .cv-particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: var(--accent);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--accent);
+            animation: cvParticle 1s linear forwards;
+        }
+        
+        @keyframes cvParticle {
+            0% {
+                transform: translate(0, 0);
+                opacity: 1;
+            }
+            100% {
+                transform: translate(var(--tx), var(--ty));
+                opacity: 0;
+            }
+        }
+        
+        /* Floating elements */
+        .floating {
+            position: absolute;
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+        }
+    </style>
+</head>
+<body>
+    <!-- Notification -->
+    <div class="notification" id="notification"></div>
+    
+    <!-- CV Download Animation Container -->
+    <div class="cv-download-animation" id="cvDownloadAnimation"></div>
+
+    <!-- Header/Hero Section -->
+    <header>
+        <!-- Electrical Background Animation -->
+        <div class="electrical-bg">
+            <!-- Circuit Lines -->
+            <div class="circuit-line" style="top: 20%; left: 10%; width: 80%;"></div>
+            <div class="circuit-line" style="top: 50%; left: 5%; width: 90%; animation-delay: 2s;"></div>
+            <div class="circuit-line" style="top: 80%; left: 15%; width: 70%; animation-delay: 4s;"></div>
+            
+            <!-- Sparks -->
+            <div class="spark" style="top: 30%; left: 30%; animation-delay: 0.5s;"></div>
+            <div class="spark" style="top: 60%; left: 70%; animation-delay: 1.5s;"></div>
+            <div class="spark" style="top: 40%; left: 50%; animation-delay: 2.5s;"></div>
+            <div class="spark" style="top: 70%; left: 20%; animation-delay: 3.5s;"></div>
+            
+            <!-- Pulse Rings -->
+            <div class="pulse-ring" style="width: 100px; height: 100px; top: 30%; left: 30%; animation-delay: 0s;"></div>
+            <div class="pulse-ring" style="width: 80px; height: 80px; top: 60%; left: 70%; animation-delay: 1s;"></div>
+            
+            <!-- Electrical Grid -->
+            <div class="electrical-grid"></div>
+            
+            <!-- Electrical Nodes -->
+            <div class="node" style="top: 25%; left: 25%; animation-delay: 0s;"></div>
+            <div class="node" style="top: 40%; left: 60%; animation-delay: 0.5s;"></div>
+            <div class="node" style="top: 70%; left: 35%; animation-delay: 1s;"></div>
+            <div class="node" style="top: 55%; left: 75%; animation-delay: 1.5s;"></div>
+            
+            <!-- Floating Elements -->
+            <div class="floating" style="top: 10%; left: 15%; font-size: 30px; animation-delay: 0s;">⚡</div>
+            <div class="floating" style="top: 80%; left: 85%; font-size: 25px; animation-delay: 1s;">🔌</div>
+            <div class="floating" style="top: 20%; left: 80%; font-size: 35px; animation-delay: 2s;">⚡</div>
+            <div class="floating" style="top: 70%; left: 10%; font-size: 28px; animation-delay: 3s;">🔧</div>
+        </div>
+        
+        <div class="container">
+            <div class="profile-img-container">
+                <div class="profile-glow"></div>
+                <img src="https://z-cdn-media.chatglm.cn/files/6555132a-0452-47c8-ae0e-799685df2d02_Gemini_Generated_Image_w5f1cww5f1cww5f1%20copy.png?auth_key=1792949790-116f08d17c2f47c58472590d4f33720e-0-83359c5a640fe7af87fb048707f62101" alt="ES-SAHABI Yassine" class="profile-img">
+            </div>
+            
+            <h1>ES-SAHABI Yassine</h1>
+            <div class="title">Technicien Spécialisé en Génie Électrique</div>
+            
+            <div class="amazing-text">
+                <p>
+                    <span class="highlight">Expert en électricité industrielle</span> avec plus de 9 ans d'expérience dans la conception, l'installation et la maintenance de systèmes complexes. Passionné par l'innovation technique et résolution de problèmes.
+                </p>
+                <p>
+                    Maîtrise des <span class="highlight">automatismes industriels</span>, programmation d'automates et création de schémas électriques. Compétences en câblage HTA/HTB, sécurité électrique et coordination d'équipes techniques.
+                </p>
+            </div>
+            
+            <div class="btn-container">
+                <a href="https://www.mediafire.com/file/pj74a7q887nksqh/Yassine_CV.pdf/file" target="_blank" class="btn" id="downloadCV">Télécharger mon CV</a>
+                <a href="#contact" class="btn btn-secondary">Me contacter</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>PROFIL PERSONNEL</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Technicien spécialisé avec une expertise solide en génie électrique, je suis passionné par la résolution de problèmes complexes et l'optimisation des systèmes industriels. Ma carrière est marquée par une approche rigoureuse et une constante recherche d'innovation technique.
+                    </p>
+                    <p>
+                        Ma polyvalence me permet de travailler sur différents types de projets, allant de la maintenance préventive à la conception de systèmes automatisés. Je suis constamment à l'affût des nouvelles technologies pour améliorer mes compétences et rester compétitif dans un secteur en constante évolution.
+                    </p>
+                </div>
+                <div class="contact-details">
+                    <h3>Informations de contact</h3>
+                    <p><i>📞</i> +2126 04 30 80 14 / +2126 30 35 01 30</p>
+                    <p><i>✉️</i> yassinesahabi@gmail.com</p>
+                    <p><i>📍</i> Hay El Qods 2 P2, Khouribga – MAROC</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <div class="container">
+            <h2>COMPÉTENCES ET SAVOIR-FAIRE</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <span class="skill-icon">👥</span>
+                    <h3>Travail en équipe</h3>
+                    <p>Capacité à collaborer efficacement avec différents intervenants pour atteindre des objectifs communs.</p>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">📊</span>
+                    <h3>Management</h3>
+                    <p>Expérience dans la gestion de projets et la coordination d'équipes techniques sur le terrain.</p>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">🔌</span>
+                    <h3>Lecture de plans et de schémas</h3>
+                    <p>Maîtrise de l'interprétation et de la réalisation de schémas électriques détaillés.</p>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">⚡</span>
+                    <h3>Règles et sécurité</h3>
+                    <p>Connaissance approfondie des normes de sécurité électrique et application stricte des réglementations.</p>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">🔧</span>
+                    <h3>Électricité générale et automatisme</h3>
+                    <p>Excellente maîtrise des systèmes électriques, électroniques et des automatismes industriels.</p>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">🔌</span>
+                    <h3>Câblage basse et haute tension</h3>
+                    <p>Expérience confirmée dans le câblage de systèmes électriques HTA/HTB.</p>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">💻</span>
+                    <h3>Bureautique</h3>
+                    <p>Bonne maîtrise de Microsoft Office pour la documentation et la gestion de projets.</p>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">📱</span>
+                    <h3>Programmation mobile et web</h3>
+                    <p>Compétences de base en développement d'applications mobiles et web pour intégration avec des systèmes industriels.</p>
+                </div>
+                <div class="skill-item">
+                    <span class="skill-icon">📐</span>
+                    <h3>Autocad, Dessin & 3D</h3>
+                    <p>Aptitude à créer des plans électriques, modélisations 3D et supports techniques visuels.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <div class="container">
+            <h2>FORMATION</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024</div>
+                    <div class="timeline-title">Diplôme de Technicien Spécialisé en Génie Électrique et Électromécanique de Systèmes Automatisés</div>
+                    <div class="timeline-company">OFPPT Khouribga</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-title">Baccalauréat en Sciences Physiques</div>
+                    <div class="timeline-company">Khouribga</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2013</div>
+                    <div class="timeline-title">Diplôme de Technicien en Construction Métallique</div>
+                    <div class="timeline-company">OFPPT Khouribga</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2008</div>
+                    <div class="timeline-title">Diplôme de Qualification en Électricité d'Entretien Industriel</div>
+                    <div class="timeline-company">OFPPT Khouribga</div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2009</div>
+                    <div class="timeline-title">Attestation Autocad</div>
+                    <div class="timeline-company">INDEX Khouribga</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="container">
+            <h2>EXPÉRIENCE PROFESSIONNELLE</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2017 - Aujourd'hui</div>
+                    <div class="timeline-title">Khouribga OCP SIDI DAOUI</div>
+                    <div class="timeline-company">Sociétés : SPIE, COMECA, ENGIE, MTI</div>
+                    <div class="timeline-description">
+                        Maintenance et dépannage d'installations électriques industrielles.<br>
+                        Réparation, remplacement et entretien des dispositifs électriques et de câblage.<br>
+                        Lecture et interprétation de schémas électriques selon le code et les prescriptions de sécurité.<br>
+                        Création de schémas électriques sur Autocad et programmation d'automates via TIA Portal.
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2016 - 2017</div>
+                    <div class="timeline-title">El Jadida OCP DOWNSTREAM</div>
+                    <div class="timeline-company">Société : ELCOR</div>
+                    <div class="timeline-description">
+                        Raccordement de circuits de commande et de puissance pour moteurs électriques HTA/HTB.<br>
+                        Détermination et installation de cellules et tableaux de base tension.<br>
+                        Câblage et branchement dans armoires d'automates programmables industriels.
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2015 - 2016</div>
+                    <div class="timeline-title">Ouarzazate NOOR 1 et NOOR 4</div>
+                    <div class="timeline-company">Société : ELCOR</div>
+                    <div class="timeline-description">
+                        Branchement et configuration de capteurs (proximité, niveau, température, pression).<br>
+                        Intégration dans armoires d'API (Automates Programmables Industriels).
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2014 - 2015</div>
+                    <div class="timeline-title">Khouribga OCP BENI AMIR</div>
+                    <div class="timeline-company">Société : SPIE</div>
+                    <div class="timeline-description">
+                        Fabrication et câblage d'armoires électriques HTA/HTB.<br>
+                        Tests d'isolation des câbles et matériaux électriques.
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2013 - 2014</div>
+                    <div class="timeline-title">Khouribga OCP SIDI DAOUI</div>
+                    <div class="timeline-company">Société : INABENSA</div>
+                    <div class="timeline-description">
+                        Branchement de moteurs électriques et boîtes de jonction.<br>
+                        Réalisation de travaux électriques à partir de plans et descriptifs techniques.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>CONTACT</h2>
+            <div class="contact-container">
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nom</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn">Envoyer le message</button>
+                    </form>
+                </div>
+                <div class="contact-info-large">
+                    <h3>Informations de contact</h3>
+                    <p><i>📞</i> +2126 04 30 80 14 / +2126 30 35 01 30</p>
+                    <p><i>✉️</i> yassinesahabi@gmail.com</p>
+                    <p><i>📍</i> Hay El Qods 2 P2, Khouribga – MAROC</p>
+                    <p>Je suis disponible pour toute opportunité professionnelle ou projet technique. N'hésitez pas à me contacter pour discuter de vos besoins en génie électrique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ES-SAHABI Yassine - Tous droits réservés</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Fade-in Animation on Scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('section').forEach(section => {
+            observer.observe(section);
+        });
+
+        // Notification Function
+        function showNotification(message) {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.classList.add('show');
+            
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+
+        // CV Download Handler with Animation
+        document.getElementById('downloadCV').addEventListener('click', function(e) {
+            e.preventDefault();
+            
+            // Create CV download animation
+            const animationContainer = document.getElementById('cvDownloadAnimation');
+            const buttonRect = this.getBoundingClientRect();
+            const centerX = buttonRect.left + buttonRect.width / 2;
+            const centerY = buttonRect.top + buttonRect.height / 2;
+            
+            // Create particles
+            for (let i = 0; i < 20; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'cv-particle';
+                
+                // Random direction
+                const angle = Math.random() * Math.PI * 2;
+                const distance = 100 + Math.random() * 100;
+                const tx = Math.cos(angle) * distance;
+                const ty = Math.sin(angle) * distance;
+                
+                particle.style.setProperty('--tx', `${tx}px`);
+                particle.style.setProperty('--ty', `${ty}px`);
+                particle.style.left = `${centerX}px`;
+                particle.style.top = `${centerY}px`;
+                
+                animationContainer.appendChild(particle);
+                
+                // Remove particle after animation
+                setTimeout(() => {
+                    particle.remove();
+                }, 1000);
+            }
+            
+            // Open CV link
+            window.open('https://www.mediafire.com/file/pj74a7q887nksqh/Yassine_CV.pdf/file', '_blank');
+            
+            // Show notification
+            showNotification('Téléchargement du CV commencé!');
+        });
+
+        // Contact Form Handler
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Create success message
+            showNotification('Message envoyé avec succès!');
+            
+            // Reset form
+            this.reset();
+        });
+    </script>
+</body>
+</html>

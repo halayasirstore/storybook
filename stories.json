@@ -1,0 +1,27 @@
+[
+  {
+    "title": "The Enchanted Forest",
+    "url": "https://example.com/story1",
+    "description": "A magical tale of adventure in a hidden forest."
+  },
+  {
+    "title": "The Lost Treasure",
+    "url": "https://example.com/story2",
+    "description": "Pirates and mysteries on the high seas."
+  },
+  {
+    "title": "Space Odyssey",
+    "url": "https://example.com/story3",
+    "description": "Journey through the stars in this sci-fi epic."
+  },
+  {
+    "title": "Mystery Mansion",
+    "url": "https://example.com/story4",
+    "description": "Solve the secrets of an old haunted house."
+  },
+  {
+    "title": "Dragon's Quest",
+    "url": "https://example.com/story5",
+    "description": "A hero's battle against ancient dragons."
+  }
+]
