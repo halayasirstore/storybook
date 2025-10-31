@@ -1188,91 +1188,116 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
-        // Initialize data
-        let storyData = {
-            "levels": [
-                {
-                    "name": "Level 1: Beginner Stories",
-                    "color": 4283215696,
-                    "gradient": {
-                        "colors": [4283215696, 4283215696]
-                    },
-                    "stories": [
-                        {
-                            "name": "The Lost Key 100s",
-                            "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
-                            "story": {
-                                "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
-                                "title": "The Mystery of the Lost Key",
-                                "segments": 5,
-                                "audio": "https://ia600601.us.archive.org/27/items/eleven-labs-2025-10-05-t-16-21-49-ghizlane-moroccan-darija-dialect-pvc-sp-100-s-50-sb-30-v-3/ElevenLabs_2025-10-05T16_21_49_Ghizlane%20-%20Moroccan%20Darija%20Dialect_pvc_sp100_s50_sb30_v3.mp3",
-                                "segmentsList": [
-                                    {
-                                        "segmentTitle": "The Discovery",
-                                        "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                                        "segmentAudio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-                                        "duration": "00:00",
-                                        "translation": {
-                                            "arabic": "الاكتشاف",
-                                            "french": "La Découverte"
-                                        },
-                                        "content": "Elara lived inside the light. Not in the beam, of course, but in the spiraling white tower of the Mirkwood Lighthouse, ",
-                                        "contentTranslation": {
-                                            "arabic": "عاشت إلارا داخل الضوء. ليس في الشعاع، بالطبع، ولكن في البرج الأبيض المتعرج من منارة ميرك وود، المت perched على إبهام من الصخور التي تبرز في المحيط المضطرب. كانت في السابعة والعشرين من عمرها، وحيدة، وكانت تعرف الإيقاع المحدد لكل كسر موجة لمسافة مئتي ميل.",
-                                            "french": "Elara vivait à l'intérieur de la lumière. Pas dans le faisceau, bien sûr, mais dans la tour blanche en spirale du phare de Mirkwood, perchée sur un pouce de roche qui avançait dans l'océan agité. Elle avait vingt-sept ans, était solitaire et connaissait le rythme spécifique de chaque rupture de vague sur deux cents miles."
-                                        },
-                                        "wordTranslations": [
-                                            {
-                                                "word": "walking",
-                                                "arabic": "يمشي",
-                                                "french": "marcher"
-                                            },
-                                            {
-                                                "word": "forest", 
-                                                "arabic": "غابة",
-                                                "french": "forêt"
-                                            },
-                                            {
-                                                "word": "shiny",
-                                                "arabic": "لامع",
-                                                "french": "brillant"
-                                            },
-                                            {
-                                                "word": "oak tree",
-                                                "arabic": "شجرة البلوط",
-                                                "french": "chêne"
-                                            },
-                                            {
-                                                "word": "noticed",
-                                                "arabic": "لاحظ",
-                                                "french": "remarqué"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            "quiz": {
-                                "title": "The Lost Key Quiz",
-                                "questions": [
-                                    {
-                                        "question": "Where was the shiny object found?",
-                                        "options": ["Under an oak tree", "On a mountain", "In a river", "On a bench"],
-                                        "correctAnswer": 0,
-                                        "explanation": "The story mentions the shiny object was found under the oak tree."
-                                    },
-                                    {
-                                        "question": "What did Elara see in the lighthouse?",
-                                        "options": ["A beam of light", "A spiral staircase", "A secret room", "A treasure chest"],
-                                        "correctAnswer": 1,
-                                        "explanation": "The story describes a spiraling white tower."
-                                    }
-                                ]
-                            }
-                        }
-                    ]
+        // Initialize data with localStorage persistence
+        let storyData = loadStoryData();
+
+        function loadStoryData() {
+            const savedData = localStorage.getItem('storyData');
+            if (savedData) {
+                try {
+                    return JSON.parse(savedData);
+                } catch (error) {
+                    console.error('Error loading saved data:', error);
+                    showToast('Error loading saved data, using default data', 'error');
                 }
-            ]
-        };
+            }
+
+            // Default data
+            return {
+                "levels": [
+                    {
+                        "name": "Level 1: Beginner Stories",
+                        "color": 4283215696,
+                        "gradient": {
+                            "colors": [4283215696, 4283215696]
+                        },
+                        "stories": [
+                            {
+                                "name": "The Lost Key 100s",
+                                "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
+                                "story": {
+                                    "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
+                                    "title": "The Mystery of the Lost Key",
+                                    "segments": 5,
+                                    "audio": "https://ia600601.us.archive.org/27/items/eleven-labs-2025-10-05-t-16-21-49-ghizlane-moroccan-darija-dialect-pvc-sp-100-s-50-sb-30-v-3/ElevenLabs_2025-10-05T16_21_49_Ghizlane%20-%20Moroccan%20Darija%20Dialect_pvc_sp100_s50_sb30_v3.mp3",
+                                    "segmentsList": [
+                                        {
+                                            "segmentTitle": "The Discovery",
+                                            "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+                                            "segmentAudio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+                                            "duration": "00:00",
+                                            "translation": {
+                                                "arabic": "الاكتشاف",
+                                                "french": "La Découverte"
+                                            },
+                                            "content": "Elara lived inside the light. Not in the beam, of course, but in the spiraling white tower of the Mirkwood Lighthouse, ",
+                                            "contentTranslation": {
+                                                "arabic": "عاشت إلارا داخل الضوء. ليس في الشعاع، بالطبع، ولكن في البرج الأبيض المتعرج من منارة ميرك وود، المت perched على إبهام من الصخور التي تبرز في المحيط المضطرب. كانت في السابعة والعشرين من عمرها، وحيدة، وكانت تعرف الإيقاع المحدد لكل كسر موجة لمسافة مئتي ميل.",
+                                                "french": "Elara vivait à l'intérieur de la lumière. Pas dans le faisceau, bien sûr, mais dans la tour blanche en spirale du phare de Mirkwood, perchée sur un pouce de roche qui avançait dans l'océan agité. Elle avait vingt-sept ans, était solitaire et connaissait le rythme spécifique de chaque rupture de vague sur deux cents miles."
+                                            },
+                                            "wordTranslations": [
+                                                {
+                                                    "word": "walking",
+                                                    "arabic": "يمشي",
+                                                    "french": "marcher"
+                                                },
+                                                {
+                                                    "word": "forest",
+                                                    "arabic": "غابة",
+                                                    "french": "forêt"
+                                                },
+                                                {
+                                                    "word": "shiny",
+                                                    "arabic": "لامع",
+                                                    "french": "brillant"
+                                                },
+                                                {
+                                                    "word": "oak tree",
+                                                    "arabic": "شجرة البلوط",
+                                                    "french": "chêne"
+                                                },
+                                                {
+                                                    "word": "noticed",
+                                                    "arabic": "لاحظ",
+                                                    "french": "remarqué"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                "quiz": {
+                                    "title": "The Lost Key Quiz",
+                                    "questions": [
+                                        {
+                                            "question": "Where was the shiny object found?",
+                                            "options": ["Under an oak tree", "On a mountain", "In a river", "On a bench"],
+                                            "correctAnswer": 0,
+                                            "explanation": "The story mentions the shiny object was found under the oak tree."
+                                        },
+                                        {
+                                            "question": "What did Elara see in the lighthouse?",
+                                            "options": ["A beam of light", "A spiral staircase", "A secret room", "A treasure chest"],
+                                            "correctAnswer": 1,
+                                            "explanation": "The story describes a spiraling white tower."
+                                        }
+                                    ]
+                                }
+                            }
+                        ]
+                    }
+                ]
+            };
+        }
+
+        function saveStoryData() {
+            try {
+                localStorage.setItem('storyData', JSON.stringify(storyData));
+                showToast('Data saved successfully!', 'success');
+            } catch (error) {
+                console.error('Error saving data:', error);
+                showToast('Error saving data to local storage', 'error');
+            }
+        }
 
         let currentLevelIndex = null;
         let currentStoryIndex = null;
@@ -1686,7 +1711,7 @@
             const color = parseInt(document.getElementById('levelColor').value.replace('#', ''), 16);
             const gradientStart = parseInt(document.getElementById('levelGradientStart').value.replace('#', ''), 16);
             const gradientEnd = parseInt(document.getElementById('levelGradientEnd').value.replace('#', ''), 16);
-            
+
             const newLevel = {
                 name: name,
                 color: color,
@@ -1695,14 +1720,15 @@
                 },
                 stories: []
             };
-            
+
             storyData.levels.push(newLevel);
             renderLevels();
-            
+            saveStoryData();
+
             // Reset form and close modal
             document.getElementById('addLevelForm').reset();
             bootstrap.Modal.getInstance(document.getElementById('addLevelModal')).hide();
-            
+
             showToast(`Level "${name}" added successfully!`, 'success');
         }
 
@@ -1721,17 +1747,18 @@
 
         function updateLevel() {
             const level = storyData.levels[currentEditLevelIndex];
-            
+
             level.name = document.getElementById('editLevelName').value;
             level.color = parseInt(document.getElementById('editLevelColor').value.replace('#', ''), 16);
             level.gradient.colors = [
                 parseInt(document.getElementById('editLevelGradientStart').value.replace('#', ''), 16),
                 parseInt(document.getElementById('editLevelGradientEnd').value.replace('#', ''), 16)
             ];
-            
+
             renderLevels();
+            saveStoryData();
             bootstrap.Modal.getInstance(document.getElementById('editLevelModal')).hide();
-            
+
             showToast(`Level "${level.name}" updated successfully!`, 'success');
         }
 
@@ -1749,8 +1776,9 @@
         function deleteLevel(index) {
             storyData.levels.splice(index, 1);
             renderLevels();
+            saveStoryData();
             bootstrap.Modal.getInstance(document.getElementById('deleteConfirmationModal')).hide();
-            
+
             showToast('Level deleted successfully!', 'success');
         }
 
@@ -1852,10 +1880,11 @@
             
             storyData.levels[currentLevelIndex].stories.push(newStory);
             renderLevels();
-            
+            saveStoryData();
+
             // Close modal
             bootstrap.Modal.getInstance(document.getElementById('addStoryModal')).hide();
-            
+
             showToast(`Story "${name}" added successfully to ${storyData.levels[currentLevelIndex].name}!`, 'success');
         }
 
@@ -1961,10 +1990,11 @@
             }
             
             story.story.segmentsList = segmentsList;
-            
+
             renderLevels();
+            saveStoryData();
             bootstrap.Modal.getInstance(document.getElementById('editStoryModal')).hide();
-            
+
             showToast(`Story "${story.name}" updated successfully!`, 'success');
         }
 
@@ -2081,10 +2111,11 @@
             }
             
             story.quiz.questions = questions;
-            
+
             renderLevels();
+            saveStoryData();
             bootstrap.Modal.getInstance(document.getElementById('editQuizModal')).hide();
-            
+
             showToast(`Quiz "${story.quiz.title}" updated successfully!`, 'success');
         }
 
@@ -2104,8 +2135,9 @@
         function deleteStory(levelIndex, storyIndex) {
             storyData.levels[levelIndex].stories.splice(storyIndex, 1);
             renderLevels();
+            saveStoryData();
             bootstrap.Modal.getInstance(document.getElementById('deleteConfirmationModal')).hide();
-            
+
             showToast('Story deleted successfully!', 'success');
         }
 
@@ -2215,8 +2247,8 @@
         }
 
         function saveChanges() {
-            showToast('Changes saved! This update will be reflected in your app.', 'success');
-            
+            saveStoryData();
+
             // Show API update reminder
             setTimeout(() => {
                 showToast('Remember to update GitHub API to sync changes with your Flutter app!', 'info');
@@ -2249,6 +2281,7 @@
                         const importedData = JSON.parse(event.target.result);
                         storyData = importedData;
                         renderLevels();
+                        saveStoryData();
                         showToast('JSON imported successfully!', 'success');
                     } catch (error) {
                         showToast('Error importing JSON: ' + error.message, 'error');
@@ -2261,6 +2294,7 @@
 
         function resetData() {
             if (confirm('Are you sure you want to reset all data? This action cannot be undone.')) {
+                localStorage.removeItem('storyData');
                 location.reload();
             }
         }
