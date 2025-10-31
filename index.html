@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" >
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storytelling Management Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -94,6 +94,26 @@
             font-weight: 400;
             font-size: 1.1rem;
             opacity: 0.9;
+        }
+        
+        /* API Management Section */
+        .api-management-section {
+            margin-bottom: 2rem;
+        }
+
+        .api-settings-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.8);
+            box-shadow: var(--card-shadow);
+        }
+
+        .api-settings-card h4 {
+            color: #374151;
+            margin-bottom: 1.5rem;
+            font-weight: 600;
         }
         
         /* Stats Cards */
@@ -773,41 +793,10 @@
             transform: translateY(-50%);
             color: #6b7280;
         }
-        
-        /* API Settings */
-        .api-settings {
-            background: rgba(255, 255, 255, 0.95);
-            backdrop-filter: blur(10px);
-            border-radius: 16px;
-            padding: 2rem;
-            margin-bottom: 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.8);
-            box-shadow: var(--card-shadow);
-        }
-        
-        .api-status {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.5rem 1rem;
-            border-radius: 30px;
-            font-size: 0.875rem;
-            font-weight: 600;
-        }
-        
-        .api-status.connected {
-            background-color: rgba(16, 185, 129, 0.1);
-            color: var(--success-color);
-        }
-        
-        .api-status.disconnected {
-            background-color: rgba(239, 68, 68, 0.1);
-            color: var(--danger-color);
-        }
-        
-        .api-status.testing {
-            background-color: rgba(59, 130, 246, 0.1);
-            color: var(--info-color);
+
+        /* Spinner for buttons */
+        .spinner {
+            animation: spin 1s linear infinite;
         }
     </style>
 </head>
@@ -839,38 +828,66 @@
 
     <!-- Main Content -->
     <main class="container mb-5">
-        <!-- API Settings -->
-        <div class="api-settings">
-            <div class="row align-items-center">
-                <div class="col-md-8">
-                    <h4 class="mb-3">API Configuration</h4>
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="apiEndpoint" class="form-label">API Endpoint URL</label>
-                            <input type="url" class="form-control" id="apiEndpoint" placeholder="https://your-api.com/endpoint" value="https://your-api.com/endpoint">
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="apiKey" class="form-label">API Key (Optional)</label>
-                            <input type="text" class="form-control" id="apiKey" placeholder="Your API Key">
+        <!-- API Management Section -->
+        <div class="api-management-section">
+            <div class="api-settings-card">
+                <h4><i class="bi bi-cloud-upload me-2"></i>API & GitHub Integration</h4>
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label">Current API Endpoint</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control" id="currentApiUrl" 
+                                       value="https://raw.githubusercontent.com/halayasirstore/storybook/main/halayasir.json" readonly>
+                                <button class="btn btn-outline-secondary" type="button" onclick="copyApiUrl()">
+                                    <i class="bi bi-clipboard"></i>
+                                </button>
+                            </div>
+                            <small class="form-text text-muted">This is the URL your Flutter app is currently using</small>
                         </div>
                     </div>
-                    <div class="form-check form-switch mb-3">
-                        <input class="form-check-input" type="checkbox" id="autoSync" checked>
-                        <label class="form-check-label" for="autoSync">Auto-sync changes to API</label>
+                    
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label class="form-label">API Status</label>
+                            <div class="d-flex align-items-center">
+                                <span class="badge bg-success me-2" id="apiStatusBadge">
+                                    <i class="bi bi-check-circle"></i> Connected
+                                </span>
+                                <button class="btn btn-sm btn-outline-primary" onclick="testApiConnection()">
+                                    <i class="bi bi-arrow-repeat"></i> Test Connection
+                                </button>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-4 text-md-end">
-                    <div class="mb-3">
-                        <span class="api-status disconnected" id="apiStatus">
-                            <i class="bi bi-circle-fill"></i> Not Connected
-                        </span>
+
+                <div class="row mt-3">
+                    <div class="col-md-12">
+                        <div class="alert alert-info">
+                            <h6><i class="bi bi-info-circle"></i> How to Update Your App</h6>
+                            <p class="mb-1">When you make changes in this dashboard, you need to:</p>
+                            <ol class="mb-0">
+                                <li>Click "Save Changes" to update local data</li>
+                                <li>Click "Update GitHub API" to push changes to your repository</li>
+                                <li>Your Flutter app will automatically fetch the updated data</li>
+                            </ol>
+                        </div>
                     </div>
-                    <button class="btn btn-primary-custom me-2" onclick="testApiConnection()">
-                        <i class="bi bi-plug me-2"></i>Test Connection
-                    </button>
-                    <button class="btn btn-outline-secondary" onclick="openApiSettingsModal()">
-                        <i class="bi bi-gear me-2"></i>Settings
-                    </button>
+                </div>
+
+                <div class="row mt-3">
+                    <div class="col-md-6">
+                        <button class="btn btn-primary w-100" onclick="updateGitHubApi()">
+                            <i class="bi bi-github me-2"></i>Update GitHub API
+                        </button>
+                    </div>
+                    <div class="col-md-6">
+                        <button class="btn btn-outline-secondary w-100" onclick="showApiHelp()">
+                            <i class="bi bi-question-circle me-2"></i>API Help
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -1150,52 +1167,6 @@
         </div>
     </div>
 
-    <!-- API Settings Modal -->
-    <div class="modal fade" id="apiSettingsModal" tabindex="-1" aria-labelledby="apiSettingsModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="apiSettingsModalLabel">API Settings</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="mb-4">
-                        <label for="apiEndpointFull" class="form-label">API Endpoint URL</label>
-                        <input type="url" class="form-control" id="apiEndpointFull" placeholder="https://your-api.com/endpoint">
-                    </div>
-                    <div class="mb-4">
-                        <label for="apiKeyFull" class="form-label">API Key</label>
-                        <input type="text" class="form-control" id="apiKeyFull" placeholder="Your API Key">
-                    </div>
-                    <div class="mb-4">
-                        <label for="apiMethod" class="form-label">HTTP Method</label>
-                        <select class="form-select" id="apiMethod">
-                            <option value="POST" selected>POST</option>
-                            <option value="PUT">PUT</option>
-                            <option value="PATCH">PATCH</option>
-                        </select>
-                    </div>
-                    <div class="form-check form-switch mb-4">
-                        <input class="form-check-input" type="checkbox" id="autoSyncFull" checked>
-                        <label class="form-check-label" for="autoSyncFull">Auto-sync changes to API</label>
-                    </div>
-                    <div class="form-check form-switch mb-4">
-                        <input class="form-check-input" type="checkbox" id="syncOnSave" checked>
-                        <label class="form-check-label" for="syncOnSave">Sync when saving changes</label>
-                    </div>
-                    <div class="mb-4">
-                        <label for="syncInterval" class="form-label">Auto-sync Interval (minutes)</label>
-                        <input type="number" class="form-control" id="syncInterval" min="1" value="5">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
-                    <button type="button" class="btn btn-primary" onclick="saveApiSettings()">Save Settings</button>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
@@ -1297,219 +1268,6 @@
                                     }
                                 ]
                             }
-                        },
-                        {
-                            "name": "The Secret Garden",
-                            "image": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                            "story": {
-                                "coverImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                                "title": "The Hidden Garden",
-                                "segments": 4,
-                                "audio": "assets/audio/stories/secret_garden_full.mp3",
-                                "segmentsList": [
-                                    {
-                                        "segmentTitle": "The Old Gate",
-                                        "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                                        "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                                        "duration": "3:15",
-                                        "translation": {
-                                            "arabic": "البوابة القديمة",
-                                            "french": "La Vieille Porte"
-                                        },
-                                        "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                                        "contentTranslation": {
-                                            "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                                            "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                                        },
-                                        "wordTranslations": [
-                                            {
-                                                "word": "stone wall",
-                                                "arabic": "جدار حجري",
-                                                "french": "mur de pierre"
-                                            },
-                                            {
-                                                "word": "rusty",
-                                                "arabic": "صدئ",
-                                                "french": "rouillé"
-                                            },
-                                            {
-                                                "word": "iron gate",
-                                                "arabic": "بوابة حديدية",
-                                                "french": "porte en fer"
-                                            },
-                                            {
-                                                "word": "hidden",
-                                                "arabic": "مختبئ",
-                                                "french": "caché"
-                                            },
-                                            {
-                                                "word": "flower pot",
-                                                "arabic": "أصيص زهور",
-                                                "french": "pot de fleurs"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            "quiz": {
-                                "title": "Secret Garden Quiz",
-                                "questions": [
-                                    {
-                                        "question": "Where was the hidden garden located?",
-                                        "options": ["Behind a stone wall", "On a mountain", "In a cave", "Under a bridge"],
-                                        "correctAnswer": 0,
-                                        "explanation": "The garden was behind an old stone wall."
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "Level 2: Intermediate Tales",
-                    "color": 4280391411,
-                    "gradient": {
-                        "colors": [4286381056, 4282615280]
-                    },
-                    "stories": [
-                        {
-                            "name": "Mountain Quest",
-                            "image": "https://i.imgur.com/gsVVrKB.jpeg",
-                            "story": {
-                                "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-                                "title": "The Dragon's Peak",
-                                "segments": 3,
-                                "audio": "assets/audio/stories/mountain_quest_full.mp3",
-                                "segmentsList": [
-                                    {
-                                        "segmentTitle": "The Call to Adventure",
-                                        "segmentImage": "https://i.imgur.com/7Z1X8W9.jpeg",
-                                        "segmentAudio": "assets/audio/segments/mountain_1.mp3",
-                                        "duration": "4:15",
-                                        "translation": {
-                                            "arabic": "نداء المغامرة",
-                                            "french": "L'Appel de l'Aventure"
-                                        },
-                                        "content": "The village elder told us about the legendary dragon that lived atop the highest mountain peak. The village elder told us about the legendary dragon that lived atop the highest mountain peak.",
-                                        "contentTranslation": {
-                                            "arabic": "أخبرنا شيخ القرية عن التنين الأسطوري الذي يعيش على قمة أعلى جبل.",
-                                            "french": "L'ancien du village nous a parlé du dragon légendaire qui vivait au sommet de la plus haute montagne."
-                                        },
-                                        "wordTranslations": [
-                                            {
-                                                "word": "village",
-                                                "arabic": "قرية",
-                                                "french": "village"
-                                            },
-                                            {
-                                                "word": "elder",
-                                                "arabic": "شيخ",
-                                                "french": "ancien"
-                                            },
-                                            {
-                                                "word": "legendary",
-                                                "arabic": "أسطوري",
-                                                "french": "légendaire"
-                                            },
-                                            {
-                                                "word": "dragon",
-                                                "arabic": "تنين",
-                                                "french": "dragon"
-                                            },
-                                            {
-                                                "word": "peak",
-                                                "arabic": "قمة",
-                                                "french": "sommet"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            "quiz": {
-                                "title": "Dragon's Peak Quiz",
-                                "questions": [
-                                    {
-                                        "question": "Who told the characters about the dragon?",
-                                        "options": ["The village elder", "A friend", "A book", "A stranger"],
-                                        "correctAnswer": 0,
-                                        "explanation": "The village elder shared information about the dragon."
-                                    }
-                                ]
-                            }
-                        }
-                    ]
-                },
-                {
-                    "name": "Level 3: Advanced Narratives",
-                    "color": 4294940672,
-                    "gradient": {
-                        "colors": [4294945280, 4294932224]
-                    },
-                    "stories": [
-                        {
-                            "name": "Time Traveler",
-                            "image": "assets/images/stories/time_traveler.jpg",
-                            "story": {
-                                "coverImage": "assets/images/covers/time_cover.jpg",
-                                "title": "Chronos Paradox",
-                                "segments": 3,
-                                "audio": "assets/audio/stories/time_traveler_full.mp3",
-                                "segmentsList": [
-                                    {
-                                        "segmentTitle": "The Invention",
-                                        "segmentImage": "https://i.imgur.com/0C4D5E6.jpeg",
-                                        "segmentAudio": "assets/audio/segments/time_1.mp3",
-                                        "duration": "5:20",
-                                        "translation": {
-                                            "arabic": "الاختراع",
-                                            "french": "L'Invention"
-                                        },
-                                        "content": "After years of research, Professor Elara finally completed her temporal displacement device.",
-                                        "contentTranslation": {
-                                            "arabic": "بعد سنوات من البحث، أكملت البروفيسورة إلارا أخيرًا جهاز الانزياح الزمني الخاص بها.",
-                                            "french": "Après des années de recherche, le professeur Elara a finalement terminé son dispositif de déplacement temporel."
-                                        },
-                                        "wordTranslations": [
-                                            {
-                                                "word": "research",
-                                                "arabic": "بحث",
-                                                "french": "recherche"
-                                            },
-                                            {
-                                                "word": "professor",
-                                                "arabic": "أستاذ",
-                                                "french": "professeur"
-                                            },
-                                            {
-                                                "word": "completed",
-                                                "arabic": "أكمل",
-                                                "french": "terminé"
-                                            },
-                                            {
-                                                "word": "temporal",
-                                                "arabic": "زمني",
-                                                "french": "temporel"
-                                            },
-                                            {
-                                                "word": "device",
-                                                "arabic": "جهاز",
-                                                "french": "dispositif"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            },
-                            "quiz": {
-                                "title": "Time Travel Quiz",
-                                "questions": [
-                                    {
-                                        "question": "Who created the time machine?",
-                                        "options": ["Professor Elara", "A student", "An engineer", "A scientist"],
-                                        "correctAnswer": 0,
-                                        "explanation": "Professor Elara completed the temporal displacement device."
-                                    }
-                                ]
-                            }
                         }
                     ]
                 }
@@ -1521,15 +1279,18 @@
         let currentEditLevelIndex = null;
         let currentEditStoryIndex = null;
         let searchTerm = '';
-        let apiSettings = {
-            endpoint: 'https://your-api.com/endpoint',
-            key: '',
-            method: 'POST',
-            autoSync: true,
-            syncOnSave: true,
-            syncInterval: 5
+
+        // API Configuration
+        const apiConfig = {
+            currentApiUrl: 'https://raw.githubusercontent.com/halayasirstore/storybook/main/halayasir.json',
+            github: {
+                username: 'halayasirstore',
+                repo: 'storybook',
+                branch: 'main',
+                filePath: 'halayasir.json',
+                commitMessage: 'Update story data from dashboard - ' + new Date().toISOString()
+            }
         };
-        let syncIntervalId = null;
 
         // Toast notification function
         function showToast(message, type = 'info') {
@@ -1554,177 +1315,221 @@
             }, 3000);
         }
 
-        // API Functions
-        function updateApiStatus(status, message = '') {
-            const apiStatus = document.getElementById('apiStatus');
-            apiStatus.className = `api-status ${status}`;
-            
-            switch(status) {
-                case 'connected':
-                    apiStatus.innerHTML = '<i class="bi bi-circle-fill"></i> Connected';
-                    if (message) showToast(message, 'success');
-                    break;
-                case 'disconnected':
-                    apiStatus.innerHTML = '<i class="bi bi-circle-fill"></i> Not Connected';
-                    if (message) showToast(message, 'error');
-                    break;
-                case 'testing':
-                    apiStatus.innerHTML = '<i class="bi bi-circle-fill"></i> Testing Connection';
-                    break;
-            }
+        // API Management Functions
+        function copyApiUrl() {
+            const apiUrl = document.getElementById('currentApiUrl');
+            apiUrl.select();
+            document.execCommand('copy');
+            showToast('API URL copied to clipboard!', 'success');
         }
 
-        function testApiConnection() {
-            const endpoint = document.getElementById('apiEndpoint').value;
-            const apiKey = document.getElementById('apiKey').value;
+        async function testApiConnection() {
+            const statusBadge = document.getElementById('apiStatusBadge');
             
-            if (!endpoint) {
-                showToast('Please enter an API endpoint URL', 'error');
-                return;
-            }
-            
-            updateApiStatus('testing');
-            
-            // Test connection with a simple HEAD request
-            fetch(endpoint, {
-                method: 'HEAD',
-                headers: apiKey ? { 'Authorization': `Bearer ${apiKey}` } : {}
-            })
-            .then(response => {
+            try {
+                statusBadge.className = 'badge bg-warning me-2';
+                statusBadge.innerHTML = '<i class="bi bi-arrow-repeat"></i> Testing...';
+                
+                const response = await fetch(apiConfig.currentApiUrl, {
+                    method: 'HEAD',
+                    headers: {
+                        'Cache-Control': 'no-cache',
+                        'Pragma': 'no-cache'
+                    }
+                });
+                
                 if (response.ok) {
-                    updateApiStatus('connected', 'API connection successful!');
-                    saveApiSettings();
+                    statusBadge.className = 'badge bg-success me-2';
+                    statusBadge.innerHTML = '<i class="bi bi-check-circle"></i> Connected';
+                    showToast('API connection successful!', 'success');
                 } else {
-                    updateApiStatus('disconnected', 'API endpoint responded with an error');
+                    throw new Error(`HTTP ${response.status}`);
                 }
-            })
-            .catch(error => {
-                console.error('API connection error:', error);
-                updateApiStatus('disconnected', 'Failed to connect to API endpoint');
+            } catch (error) {
+                statusBadge.className = 'badge bg-danger me-2';
+                statusBadge.innerHTML = '<i class="bi bi-x-circle"></i> Failed';
+                showToast('API connection failed: ' + error.message, 'error');
+            }
+        }
+
+        async function updateGitHubApi() {
+            // Show loading state
+            const button = event.target;
+            const originalText = button.innerHTML;
+            button.innerHTML = '<i class="bi bi-arrow-repeat spinner"></i> Updating...';
+            button.disabled = true;
+            
+            try {
+                // For GitHub Pages (static hosting) - we'll create a downloadable file
+                // since we can't directly update GitHub raw content via browser
+                await downloadUpdatedJson();
+                
+                showToast('API data updated successfully! Download the JSON file and upload it to your GitHub repository.', 'success');
+                
+                // Show instructions for manual update
+                showGitHubUpdateInstructions();
+                
+            } catch (error) {
+                showToast('Failed to update API: ' + error.message, 'error');
+                console.error('API Update Error:', error);
+            } finally {
+                // Restore button state
+                button.innerHTML = originalText;
+                button.disabled = false;
+            }
+        }
+
+        function downloadUpdatedJson() {
+            return new Promise((resolve) => {
+                // Create the updated data structure that matches your Flutter app's expected format
+                const apiData = {
+                    levels: storyData.levels,
+                    lastUpdated: new Date().toISOString(),
+                    version: '1.0.' + Date.now()
+                };
+                
+                // Create download
+                const dataStr = JSON.stringify(apiData, null, 2);
+                const dataBlob = new Blob([dataStr], { type: 'application/json' });
+                const url = URL.createObjectURL(dataBlob);
+                
+                const link = document.createElement('a');
+                link.href = url;
+                link.download = 'halayasir.json';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                URL.revokeObjectURL(url);
+                
+                resolve();
             });
         }
 
-        function sendDataToAPI(data, action = 'update') {
-            const endpoint = apiSettings.endpoint;
-            if (!endpoint || endpoint === 'https://your-api.com/endpoint') {
-                console.log('API endpoint not configured');
-                return Promise.resolve();
+        function showGitHubUpdateInstructions() {
+            const modalHTML = `
+                <div class="modal fade" id="githubInstructionsModal" tabindex="-1">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"><i class="bi bi-github me-2"></i>Update GitHub Repository</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="alert alert-info">
+                                    <h6><i class="bi bi-info-circle"></i> Manual Update Required</h6>
+                                    <p>Since we can't directly update GitHub from the browser, follow these steps:</p>
+                                </div>
+                                
+                                <h6>Step 1: Download the JSON File</h6>
+                                <p>The updated <code>halayasir.json</code> file has been downloaded to your computer.</p>
+                                
+                                <h6>Step 2: Update GitHub Repository</h6>
+                                <ol>
+                                    <li>Go to your GitHub repository: 
+                                        <a href="https://github.com/halayasirstore/storybook" target="_blank">
+                                            https://github.com/halayasirstore/storybook
+                                        </a>
+                                    </li>
+                                    <li>Navigate to the <code>halayasir.json</code> file</li>
+                                    <li>Click the edit button (pencil icon)</li>
+                                    <li>Replace the entire content with your downloaded file content</li>
+                                    <li>Scroll down and commit the changes with a descriptive message</li>
+                                </ol>
+                                
+                                <h6>Step 3: Verify the Update</h6>
+                                <p>Visit this URL to verify your changes: 
+                                    <a href="${apiConfig.currentApiUrl}" target="_blank">
+                                        ${apiConfig.currentApiUrl}
+                                    </a>
+                                </p>
+                                
+                                <div class="alert alert-warning">
+                                    <small><strong>Note:</strong> It may take a few minutes for GitHub to update the raw content URL.</small>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" onclick="testApiConnection()">
+                                    <i class="bi bi-arrow-repeat"></i> Test Connection
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            // Remove existing modal if any
+            const existingModal = document.getElementById('githubInstructionsModal');
+            if (existingModal) {
+                existingModal.remove();
             }
             
-            const payload = {
-                action: action,
-                timestamp: new Date().toISOString(),
-                data: data
-            };
+            // Add modal to body
+            document.body.insertAdjacentHTML('beforeend', modalHTML);
             
-            const headers = {
-                'Content-Type': 'application/json'
-            };
-            
-            if (apiSettings.key) {
-                headers['Authorization'] = `Bearer ${apiSettings.key}`;
-            }
-            
-            return fetch(endpoint, {
-                method: apiSettings.method,
-                headers: headers,
-                body: JSON.stringify(payload)
-            })
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error(`HTTP error! status: ${response.status}`);
-                }
-                return response.json();
-            })
-            .then(data => {
-                console.log('Data sent to API successfully:', data);
-                return data;
-            })
-            .catch(error => {
-                console.error('Error sending data to API:', error);
-                showToast('Failed to sync data with API', 'error');
-                throw error;
-            });
-        }
-
-        function autoSyncData() {
-            if (apiSettings.autoSync) {
-                console.log('Auto-syncing data with API...');
-                sendDataToAPI(storyData, 'auto-sync')
-                    .then(() => {
-                        console.log('Auto-sync completed');
-                    })
-                    .catch(error => {
-                        console.error('Auto-sync failed:', error);
-                    });
-            }
-        }
-
-        function saveApiSettings() {
-            apiSettings.endpoint = document.getElementById('apiEndpoint').value;
-            apiSettings.key = document.getElementById('apiKey').value;
-            apiSettings.autoSync = document.getElementById('autoSync').checked;
-            
-            // Save to localStorage
-            localStorage.setItem('storyDashboardApiSettings', JSON.stringify(apiSettings));
-            
-            // Set up auto-sync interval
-            if (syncIntervalId) {
-                clearInterval(syncIntervalId);
-            }
-            
-            if (apiSettings.autoSync) {
-                const intervalMs = apiSettings.syncInterval * 60 * 1000;
-                syncIntervalId = setInterval(autoSyncData, intervalMs);
-            }
-            
-            showToast('API settings saved successfully', 'success');
-        }
-
-        function loadApiSettings() {
-            const savedSettings = localStorage.getItem('storyDashboardApiSettings');
-            if (savedSettings) {
-                apiSettings = JSON.parse(savedSettings);
-                
-                document.getElementById('apiEndpoint').value = apiSettings.endpoint;
-                document.getElementById('apiKey').value = apiSettings.key;
-                document.getElementById('autoSync').checked = apiSettings.autoSync;
-                
-                // Set up auto-sync if enabled
-                if (apiSettings.autoSync) {
-                    const intervalMs = apiSettings.syncInterval * 60 * 1000;
-                    syncIntervalId = setInterval(autoSyncData, intervalMs);
-                }
-            }
-        }
-
-        function openApiSettingsModal() {
-            document.getElementById('apiEndpointFull').value = apiSettings.endpoint;
-            document.getElementById('apiKeyFull').value = apiSettings.key;
-            document.getElementById('apiMethod').value = apiSettings.method;
-            document.getElementById('autoSyncFull').checked = apiSettings.autoSync;
-            document.getElementById('syncOnSave').checked = apiSettings.syncOnSave;
-            document.getElementById('syncInterval').value = apiSettings.syncInterval;
-            
-            const modal = new bootstrap.Modal(document.getElementById('apiSettingsModal'));
+            // Show modal
+            const modal = new bootstrap.Modal(document.getElementById('githubInstructionsModal'));
             modal.show();
         }
 
-        function saveFullApiSettings() {
-            apiSettings.endpoint = document.getElementById('apiEndpointFull').value;
-            apiSettings.key = document.getElementById('apiKeyFull').value;
-            apiSettings.method = document.getElementById('apiMethod').value;
-            apiSettings.autoSync = document.getElementById('autoSyncFull').checked;
-            apiSettings.syncOnSave = document.getElementById('syncOnSave').checked;
-            apiSettings.syncInterval = parseInt(document.getElementById('syncInterval').value);
+        function showApiHelp() {
+            const modalHTML = `
+                <div class="modal fade" id="apiHelpModal" tabindex="-1">
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title"><i class="bi bi-question-circle me-2"></i>API Integration Help</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <h6>How It Works</h6>
+                                <p>Your Flutter app fetches data from this GitHub URL:</p>
+                                <code>${apiConfig.currentApiUrl}</code>
+                                
+                                <h6 class="mt-4">Update Process</h6>
+                                <ol>
+                                    <li>Make changes in the dashboard</li>
+                                    <li>Click "Save Changes" to update local data</li>
+                                    <li>Click "Update GitHub API" to download the updated JSON</li>
+                                    <li>Manually upload the JSON to your GitHub repository</li>
+                                    <li>Your Flutter app will automatically get the new data</li>
+                                </ol>
+                                
+                                <h6>Flutter App Integration</h6>
+                                <p>Your Flutter code is already set up to fetch from this API. The <code>LevelService</code> class handles:</p>
+                                <ul>
+                                    <li>Fetching data from the GitHub URL</li>
+                                    <li>Parsing levels, stories, and quizzes</li>
+                                    <li>Handling progress tracking</li>
+                                    <li>Caching and error handling</li>
+                                </ul>
+                                
+                                <div class="alert alert-success">
+                                    <h6><i class="bi bi-lightbulb"></i> Pro Tip</h6>
+                                    <p class="mb-0">You can set up GitHub Actions to automatically update the file when you push changes, 
+                                    or consider using a backend service for direct API updates.</p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got It!</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
             
-            // Update main API settings display
-            document.getElementById('apiEndpoint').value = apiSettings.endpoint;
-            document.getElementById('apiKey').value = apiSettings.key;
-            document.getElementById('autoSync').checked = apiSettings.autoSync;
+            // Remove existing modal if any
+            const existingModal = document.getElementById('apiHelpModal');
+            if (existingModal) {
+                existingModal.remove();
+            }
             
-            saveApiSettings();
-            bootstrap.Modal.getInstance(document.getElementById('apiSettingsModal')).hide();
+            // Add modal to body
+            document.body.insertAdjacentHTML('beforeend', modalHTML);
+            
+            // Show modal
+            const modal = new bootstrap.Modal(document.getElementById('apiHelpModal'));
+            modal.show();
         }
 
         // Function to render levels
@@ -1899,13 +1704,6 @@
             bootstrap.Modal.getInstance(document.getElementById('addLevelModal')).hide();
             
             showToast(`Level "${name}" added successfully!`, 'success');
-            
-            // Sync with API if enabled
-            if (apiSettings.syncOnSave) {
-                sendDataToAPI(storyData, 'add-level')
-                    .then(() => showToast('Changes synced with API', 'success'))
-                    .catch(error => console.error('Sync failed:', error));
-            }
         }
 
         function editLevel(index) {
@@ -1935,13 +1733,6 @@
             bootstrap.Modal.getInstance(document.getElementById('editLevelModal')).hide();
             
             showToast(`Level "${level.name}" updated successfully!`, 'success');
-            
-            // Sync with API if enabled
-            if (apiSettings.syncOnSave) {
-                sendDataToAPI(storyData, 'update-level')
-                    .then(() => showToast('Changes synced with API', 'success'))
-                    .catch(error => console.error('Sync failed:', error));
-            }
         }
 
         function confirmDeleteLevel(index) {
@@ -1961,13 +1752,6 @@
             bootstrap.Modal.getInstance(document.getElementById('deleteConfirmationModal')).hide();
             
             showToast('Level deleted successfully!', 'success');
-            
-            // Sync with API if enabled
-            if (apiSettings.syncOnSave) {
-                sendDataToAPI(storyData, 'delete-level')
-                    .then(() => showToast('Changes synced with API', 'success'))
-                    .catch(error => console.error('Sync failed:', error));
-            }
         }
 
         function addStoryToLevel(levelIndex) {
@@ -2073,13 +1857,6 @@
             bootstrap.Modal.getInstance(document.getElementById('addStoryModal')).hide();
             
             showToast(`Story "${name}" added successfully to ${storyData.levels[currentLevelIndex].name}!`, 'success');
-            
-            // Sync with API if enabled
-            if (apiSettings.syncOnSave) {
-                sendDataToAPI(storyData, 'add-story')
-                    .then(() => showToast('Changes synced with API', 'success'))
-                    .catch(error => console.error('Sync failed:', error));
-            }
         }
 
         function editStory(levelIndex, storyIndex) {
@@ -2189,13 +1966,6 @@
             bootstrap.Modal.getInstance(document.getElementById('editStoryModal')).hide();
             
             showToast(`Story "${story.name}" updated successfully!`, 'success');
-            
-            // Sync with API if enabled
-            if (apiSettings.syncOnSave) {
-                sendDataToAPI(storyData, 'update-story')
-                    .then(() => showToast('Changes synced with API', 'success'))
-                    .catch(error => console.error('Sync failed:', error));
-            }
         }
 
         // Quiz Management Functions
@@ -2316,13 +2086,6 @@
             bootstrap.Modal.getInstance(document.getElementById('editQuizModal')).hide();
             
             showToast(`Quiz "${story.quiz.title}" updated successfully!`, 'success');
-            
-            // Sync with API if enabled
-            if (apiSettings.syncOnSave) {
-                sendDataToAPI(storyData, 'update-quiz')
-                    .then(() => showToast('Changes synced with API', 'success'))
-                    .catch(error => console.error('Sync failed:', error));
-            }
         }
 
         function confirmDeleteStory(levelIndex, storyIndex) {
@@ -2344,13 +2107,6 @@
             bootstrap.Modal.getInstance(document.getElementById('deleteConfirmationModal')).hide();
             
             showToast('Story deleted successfully!', 'success');
-            
-            // Sync with API if enabled
-            if (apiSettings.syncOnSave) {
-                sendDataToAPI(storyData, 'delete-story')
-                    .then(() => showToast('Changes synced with API', 'success'))
-                    .catch(error => console.error('Sync failed:', error));
-            }
         }
 
         // Segment Management Functions
@@ -2461,12 +2217,10 @@
         function saveChanges() {
             showToast('Changes saved! This update will be reflected in your app.', 'success');
             
-            // Sync with API if enabled
-            if (apiSettings.syncOnSave) {
-                sendDataToAPI(storyData, 'save-changes')
-                    .then(() => showToast('Changes synced with API', 'success'))
-                    .catch(error => console.error('Sync failed:', error));
-            }
+            // Show API update reminder
+            setTimeout(() => {
+                showToast('Remember to update GitHub API to sync changes with your Flutter app!', 'info');
+            }, 2000);
         }
 
         function exportJSON() {
@@ -2496,13 +2250,6 @@
                         storyData = importedData;
                         renderLevels();
                         showToast('JSON imported successfully!', 'success');
-                        
-                        // Sync with API if enabled
-                        if (apiSettings.syncOnSave) {
-                            sendDataToAPI(storyData, 'import-data')
-                                .then(() => showToast('Imported data synced with API', 'success'))
-                                .catch(error => console.error('Sync failed:', error));
-                        }
                     } catch (error) {
                         showToast('Error importing JSON: ' + error.message, 'error');
                     }
@@ -2543,9 +2290,9 @@
         // Initialize the dashboard
         document.addEventListener('DOMContentLoaded', function() {
             renderLevels();
-            loadApiSettings();
+            // Test API connection automatically
+            setTimeout(testApiConnection, 1000);
         });
     </script>
 </body>
 </html>
-
