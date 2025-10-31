@@ -92,96 +92,26 @@
           }
         },
         {
-          "name": "The Secret Garden",
-          "image": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+          "name": "vefvrevvrrv",
+          "image": "https://i.imgur.com/TOOcBUD.jpeg",
           "story": {
-            "coverImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-            "title": "The Hidden Garden",
-            "segments": 4,
-            "audio": "assets/audio/stories/secret_garden_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Old Gate",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
-                "segmentAudio": "assets/audio/segments/garden_1.mp3",
-                "duration": "3:15",
-                "translation": {
-                  "arabic": "البوابة القديمة",
-                  "french": "La Vieille Porte"
-                },
-                "content": "Behind the old stone wall, there was a rusty iron gate that nobody had opened for years. The key was hidden under a flower pot nearby.",
-                "contentTranslation": {
-                  "arabic": "خلف جدار الحجر القديم، كانت هناك بوابة حديدية صدئة لم يفتحها أحد لسنوات. كان المفتاح مختبئًا تحت أصيص زهور قريب.",
-                  "french": "Derrière le vieux mur de pierre, il y avait une porte en fer rouillée que personne n'avait ouverte depuis des années. La clé était cachée sous un pot de fleurs à proximité."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "stone wall",
-                    "arabic": "جدار حجري",
-                    "french": "mur de pierre"
-                  },
-                  {
-                    "word": "rusty",
-                    "arabic": "صدئ",
-                    "french": "rouillé"
-                  },
-                  {
-                    "word": "iron gate",
-                    "arabic": "بوابة حديدية",
-                    "french": "porte en fer"
-                  },
-                  {
-                    "word": "hidden",
-                    "arabic": "مختبئ",
-                    "french": "caché"
-                  },
-                  {
-                    "word": "flower pot",
-                    "arabic": "أصيص زهور",
-                    "french": "pot de fleurs"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "title": "Secret Garden Quiz",
-            "questions": [
-              {
-                "question": "Where was the hidden garden located?",
-                "options": [
-                  "Behind a stone wall",
-                  "On a mountain",
-                  "In a cave",
-                  "Under a bridge"
-                ],
-                "correctAnswer": 0,
-                "explanation": "The garden was behind an old stone wall."
-              }
-            ]
-          }
-        },
-        {
-          "name": "yassine",
-          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6wjA4OEeIChJOWfvE67Ob2ZL2ZT-LH7fZ6w&s",
-          "story": {
-            "coverImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6wjA4OEeIChJOWfvE67Ob2ZL2ZT-LH7fZ6w&s",
-            "title": "aaaaaaaaaaaaaaaa",
+            "coverImage": "https://lh3.googleusercontent.com/gg-dl/ABS2GSkpRc1StyvXeguhGhYk2bNCCoLQWEfMRWKyQeGeR0RLtKuQoZjPRQGwTSMofse_zlt4LQX1j9xazGJ3Tx1BfexTQqoWd1zJXGvZuVXdM6akxJgDa7CEmLmbnpogdRNdaPUz5j9-m6av8JiTaCq3ycfNTXVO_o7Iyf9inLRzvJGPgmPvSQ=s1024-rj",
+            "title": "",
             "segments": 1,
             "audio": "",
             "segmentsList": [
               {
                 "segmentTitle": "",
-                "segmentImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6wjA4OEeIChJOWfvE67Ob2ZL2ZT-LH7fZ6w&s",
+                "segmentImage": "",
                 "segmentAudio": "",
-                "duration": "00:10",
+                "duration": "",
                 "translation": {
-                  "arabic": "bbbbbbbbbbbbbbbbbbbbbb",
+                  "arabic": "",
                   "french": ""
                 },
-                "content": "aaaaaaaaaaaaaaaaaaa",
+                "content": "",
                 "contentTranslation": {
-                  "arabic": "bbbbbbbbbbbbbbbbbbbbbb",
+                  "arabic": "",
                   "french": ""
                 },
                 "wordTranslations": []
@@ -189,10 +119,10 @@
             ]
           },
           "quiz": {
-            "title": "aaaaaaaaaaaaaaaa Quiz",
+            "title": " Quiz",
             "questions": [
               {
-                "question": "Question 1 for yassine",
+                "question": "Question 1 for vefvrevvrrv",
                 "options": [
                   "Option 1",
                   "Option 2",
@@ -203,7 +133,7 @@
                 "explanation": "Explanation for the answer"
               },
               {
-                "question": "Question 2 for yassine",
+                "question": "Question 2 for vefvrevvrrv",
                 "options": [
                   "Option 1",
                   "Option 2",
@@ -214,7 +144,7 @@
                 "explanation": "Explanation for the answer"
               },
               {
-                "question": "Question 3 for yassine",
+                "question": "Question 3 for vefvrevvrrv",
                 "options": [
                   "Option 1",
                   "Option 2",
@@ -225,7 +155,7 @@
                 "explanation": "Explanation for the answer"
               },
               {
-                "question": "Question 4 for yassine",
+                "question": "Question 4 for vefvrevvrrv",
                 "options": [
                   "Option 1",
                   "Option 2",
@@ -236,7 +166,7 @@
                 "explanation": "Explanation for the answer"
               },
               {
-                "question": "Question 5 for yassine",
+                "question": "Question 5 for vefvrevvrrv",
                 "options": [
                   "Option 1",
                   "Option 2",
@@ -247,7 +177,7 @@
                 "explanation": "Explanation for the answer"
               },
               {
-                "question": "Question 6 for yassine",
+                "question": "Question 6 for vefvrevvrrv",
                 "options": [
                   "Option 1",
                   "Option 2",
@@ -258,7 +188,7 @@
                 "explanation": "Explanation for the answer"
               },
               {
-                "question": "Question 7 for yassine",
+                "question": "Question 7 for vefvrevvrrv",
                 "options": [
                   "Option 1",
                   "Option 2",
@@ -269,7 +199,7 @@
                 "explanation": "Explanation for the answer"
               },
               {
-                "question": "Question 8 for yassine",
+                "question": "Question 8 for vefvrevvrrv",
                 "options": [
                   "Option 1",
                   "Option 2",
@@ -280,7 +210,7 @@
                 "explanation": "Explanation for the answer"
               },
               {
-                "question": "Question 9 for yassine",
+                "question": "Question 9 for vefvrevvrrv",
                 "options": [
                   "Option 1",
                   "Option 2",
@@ -291,7 +221,7 @@
                 "explanation": "Explanation for the answer"
               },
               {
-                "question": "Question 10 for yassine",
+                "question": "Question 10 for vefvrevvrrv",
                 "options": [
                   "Option 1",
                   "Option 2",
@@ -300,170 +230,6 @@
                 ],
                 "correctAnswer": 0,
                 "explanation": "Explanation for the answer"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Level 2: Intermediate Tales",
-      "color": 4280391411,
-      "gradient": {
-        "colors": [
-          4286381056,
-          4282615280
-        ]
-      },
-      "stories": [
-        {
-          "name": "Mountain Quest",
-          "image": "https://i.imgur.com/gsVVrKB.jpeg",
-          "story": {
-            "coverImage": "https://i.imgur.com/HhZJ2Oc.jpeg",
-            "title": "The Dragon's Peak",
-            "segments": 3,
-            "audio": "assets/audio/stories/mountain_quest_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Call to Adventure",
-                "segmentImage": "https://i.imgur.com/7Z1X8W9.jpeg",
-                "segmentAudio": "assets/audio/segments/mountain_1.mp3",
-                "duration": "4:15",
-                "translation": {
-                  "arabic": "نداء المغامرة",
-                  "french": "L'Appel de l'Aventure"
-                },
-                "content": "The village elder told us about the legendary dragon that lived atop the highest mountain peak. The village elder told us about the legendary dragon that lived atop the highest mountain peak.",
-                "contentTranslation": {
-                  "arabic": "أخبرنا شيخ القرية عن التنين الأسطوري الذي يعيش على قمة أعلى جبل.",
-                  "french": "L'ancien du village nous a parlé du dragon légendaire qui vivait au sommet de la plus haute montagne."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "village",
-                    "arabic": "قرية",
-                    "french": "village"
-                  },
-                  {
-                    "word": "elder",
-                    "arabic": "شيخ",
-                    "french": "ancien"
-                  },
-                  {
-                    "word": "legendary",
-                    "arabic": "أسطوري",
-                    "french": "légendaire"
-                  },
-                  {
-                    "word": "dragon",
-                    "arabic": "تنين",
-                    "french": "dragon"
-                  },
-                  {
-                    "word": "peak",
-                    "arabic": "قمة",
-                    "french": "sommet"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "title": "Dragon's Peak Quiz",
-            "questions": [
-              {
-                "question": "Who told the characters about the dragon?",
-                "options": [
-                  "The village elder",
-                  "A friend",
-                  "A book",
-                  "A stranger"
-                ],
-                "correctAnswer": 0,
-                "explanation": "The village elder shared information about the dragon."
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "name": "Level 3: Advanced Narratives",
-      "color": 4294940672,
-      "gradient": {
-        "colors": [
-          4294945280,
-          4294932224
-        ]
-      },
-      "stories": [
-        {
-          "name": "Time Traveler",
-          "image": "assets/images/stories/time_traveler.jpg",
-          "story": {
-            "coverImage": "assets/images/covers/time_cover.jpg",
-            "title": "Chronos Paradox",
-            "segments": 3,
-            "audio": "assets/audio/stories/time_traveler_full.mp3",
-            "segmentsList": [
-              {
-                "segmentTitle": "The Invention",
-                "segmentImage": "https://i.imgur.com/0C4D5E6.jpeg",
-                "segmentAudio": "assets/audio/segments/time_1.mp3",
-                "duration": "5:20",
-                "translation": {
-                  "arabic": "الاختراع",
-                  "french": "L'Invention"
-                },
-                "content": "After years of research, Professor Elara finally completed her temporal displacement device.",
-                "contentTranslation": {
-                  "arabic": "بعد سنوات من البحث، أكملت البروفيسورة إلارا أخيرًا جهاز الانزياح الزمني الخاص بها.",
-                  "french": "Après des années de recherche, le professeur Elara a finalement terminé son dispositif de déplacement temporel."
-                },
-                "wordTranslations": [
-                  {
-                    "word": "research",
-                    "arabic": "بحث",
-                    "french": "recherche"
-                  },
-                  {
-                    "word": "professor",
-                    "arabic": "أستاذ",
-                    "french": "professeur"
-                  },
-                  {
-                    "word": "completed",
-                    "arabic": "أكمل",
-                    "french": "terminé"
-                  },
-                  {
-                    "word": "temporal",
-                    "arabic": "زمني",
-                    "french": "temporel"
-                  },
-                  {
-                    "word": "device",
-                    "arabic": "جهاز",
-                    "french": "dispositif"
-                  }
-                ]
-              }
-            ]
-          },
-          "quiz": {
-            "title": "Time Travel Quiz",
-            "questions": [
-              {
-                "question": "Who created the time machine?",
-                "options": [
-                  "Professor Elara",
-                  "A student",
-                  "An engineer",
-                  "A scientist"
-                ],
-                "correctAnswer": 0,
-                "explanation": "Professor Elara completed the temporal displacement device."
               }
             ]
           }
