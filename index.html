@@ -1106,6 +1106,10 @@
                         <div id="editSegmentsContainer">
                             <!-- Segments will be dynamically added here -->
                         </div>
+
+                        <button type="button" class="btn btn-primary-custom mt-3" onclick="addNewEditSegment()">
+                            <i class="bi bi-plus-circle"></i> Add Segment
+                        </button>
                     </form>
                 </div>
                 <div class="modal-footer">
@@ -2315,6 +2319,73 @@
             // Show modal
             const modal = new bootstrap.Modal(document.getElementById('addStoryModal'));
             modal.show();
+        }
+
+        function addNewEditSegment() {
+            const container = document.getElementById('editSegmentsContainer');
+            const segmentIndex = container.children.length;
+
+            const segmentHTML = `
+                <div class="segment-input" id="editSegment-${segmentIndex}">
+                    <h5 class="segment-title">
+                        <i class="bi bi-file-text me-2"></i>Segment ${segmentIndex + 1}
+                    </h5>
+                    <div class="mb-3">
+                        <label for="editSegmentTitle-${segmentIndex}" class="form-label">Segment Title</label>
+                        <input type="text" class="form-control" id="editSegmentTitle-${segmentIndex}" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editSegmentImage-${segmentIndex}" class="form-label">Segment Image URL</label>
+                        <input type="url" class="form-control" id="editSegmentImage-${segmentIndex}" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editSegmentAudio-${segmentIndex}" class="form-label">Segment Audio URL</label>
+                        <input type="url" class="form-control" id="editSegmentAudio-${segmentIndex}" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editSegmentDuration-${segmentIndex}" class="form-label">Duration (e.g., 2:30)</label>
+                        <input type="text" class="form-control" id="editSegmentDuration-${segmentIndex}" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editSegmentContent-${segmentIndex}" class="form-label">Content</label>
+                        <textarea class="form-control" id="editSegmentContent-${segmentIndex}" rows="3" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editSegmentArabic-${segmentIndex}" class="form-label">Arabic Translation</label>
+                        <textarea class="form-control" id="editSegmentArabic-${segmentIndex}" rows="3" required></textarea>
+                    </div>
+                    <div class="mb-3">
+                        <label for="editSegmentFrench-${segmentIndex}" class="form-label">French Translation</label>
+                        <textarea class="form-control" id="editSegmentFrench-${segmentIndex}" rows="3" required></textarea>
+                    </div>
+                    <button type="button" class="btn btn-sm btn-outline-danger mt-2" onclick="removeEditSegment(${segmentIndex})">Remove Segment</button>
+                </div>
+            `;
+
+            container.insertAdjacentHTML('beforeend', segmentHTML);
+
+            // Update the segment count input
+            const newCount = container.children.length;
+            document.getElementById('editStorySegments').value = newCount;
+        }
+
+        function removeEditSegment(index) {
+            const segment = document.getElementById(`editSegment-${index}`);
+            segment.remove();
+
+            // Update the segment count input
+            const container = document.getElementById('editSegmentsContainer');
+            const newCount = container.children.length;
+            document.getElementById('editStorySegments').value = newCount;
+
+            // Renumber remaining segments
+            const segments = container.children;
+            for (let i = 0; i < segments.length; i++) {
+                const segmentTitle = segments[i].querySelector('.segment-title');
+                if (segmentTitle) {
+                    segmentTitle.innerHTML = `<i class="bi bi-file-text me-2"></i>Segment ${i + 1}`;
+                }
+            }
         }
 
         function openTranslationSettings() {
