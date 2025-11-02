@@ -102,7 +102,7 @@
             "segmentsList": [
               {
                 "segmentTitle": "Scene 1",
-                "segmentImage": "https://i.ibb.co/xSQdb00J/Gemini-Generated-Image-2mhvt92mhvt92mhv.png",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
@@ -313,4 +313,5 @@
     }
   ]
 }
+
 
