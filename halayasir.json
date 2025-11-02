@@ -102,7 +102,7 @@
             "segmentsList": [
               {
                 "segmentTitle": "Scene 1",
-                "segmentImage": " https://i.ibb.co/xSQdb00J/Gemini-Generated-Image-2mhvt92mhvt92mhv.png",
+                "segmentImage": "https://i.ibb.co/xSQdb00J/Gemini-Generated-Image-2mhvt92mhvt92mhv.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
@@ -313,3 +313,4 @@
     }
   ]
 }
+
