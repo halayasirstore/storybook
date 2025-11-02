@@ -17,7 +17,7 @@
             "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
             "title": "Tom’s First Day at School",
             "segments": 5,
-            "audio": "",
+            "audio": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/ElevenLabs_2025-11-02T19_26_10_Daniel_pre_sp100_s50_sb75_v3.mp3",
             "segmentsList": [
               {
                 "segmentTitle": "Tom’s First Day at School",
@@ -898,3 +898,4 @@
     }
   ]
 }
+
