@@ -95,7 +95,7 @@
           "name": "Tom’s First Day at School",
           "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
           "story": {
-            "coverImage": "",
+            "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
             "title": "Tom’s First Day at School",
             "segments": 5,
             "audio": "",
@@ -456,3 +456,4 @@
     }
   ]
 }
+
