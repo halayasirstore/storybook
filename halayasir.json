@@ -11,26 +11,90 @@
       },
       "stories": [
         {
-          "name": "12",
+          "name": "Tom’s First Day at School",
           "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
           "story": {
             "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
-            "title": "",
-            "segments": 1,
+            "title": "Tom’s First Day at School",
+            "segments": 5,
             "audio": "",
             "segmentsList": [
               {
-                "segmentTitle": "001",
+                "segmentTitle": "Tom’s First Day at School",
                 "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
-                  "arabic": "",
+                  "arabic": "يستيقظ توم مبكرًا في الصباح.\nينظر من النافذة ويرى الشمس.\nيشعر بالسعادة ولكن أيضًا بقليل من الخوف.\nاليوم هو أول يوم له في المدرسة.\nيرتدي ملابسه بسرعة.\nتناديه والدته لتناول الإفطار.",
                   "french": ""
                 },
-                "content": "",
+                "content": "Tom wakes up early in the morning.\nHe looks out the window and sees the sun.\nHe feels happy but also a little scared.\nToday is his first day at school.\nHe quickly puts on his clothes.\nHis mother calls him for breakfast.",
                 "contentTranslation": {
-                  "arabic": "",
+                  "arabic": "يستيقظ توم مبكرًا في الصباح.\nينظر من النافذة ويرى الشمس.\nيشعر بالسعادة ولكن أيضًا بقليل من الخوف.\nاليوم هو أول يوم له في المدرسة.\nيرتدي ملابسه بسرعة.\nتناديه والدته لتناول الإفطار.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "Tom’s First Day at School",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_soidigsoidigsoid.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "يجلس توم على الطاولة مع والدته.\nتعطيه الحليب والخبز بالمربى.\nتقول له: \"سيكون يومك رائعًا!\"\nيبتسم توم ويقول: \"شكرًا يا أمي.\"\nينهي فطوره ويحمل حقيبته المدرسية.\nيشعر بأنه جاهز للذهاب.",
+                  "french": ""
+                },
+                "content": "Tom sits at the table with his mother.\nShe gives him milk and bread with jam.\nShe says, “You will have a great day!”\nTom smiles and says, “Thank you, Mom.”\nHe finishes his breakfast and takes his school bag.\nHe feels ready to go.",
+                "contentTranslation": {
+                  "arabic": "يجلس توم على الطاولة مع والدته.\nتعطيه الحليب والخبز بالمربى.\nتقول له: \"سيكون يومك رائعًا!\"\nيبتسم توم ويقول: \"شكرًا يا أمي.\"\nينهي فطوره ويحمل حقيبته المدرسية.\nيشعر بأنه جاهز للذهاب.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "Tom’s First Day at School",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_mecqo0mecqo0mecq.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "في المدرسة، يقابل توم معلمته الآنسة آنا.\nلديها ابتسامة لطيفة وصوت هادئ.\nتقول: \"مرحبًا يا توم!\"\nيشعر توم بالخجل قليلًا ويقول: \"مرحبًا.\"\nيرى العديد من الأطفال الجدد في الصف.\nالجميع يتحدثون ويضحكون.",
+                  "french": ""
+                },
+                "content": "At school, Tom meets his teacher, Miss Anna.\nShe has a kind smile and soft voice.\nShe says, “Welcome, Tom!”\nTom feels a little shy and says, “Hello.”\nHe sees many new children in the classroom.\nThey are all talking and laughing.",
+                "contentTranslation": {
+                  "arabic": "في المدرسة، يقابل توم معلمته الآنسة آنا.\nلديها ابتسامة لطيفة وصوت هادئ.\nتقول: \"مرحبًا يا توم!\"\nيشعر توم بالخجل قليلًا ويقول: \"مرحبًا.\"\nيرى العديد من الأطفال الجدد في الصف.\nالجميع يتحدثون ويضحكون.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "Tom’s First Day at School",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_n0c5pcn0c5pcn0c5.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "يجلس توم بجانب ولد اسمه بن.\nيبتسم بن ويقول: \"هل تريد أن تلعب؟\"\nيهز توم رأسه ويبنيان معًا برجًا من المكعبات.\nيضحكان عندما يسقط البرج.\nتصفق المعلمة وتقول: \"عمل جماعي رائع!\"\nيشعر توم بالسعادة لأنه وجد صديقًا جديدًا.",
+                  "french": ""
+                },
+                "content": "Tom sits next to a boy named Ben.\nBen smiles and says, “Do you want to play?”\nTom nods and they build a tower with blocks.\nThey laugh when it falls down.\nThe teacher claps and says, “Good teamwork!”\nTom feels happy to have a new friend.",
+                "contentTranslation": {
+                  "arabic": "يجلس توم بجانب ولد اسمه بن.\nيبتسم بن ويقول: \"هل تريد أن تلعب؟\"\nيهز توم رأسه ويبنيان معًا برجًا من المكعبات.\nيضحكان عندما يسقط البرج.\nتصفق المعلمة وتقول: \"عمل جماعي رائع!\"\nيشعر توم بالسعادة لأنه وجد صديقًا جديدًا.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "Tom’s First Day at School",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_ksfx5vksfx5vksfx.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "بعد المدرسة، يركض توم نحو والدته.\nيحتضنها بقوة ويقول: \"المدرسة ممتعة!\"\nتبتسم وتقول: \"أنا فخورة بك.\"\nيخبرها توم عن صديقه الجديد بن.\nيسيران معًا إلى المنزل وهما يمسكان أيدي بعضهما.\nالشمس مشرقة وتوم يشعر بالفخر.",
+                  "french": ""
+                },
+                "content": "After school, Tom runs to his mother.\nHe hugs her tightly and says, “School is fun!”\nShe smiles and says, “I’m proud of you.”\nTom tells her about his new friend Ben.\nThey walk home together, holding hands.\nThe sun is shining and Tom feels proud.",
+                "contentTranslation": {
+                  "arabic": "بعد المدرسة، يركض توم نحو والدته.\nيحتضنها بقوة ويقول: \"المدرسة ممتعة!\"\nتبتسم وتقول: \"أنا فخورة بك.\"\nيخبرها توم عن صديقه الجديد بن.\nيسيران معًا إلى المنزل وهما يمسكان أيدي بعضهما.\nالشمس مشرقة وتوم يشعر بالفخر.",
                   "french": ""
                 },
                 "wordTranslations": []
@@ -41,114 +105,114 @@
             "title": " Quiz",
             "questions": [
               {
-                "question": "Question 1 for 12",
+                "question": "What day is special for Tom?\n",
                 "options": [
-                  "Option 1",
-                  "Option 2",
-                  "Option 3",
-                  "Option 4"
+                  "His birthday",
+                  "His first day at school",
+                  "Sunday",
+                  "A holiday"
                 ],
-                "correctAnswer": 0,
-                "explanation": "Explanation for the answer"
+                "correctAnswer": 1,
+                "explanation": "School – a place where children learn.\n"
               },
               {
-                "question": "Question 2 for 12",
+                "question": "Who gives Tom breakfast?\n",
                 "options": [
-                  "Option 1",
-                  "Option 2",
-                  "Option 3",
-                  "Option 4"
+                  "His teacher",
+                  "His father",
+                  "His mother",
+                  "His friend"
                 ],
-                "correctAnswer": 0,
-                "explanation": "Explanation for the answer"
+                "correctAnswer": 2,
+                "explanation": "Mother – the woman who takes care of you.\n"
               },
               {
-                "question": "Question 3 for 12",
+                "question": "What does Tom eat for breakfast?\n",
                 "options": [
-                  "Option 1",
-                  "Option 2",
-                  "Option 3",
-                  "Option 4"
+                  "Rice",
+                  "Bread with jam",
+                  "Pizza",
+                  "Soup"
                 ],
-                "correctAnswer": 0,
-                "explanation": "Explanation for the answer"
+                "correctAnswer": 1,
+                "explanation": "Jam – sweet fruit spread on bread.\n"
               },
               {
-                "question": "Question 4 for 12",
+                "question": "What is the teacher’s name?\n",
                 "options": [
-                  "Option 1",
-                  "Option 2",
-                  "Option 3",
-                  "Option 4"
+                  "Miss Sara",
+                  "Miss Anna",
+                  "Miss Lucy",
+                  "Miss May"
                 ],
-                "correctAnswer": 0,
-                "explanation": "Explanation for the answer"
+                "correctAnswer": 2,
+                "explanation": "Teacher – a person who helps students learn."
               },
               {
-                "question": "Question 5 for 12",
+                "question": "Who sits next to Tom?",
                 "options": [
-                  "Option 1",
-                  "Option 2",
-                  "Option 3",
-                  "Option 4"
+                  "Ben",
+                  "John",
+                  "Alex",
+                  "Mark"
                 ],
                 "correctAnswer": 0,
-                "explanation": "Explanation for the answer"
+                "explanation": "Friend – a person you like and play with.\n"
               },
               {
-                "question": "Question 6 for 12",
+                "question": "What do Tom and Ben play with?\n",
                 "options": [
-                  "Option 1",
-                  "Option 2",
-                  "Option 3",
-                  "Option 4"
+                  "Cars",
+                  "Dolls",
+                  "Blocks",
+                  "Books"
                 ],
-                "correctAnswer": 0,
-                "explanation": "Explanation for the answer"
+                "correctAnswer": 2,
+                "explanation": "Blocks – small cubes for building.\n"
               },
               {
-                "question": "Question 7 for 12",
+                "question": "How does Tom feel in the morning?",
                 "options": [
-                  "Option 1",
-                  "Option 2",
-                  "Option 3",
-                  "Option 4"
+                  "Angry",
+                  "Happy but scared",
+                  "Sleepy",
+                  "Sad"
                 ],
-                "correctAnswer": 0,
-                "explanation": "Explanation for the answer"
+                "correctAnswer": 1,
+                "explanation": "Scared – feeling afraid."
               },
               {
-                "question": "Question 8 for 12",
+                "question": "Who hugs Tom after school?",
                 "options": [
-                  "Option 1",
-                  "Option 2",
-                  "Option 3",
-                  "Option 4"
+                  "His friend",
+                  "His teacher",
+                  "His mother",
+                  "His father"
                 ],
-                "correctAnswer": 0,
-                "explanation": "Explanation for the answer"
+                "correctAnswer": 2,
+                "explanation": "Hug – to hold someone in your arms with love."
               },
               {
-                "question": "Question 9 for 12",
+                "question": "What does Tom say after school?",
                 "options": [
-                  "Option 1",
-                  "Option 2",
-                  "Option 3",
-                  "Option 4"
+                  "“School is boring.”",
+                  "“School is fun!”",
+                  "“I am tired.”",
+                  "“I am hungry.”"
                 ],
-                "correctAnswer": 0,
-                "explanation": "Explanation for the answer"
+                "correctAnswer": 1,
+                "explanation": "Fun – something that gives joy.\n"
               },
               {
-                "question": "Question 10 for 12",
+                "question": "How does Tom feel at the end of the day?\n",
                 "options": [
-                  "Option 1",
-                  "Option 2",
-                  "Option 3",
-                  "Option 4"
+                  "Sad",
+                  "Tired",
+                  "Proud",
+                  "Angry"
                 ],
-                "correctAnswer": 0,
-                "explanation": "Explanation for the answer"
+                "correctAnswer": 2,
+                "explanation": "Proud – feeling good about what you did."
               }
             ]
           }
@@ -156,12 +220,12 @@
       ]
     },
     {
-      "name": "xqxqx",
-      "color": 5254959,
+      "name": "Level 1: Beginner Stories",
+      "color": 9899020,
       "gradient": {
         "colors": [
-          0,
-          12065049
+          16711744,
+          15363266
         ]
       },
       "stories": []
