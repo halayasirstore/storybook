@@ -93,7 +93,7 @@
         },
         {
           "name": "Tom’s First Day at School",
-          "image": "https://i.ibb.co/xSQdb00J/Gemini-Generated-Image-2mhvt92mhvt92mhv.png",
+          "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
           "story": {
             "coverImage": "",
             "title": "Tom’s First Day at School",
@@ -102,7 +102,7 @@
             "segmentsList": [
               {
                 "segmentTitle": "Scene 1",
-                "segmentImage": " https://i.ibb.co/xSQdb00J/Gemini-Generated-Image-2mhvt92mhvt92mhv.png",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
@@ -118,14 +118,14 @@
               },
               {
                 "segmentTitle": "Scene 2",
-                "segmentImage": "https://i.ibb.co/xKd7xxX7/Gemini-Generated-Image-soidigsoidigsoid.png",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
                   "arabic": "يجلس توم على الطاولة مع والدته.\nتعطيه الحليب والخبز بالمربى.\nتقول له: \"سيكون يومك رائعًا!\"\nيبتسم توم ويقول: \"شكرًا يا أمي.\"\nينهي فطوره ويحمل حقيبته المدرسية.\nيشعر بأنه جاهز للذهاب.",
                   "french": ""
                 },
-                "content": "\nTom sits at the table with his mother.\nShe gives him milk and bread with jam.\nShe says, “You will have a great day!”\nTom smiles and says, “Thank you, Mom.”\nHe finishes his breakfast and takes his school bag.\nHe feels ready to go.",
+                "content": "Tom sits at the table with his mother.\nShe gives him milk and bread with jam.\nShe says, “You will have a great day!”\nTom smiles and says, “Thank you, Mom.”\nHe finishes his breakfast and takes his school bag.\nHe feels ready to go.",
                 "contentTranslation": {
                   "arabic": "يجلس توم على الطاولة مع والدته.\nتعطيه الحليب والخبز بالمربى.\nتقول له: \"سيكون يومك رائعًا!\"\nيبتسم توم ويقول: \"شكرًا يا أمي.\"\nينهي فطوره ويحمل حقيبته المدرسية.\nيشعر بأنه جاهز للذهاب.",
                   "french": ""
@@ -134,7 +134,7 @@
               },
               {
                 "segmentTitle": "Scene 3",
-                "segmentImage": "https://i.ibb.co/wrN08J3d/Gemini-Generated-Image-mecqo0mecqo0mecq.png",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
@@ -150,30 +150,30 @@
               },
               {
                 "segmentTitle": "Scene 4",
-                "segmentImage": "https://i.ibb.co/YxKcLp2/Gemini-Generated-Image-n0c5pcn0c5pcn0c5.png",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
-                  "arabic": "\nيجلس توم بجانب ولد اسمه بن.\nيبتسم بن ويقول: \"هل تريد أن تلعب؟\"\nيهز توم رأسه ويبنيان معًا برجًا من المكعبات.\nيضحكان عندما يسقط البرج.\nتصفق المعلمة وتقول: \"عمل جماعي رائع!\"\nيشعر توم بالسعادة لأنه وجد صديقًا جديدًا.",
+                  "arabic": "يجلس توم بجانب ولد اسمه بن.\nيبتسم بن ويقول: \"هل تريد أن تلعب؟\"\nيهز توم رأسه ويبنيان معًا برجًا من المكعبات.\nيضحكان عندما يسقط البرج.\nتصفق المعلمة وتقول: \"عمل جماعي رائع!\"\nيشعر توم بالسعادة لأنه وجد صديقًا جديدًا.",
                   "french": ""
                 },
                 "content": "Tom sits next to a boy named Ben.\nBen smiles and says, “Do you want to play?”\nTom nods and they build a tower with blocks.\nThey laugh when it falls down.\nThe teacher claps and says, “Good teamwork!”\nTom feels happy to have a new friend.",
                 "contentTranslation": {
-                  "arabic": "\nيجلس توم بجانب ولد اسمه بن.\nيبتسم بن ويقول: \"هل تريد أن تلعب؟\"\nيهز توم رأسه ويبنيان معًا برجًا من المكعبات.\nيضحكان عندما يسقط البرج.\nتصفق المعلمة وتقول: \"عمل جماعي رائع!\"\nيشعر توم بالسعادة لأنه وجد صديقًا جديدًا.",
+                  "arabic": "يجلس توم بجانب ولد اسمه بن.\nيبتسم بن ويقول: \"هل تريد أن تلعب؟\"\nيهز توم رأسه ويبنيان معًا برجًا من المكعبات.\nيضحكان عندما يسقط البرج.\nتصفق المعلمة وتقول: \"عمل جماعي رائع!\"\nيشعر توم بالسعادة لأنه وجد صديقًا جديدًا.",
                   "french": ""
                 },
                 "wordTranslations": []
               },
               {
                 "segmentTitle": "Scene 5",
-                "segmentImage": "https://i.ibb.co/vxJqVhS0/Gemini-Generated-Image-ksfx5vksfx5vksfx.png",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
                   "arabic": "بعد المدرسة، يركض توم نحو والدته.\nيحتضنها بقوة ويقول: \"المدرسة ممتعة!\"\nتبتسم وتقول: \"أنا فخورة بك.\"\nيخبرها توم عن صديقه الجديد بن.\nيسيران معًا إلى المنزل وهما يمسكان أيدي بعضهما.\nالشمس مشرقة وتوم يشعر بالفخر.",
                   "french": ""
                 },
-                "content": "\nAfter school, Tom runs to his mother.\nHe hugs her tightly and says, “School is fun!”\nShe smiles and says, “I’m proud of you.”\nTom tells her about his new friend Ben.\nThey walk home together, holding hands.\nThe sun is shining and Tom feels proud.",
+                "content": "After school, Tom runs to his mother.\nHe hugs her tightly and says, “School is fun!”\nShe smiles and says, “I’m proud of you.”\nTom tells her about his new friend Ben.\nThey walk home together, holding hands.\nThe sun is shining and Tom feels proud.",
                 "contentTranslation": {
                   "arabic": "بعد المدرسة، يركض توم نحو والدته.\nيحتضنها بقوة ويقول: \"المدرسة ممتعة!\"\nتبتسم وتقول: \"أنا فخورة بك.\"\nيخبرها توم عن صديقه الجديد بن.\nيسيران معًا إلى المنزل وهما يمسكان أيدي بعضهما.\nالشمس مشرقة وتوم يشعر بالفخر.",
                   "french": ""
