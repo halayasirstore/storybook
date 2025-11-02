@@ -222,7 +222,7 @@
           "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_yxx1flyxx1flyxx1.png",
           "story": {
             "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_yxx1flyxx1flyxx1.png",
-            "title": "",
+            "title": "Anna and the Lost Balloon",
             "segments": 5,
             "audio": "",
             "segmentsList": [
@@ -441,8 +441,8 @@
           "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/1.png",
           "story": {
             "coverImage": "",
-            "title": "",
-            "segments": 1,
+            "title": "Ali at the Beach",
+            "segments": 5,
             "audio": "",
             "segmentsList": [
               {
@@ -457,6 +457,70 @@
                 "content": "Ali and his family go to the beach on Saturday.\nThe sky is blue and the sun is warm.\nAli runs to the water and laughs loudly.\nHe feels the soft sand under his feet.\nHis father puts up a big umbrella.\nHis mother sits on a chair and smiles.",
                 "contentTranslation": {
                   "arabic": "يذهب علي وعائلته إلى الشاطئ يوم السبت.\nالسماء زرقاء والشمس دافئة.\nيركض علي نحو الماء ويضحك بصوت عالٍ.\nيشعر بالرمل الناعم تحت قدميه.\nيضع والده مظلة كبيرة.\nتجلس أمه على الكرسي وتبتسم.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/2.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "يبني علي قلعة رملية كبيرة مع أخته.\nيستخدمان دلاء ومجارف صغيرة.\nللقلعة أربع أبراج وبوابة كبيرة.\nتزخرفها أخته بالأصداف.\nتقترب موجة لكنها لا تهدمها.\nيهللان بسعادة.",
+                  "french": ""
+                },
+                "content": "Ali builds a big sandcastle with his sister.\nThey use small buckets and shovels.\nThe castle has four towers and a big gate.\nHis sister decorates it with shells.\nA wave comes close but doesn’t break it.\nThey both cheer happily.",
+                "contentTranslation": {
+                  "arabic": "يبني علي قلعة رملية كبيرة مع أخته.\nيستخدمان دلاء ومجارف صغيرة.\nللقلعة أربع أبراج وبوابة كبيرة.\nتزخرفها أخته بالأصداف.\nتقترب موجة لكنها لا تهدمها.\nيهللان بسعادة.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/3.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "ينادي والد علي: \"هيا نتناول الغداء!\"\nيجلسون تحت المظلة.\nيأكلون السندويشات والفواكه والعصير البارد.\nيشعرون بنسيم لطيف ومنعش.\nيقول علي: \"إنه أفضل يوم!\"\nيضحكون جميعًا معًا.",
+                  "french": ""
+                },
+                "content": "Ali’s father calls, “Let’s eat lunch!”\nThey sit under the umbrella.\nThey eat sandwiches, fruit, and cold juice.\nThe wind feels fresh and nice.\nAli says, “This is the best day!”\nEveryone laughs together.",
+                "contentTranslation": {
+                  "arabic": "ينادي والد علي: \"هيا نتناول الغداء!\"\nيجلسون تحت المظلة.\nيأكلون السندويشات والفواكه والعصير البارد.\nيشعرون بنسيم لطيف ومنعش.\nيقول علي: \"إنه أفضل يوم!\"\nيضحكون جميعًا معًا.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/4.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "بعد الغداء، يسبح علي مع والده.\nيرتدي أطواق السباحة البرتقالية على ذراعيه.\nيركل بقدميه ويرش الماء.\nيعلمه والده كيف يحرك ذراعيه.\nيستطيع علي السباحة قليلاً بمفرده الآن.\nيشعر بالفخر والقوة.",
+                  "french": ""
+                },
+                "content": "After lunch, Ali goes swimming with his father.\nHe wears orange floaters on his arms.\nHe kicks his feet and splashes water.\nHis father teaches him to move his arms.\nAli can swim a little by himself now.\nHe feels proud and strong.",
+                "contentTranslation": {
+                  "arabic": "بعد الغداء، يسبح علي مع والده.\nيرتدي أطواق السباحة البرتقالية على ذراعيه.\nيركل بقدميه ويرش الماء.\nيعلمه والده كيف يحرك ذراعيه.\nيستطيع علي السباحة قليلاً بمفرده الآن.\nيشعر بالفخر والقوة.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/5.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "تبدأ الشمس بالغروب.\nيشاهد علي السماء تتحول إلى اللونين البرتقالي والوردي.\nيجمع أصدافًا من الرمل.\nتعطيه أخته صدفة على شكل نجمة.\nيلوّحان للبحر وداعًا.\nيقول علي: \"سأعود قريبًا!\"",
+                  "french": ""
+                },
+                "content": "The sun starts to go down.\nAli watches the sky turn orange and pink.\nHe picks up seashells from the sand.\nHis sister gives him one shaped like a star.\nThey wave goodbye to the sea.\nAli says, “I will come back soon!”",
+                "contentTranslation": {
+                  "arabic": "تبدأ الشمس بالغروب.\nيشاهد علي السماء تتحول إلى اللونين البرتقالي والوردي.\nيجمع أصدافًا من الرمل.\nتعطيه أخته صدفة على شكل نجمة.\nيلوّحان للبحر وداعًا.\nيقول علي: \"سأعود قريبًا!\"",
                   "french": ""
                 },
                 "wordTranslations": []
@@ -584,8 +648,8 @@
           "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/6.png",
           "story": {
             "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/6.png",
-            "title": "",
-            "segments": 1,
+            "title": "Sara’s Birthday Cake",
+            "segments": 5,
             "audio": "",
             "segmentsList": [
               {
@@ -600,6 +664,70 @@
                 "content": "Sara wakes up early and feels excited.\nToday is her birthday!\nShe runs to the kitchen to see her mother.\nThere are balloons and a big cake on the table.\nHer mother hugs her and says, “Happy birthday, my dear!”\nSara smiles widely.",
                 "contentTranslation": {
                   "arabic": "تستيقظ سارة مبكرًا وتشعر بالحماس.\nاليوم عيد ميلادها!\nتركض إلى المطبخ لترى والدتها.\nهناك بالونات وكعكة كبيرة على الطاولة.\nتحتضنها والدتها وتقول: \"عيد ميلاد سعيد يا عزيزتي!\"\nتبتسم سارة ابتسامة كبيرة.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/7.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "تساعد سارة والدتها في خبز كعكة أخرى.\nتخلط البيض والسكر والدقيق في وعاء.\nتحرك ببطء بالملعقة.\nتقول أمها: \"أنت تقومين بعمل رائع!\"\nتضيف سارة بعض الشوكولاتة وتبتسم.\nتنتشر رائحة حلوة ودافئة.",
+                  "french": ""
+                },
+                "content": "Sara helps her mother bake another cake.\nShe mixes eggs, sugar, and flour in a bowl.\nShe stirs slowly with a spoon.\nHer mother says, “You’re doing great!”\nSara adds some chocolate and smiles.\nThe smell is sweet and warm.",
+                "contentTranslation": {
+                  "arabic": "تساعد سارة والدتها في خبز كعكة أخرى.\nتخلط البيض والسكر والدقيق في وعاء.\nتحرك ببطء بالملعقة.\nتقول أمها: \"أنت تقومين بعمل رائع!\"\nتضيف سارة بعض الشوكولاتة وتبتسم.\nتنتشر رائحة حلوة ودافئة.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/8.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "يصل أصدقاء سارة إلى منزلها.\nيجلبون هدايا صغيرة وبالونات ملونة.\nيغني الجميع \"عيد ميلاد سعيد!\" معًا.\nتطفئ سارة الشموع على الكعكة.\nتتمنى أمنية سرية.\nيصفق الجميع ويهتفون.",
+                  "french": ""
+                },
+                "content": "Sara’s friends arrive at her house.\nThey bring small gifts and colorful balloons.\nEveryone sings “Happy Birthday!” together.\nSara blows out the candles on the cake.\nShe makes a secret wish.\nEveryone claps and cheers.",
+                "contentTranslation": {
+                  "arabic": "يصل أصدقاء سارة إلى منزلها.\nيجلبون هدايا صغيرة وبالونات ملونة.\nيغني الجميع \"عيد ميلاد سعيد!\" معًا.\nتطفئ سارة الشموع على الكعكة.\nتتمنى أمنية سرية.\nيصفق الجميع ويهتفون.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/9.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "يلعبون ويرقصون في غرفة المعيشة.\nتفوز سارة في لعبة وتضحك بصوت عالٍ.\nتعطيها صديقتها ليلى بطاقة مصنوعة باليد.\nتقول البطاقة: \"أنتِ أفضل صديقة لي.\"\nتحتضن سارة ليلى بسعادة.\nيبتسمان معًا بسعادة.",
+                  "french": ""
+                },
+                "content": "They play games and dance in the living room.\nSara wins a game and laughs loudly.\nHer friend Laila gives her a handmade card.\nIt says, “You are my best friend.”\nSara hugs Laila happily.\nThey both smile brightly.",
+                "contentTranslation": {
+                  "arabic": "يلعبون ويرقصون في غرفة المعيشة.\nتفوز سارة في لعبة وتضحك بصوت عالٍ.\nتعطيها صديقتها ليلى بطاقة مصنوعة باليد.\nتقول البطاقة: \"أنتِ أفضل صديقة لي.\"\nتحتضن سارة ليلى بسعادة.\nيبتسمان معًا بسعادة.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/10.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "في الليل، تشعر سارة بالتعب لكنها سعيدة.\nتقول أمها: \"هل استمتعتِ بيومك؟\"\nتهز سارة رأسها وتقول: \"كان أفضل عيد ميلاد على الإطلاق.\"\nتحتفظ ببالون صغير بجانب سريرها.\nتهمس: \"شكرًا للجميع.\"\nثم تغفو وهي تبتسم.",
+                  "french": ""
+                },
+                "content": "At night, Sara feels tired but happy.\nHer mother says, “Did you enjoy your day?”\nSara nods and says, “It was the best birthday ever.”\nShe keeps one small balloon by her bed.\nShe whispers, “Thank you, everyone.”\nThen she falls asleep with a smile.",
+                "contentTranslation": {
+                  "arabic": "في الليل، تشعر سارة بالتعب لكنها سعيدة.\nتقول أمها: \"هل استمتعتِ بيومك؟\"\nتهز سارة رأسها وتقول: \"كان أفضل عيد ميلاد على الإطلاق.\"\nتحتفظ ببالون صغير بجانب سريرها.\nتهمس: \"شكرًا للجميع.\"\nثم تغفو وهي تبتسم.",
                   "french": ""
                 },
                 "wordTranslations": []
