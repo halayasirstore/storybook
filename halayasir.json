@@ -21,7 +21,7 @@
             "segmentsList": [
               {
                 "segmentTitle": "The Discovery",
-                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
                 "segmentAudio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
                 "duration": "00:00",
                 "translation": {
@@ -93,7 +93,7 @@
         },
         {
           "name": "Tom’s First Day at School",
-          "image": "https://i.ibb.co/xSQdb00J/Gemini-Generated-Image-2mhvt92mhvt92mhv.png",
+          "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
           "story": {
             "coverImage": "",
             "title": "Tom’s First Day at School",
@@ -118,7 +118,7 @@
               },
               {
                 "segmentTitle": "Scene 2",
-                "segmentImage": "https://i.ibb.co/xKd7xxX7/Gemini-Generated-Image-soidigsoidigsoid.png",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
@@ -313,5 +313,6 @@
     }
   ]
 }
+
 
 
