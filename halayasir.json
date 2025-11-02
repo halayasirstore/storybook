@@ -216,16 +216,554 @@
               }
             ]
           }
+        },
+        {
+          "name": "Anna and the Lost Balloon",
+          "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_yxx1flyxx1flyxx1.png",
+          "story": {
+            "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_yxx1flyxx1flyxx1.png",
+            "title": "",
+            "segments": 5,
+            "audio": "",
+            "segmentsList": [
+              {
+                "segmentTitle": "Anna and the Lost Balloon",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_yxx1flyxx1flyxx1.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "تمشي آنا مع والدتها في الحديقة.\nتمسك ببالون أحمر كبير.\nتهب الرياح بلطف بين الأشجار.\nتغني الطيور، ويلعب الأطفال بالقرب.\nتبتسم آنا وتنظر إلى السماء.\nتشعر بالسعادة اليوم.",
+                  "french": ""
+                },
+                "content": "Anna walks with her mother in the park.\nShe holds a big red balloon.\nThe wind blows softly in the trees.\nBirds sing, and children play nearby.\nAnna smiles and looks at the sky.\nShe feels very happy today.",
+                "contentTranslation": {
+                  "arabic": "تمشي آنا مع والدتها في الحديقة.\nتمسك ببالون أحمر كبير.\nتهب الرياح بلطف بين الأشجار.\nتغني الطيور، ويلعب الأطفال بالقرب.\nتبتسم آنا وتنظر إلى السماء.\nتشعر بالسعادة اليوم.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "Anna and the Lost Balloon",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_skp91rskp91rskp9.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "فجأة، تصبح الرياح قوية.\nيطير البالون الأحمر من يد آنا.\nتقول: \"أوه لا!\" وتركض خلفه.\nيرتفع البالون أكثر وأكثر.\nتحاول آنا الإمساك به، لكنه بعيد جدًا.\nتشعر بالحزن وتتوقف عن الركض.",
+                  "french": ""
+                },
+                "content": "Suddenly, the wind becomes strong.\nThe red balloon flies from Anna’s hand.\n“Oh no!” she says and runs after it.\nThe balloon goes higher and higher.\nAnna tries to catch it, but it’s too far.\nShe feels sad and stops running.",
+                "contentTranslation": {
+                  "arabic": "فجأة، تصبح الرياح قوية.\nيطير البالون الأحمر من يد آنا.\nتقول: \"أوه لا!\" وتركض خلفه.\nيرتفع البالون أكثر وأكثر.\nتحاول آنا الإمساك به، لكنه بعيد جدًا.\nتشعر بالحزن وتتوقف عن الركض.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "Anna and the Lost Balloon",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_29mb3l29mb3l29mb.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "يرى ولد اسمه عمر البالون.\nيقف بالقرب من شجرة كبيرة.\nيقفز ويمسك بخيط البالون.\nيقول: \"تفضلي!\" لآنا.\nتبتسم آنا مرة أخرى وتأخذه.\nتقول: \"شكرًا لك يا عمر!\"",
+                  "french": ""
+                },
+                "content": "A boy named Omar sees the balloon.\nHe is standing near the big tree.\nHe jumps and catches the balloon string.\n“Here you go!” he says to Anna.\nAnna smiles again and takes it.\n“Thank you, Omar!” she says.",
+                "contentTranslation": {
+                  "arabic": "يرى ولد اسمه عمر البالون.\nيقف بالقرب من شجرة كبيرة.\nيقفز ويمسك بخيط البالون.\nيقول: \"تفضلي!\" لآنا.\nتبتسم آنا مرة أخرى وتأخذه.\nتقول: \"شكرًا لك يا عمر!\"",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "Anna and the Lost Balloon",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_pgb3ivpgb3ivpgb3.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "تجلس آنا وعمر على مقعد.\nيتحدثان ويضحكان معًا.\nيُريها عمر سيارته اللعبة.\nتسمح له آنا بحمل البالون.\nيبتسمان ويلعبان بسعادة.\nتشرق الشمس فوقهما.",
+                  "french": ""
+                },
+                "content": "Anna and Omar sit on a bench.\nThey talk and laugh together.\nOmar shows her his toy car.\nAnna lets him hold the balloon.\nThey both smile and play happily.\nThe sun shines above them.",
+                "contentTranslation": {
+                  "arabic": "تجلس آنا وعمر على مقعد.\nيتحدثان ويضحكان معًا.\nيُريها عمر سيارته اللعبة.\nتسمح له آنا بحمل البالون.\nيبتسمان ويلعبان بسعادة.\nتشرق الشمس فوقهما.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              },
+              {
+                "segmentTitle": "Anna and the Lost Balloon",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_6ddp2k6ddp2k6ddp.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "تنادي والدة آنا عليها لتعود إلى المنزل.\nتلوّح آنا لعمر لتودّعه.\nيلوّح عمر مبتسمًا.\nتسير آنا إلى المنزل وبالونها الأحمر معها.\nتشعر بالسعادة مرة أخرى.\nلقد كان يومًا جميلًا.",
+                  "french": ""
+                },
+                "content": "Anna’s mother calls her to go home.\nAnna waves goodbye to Omar.\nHe waves back with a smile.\nAnna walks home with her red balloon.\nShe feels happy again.\nIt was a beautiful day.",
+                "contentTranslation": {
+                  "arabic": "تنادي والدة آنا عليها لتعود إلى المنزل.\nتلوّح آنا لعمر لتودّعه.\nيلوّح عمر مبتسمًا.\nتسير آنا إلى المنزل وبالونها الأحمر معها.\nتشعر بالسعادة مرة أخرى.\nلقد كان يومًا جميلًا.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              }
+            ]
+          },
+          "quiz": {
+            "title": " Quiz",
+            "questions": [
+              {
+                "question": "What color is Anna’s balloon?",
+                "options": [
+                  "Blue",
+                  "Green",
+                  "Red",
+                  "Yellow"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Red – the color of apples or hearts."
+              },
+              {
+                "question": "Where is Anna walking?",
+                "options": [
+                  "At the beach",
+                  "In the park",
+                  "In the shop",
+                  "At home"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Park – a green place where people play and walk."
+              },
+              {
+                "question": "What happens to the balloon?",
+                "options": [
+                  "It falls",
+                  "It flies away",
+                  "It pops",
+                  "It breaks"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Fly – to move in the air."
+              },
+              {
+                "question": "Who helps Anna?",
+                "options": [
+                  "A girl",
+                  "Her teacher",
+                  "A boy named Omar",
+                  "Her brother"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Help – to do something for someone in need."
+              },
+              {
+                "question": "What does Omar catch?",
+                "options": [
+                  "The balloon",
+                  "The bird",
+                  "The toy",
+                  "The flower"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Catch – to take hold of something moving."
+              },
+              {
+                "question": "Where do Anna and Omar sit?",
+                "options": [
+                  "On the grass",
+                  "On a bench",
+                  "On a chair",
+                  "On the ground"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Bench – a long seat, often found in parks."
+              },
+              {
+                "question": "What does Omar show Anna?",
+                "options": [
+                  "His toy car",
+                  "His book",
+                  "His phone",
+                  "His hat"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Toy car – a small car for playing."
+              },
+              {
+                "question": "What does Anna let Omar hold?",
+                "options": [
+                  "Her bag",
+                  "The balloon",
+                  "The toy",
+                  "The cat"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Balloon – a round rubber object filled with air."
+              },
+              {
+                "question": "Who calls Anna home?",
+                "options": [
+                  "Her teacher",
+                  "Her mother",
+                  "Her friend",
+                  "Her father"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Mother – the woman who cares for you."
+              },
+              {
+                "question": "How does Anna feel at the end?",
+                "options": [
+                  "Angry",
+                  "Happy",
+                  "Sad",
+                  "Scared"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Happy – feeling good and smiling."
+              }
+            ]
+          }
         }
       ]
     },
     {
-      "name": "Level 1: Beginner Stories",
+      "name": "Level 2: Easy Stories",
       "color": 9899020,
       "gradient": {
         "colors": [
           16711744,
           15363266
+        ]
+      },
+      "stories": [
+        {
+          "name": "Ali at the Beach",
+          "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/1.png",
+          "story": {
+            "coverImage": "",
+            "title": "",
+            "segments": 1,
+            "audio": "",
+            "segmentsList": [
+              {
+                "segmentTitle": "Ali at the Beach",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/1.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "يذهب علي وعائلته إلى الشاطئ يوم السبت.\nالسماء زرقاء والشمس دافئة.\nيركض علي نحو الماء ويضحك بصوت عالٍ.\nيشعر بالرمل الناعم تحت قدميه.\nيضع والده مظلة كبيرة.\nتجلس أمه على الكرسي وتبتسم.",
+                  "french": ""
+                },
+                "content": "Ali and his family go to the beach on Saturday.\nThe sky is blue and the sun is warm.\nAli runs to the water and laughs loudly.\nHe feels the soft sand under his feet.\nHis father puts up a big umbrella.\nHis mother sits on a chair and smiles.",
+                "contentTranslation": {
+                  "arabic": "يذهب علي وعائلته إلى الشاطئ يوم السبت.\nالسماء زرقاء والشمس دافئة.\nيركض علي نحو الماء ويضحك بصوت عالٍ.\nيشعر بالرمل الناعم تحت قدميه.\nيضع والده مظلة كبيرة.\nتجلس أمه على الكرسي وتبتسم.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              }
+            ]
+          },
+          "quiz": {
+            "title": " Quiz",
+            "questions": [
+              {
+                "question": "Where does Ali go with his family?",
+                "options": [
+                  "To the park",
+                  "To the beach",
+                  "To school",
+                  "To the city"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Beach – the sand and sea near the ocean."
+              },
+              {
+                "question": "What does Ali build?",
+                "options": [
+                  "A tower",
+                  "A sandcastle",
+                  "A boat",
+                  "A bridge"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Sandcastle – a small castle made of sand."
+              },
+              {
+                "question": "What does Ali eat for lunch?",
+                "options": [
+                  "Sandwiches and fruit",
+                  "Pizza",
+                  "Soup",
+                  "Rice"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Sandwich – food with bread and something inside."
+              },
+              {
+                "question": "What color are Ali’s floaters?",
+                "options": [
+                  "Blue",
+                  "Green",
+                  "Orange",
+                  "Yellow"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Floaters – air bands that help you swim."
+              },
+              {
+                "question": "Who swims with Ali?",
+                "options": [
+                  "His sister",
+                  "His father",
+                  "His friend",
+                  "His teacher"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Father – a man who takes care of his children."
+              },
+              {
+                "question": "What time of day do they leave?",
+                "options": [
+                  "Morning",
+                  "Noon",
+                  "Evening",
+                  "Night"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Evening – the time when the sun goes down."
+              },
+              {
+                "question": "What does Ali collect from the sand?",
+                "options": [
+                  "Stones",
+                  "Shells",
+                  "Toys",
+                  "Flowers"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Shell – hard cover found on the beach."
+              },
+              {
+                "question": "What color is the sky at sunset?",
+                "options": [
+                  "Blue and green",
+                  "Black and gray",
+                  "Orange and pink",
+                  "Yellow and white"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Sunset – when the sun goes down and the sky changes color."
+              },
+              {
+                "question": "How does Ali feel when he swims?",
+                "options": [
+                  "Scared",
+                  "Proud",
+                  "Angry",
+                  "Tired"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Proud – happy about what you can do."
+              },
+              {
+                "question": "What does Ali say at the end?",
+                "options": [
+                  "“I am tired.”",
+                  "“I will come back soon!”",
+                  "“I don’t like the beach.”",
+                  "“It is dark.”"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Soon – after a short time."
+              }
+            ]
+          }
+        },
+        {
+          "name": "Sara’s Birthday Cake",
+          "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/6.png",
+          "story": {
+            "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/6.png",
+            "title": "",
+            "segments": 1,
+            "audio": "",
+            "segmentsList": [
+              {
+                "segmentTitle": "Sara’s Birthday Cake",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/6.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "تستيقظ سارة مبكرًا وتشعر بالحماس.\nاليوم عيد ميلادها!\nتركض إلى المطبخ لترى والدتها.\nهناك بالونات وكعكة كبيرة على الطاولة.\nتحتضنها والدتها وتقول: \"عيد ميلاد سعيد يا عزيزتي!\"\nتبتسم سارة ابتسامة كبيرة.",
+                  "french": ""
+                },
+                "content": "Sara wakes up early and feels excited.\nToday is her birthday!\nShe runs to the kitchen to see her mother.\nThere are balloons and a big cake on the table.\nHer mother hugs her and says, “Happy birthday, my dear!”\nSara smiles widely.",
+                "contentTranslation": {
+                  "arabic": "تستيقظ سارة مبكرًا وتشعر بالحماس.\nاليوم عيد ميلادها!\nتركض إلى المطبخ لترى والدتها.\nهناك بالونات وكعكة كبيرة على الطاولة.\nتحتضنها والدتها وتقول: \"عيد ميلاد سعيد يا عزيزتي!\"\nتبتسم سارة ابتسامة كبيرة.",
+                  "french": ""
+                },
+                "wordTranslations": []
+              }
+            ]
+          },
+          "quiz": {
+            "title": " Quiz",
+            "questions": [
+              {
+                "question": "What special day is it for Sara?",
+                "options": [
+                  "Her mother’s birthday",
+                  "Her friend’s birthday",
+                  "Her teacher’s birthday",
+                  "Her birthday"
+                ],
+                "correctAnswer": 3,
+                "explanation": "Birthday – the day you were born, celebrated every year."
+              },
+              {
+                "question": "What does Sara mix in the bowl?",
+                "options": [
+                  "Water and rice",
+                  "Milk and fruit",
+                  "Eggs, sugar, and flour",
+                  "Coffee and cream"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Flour – white powder used for baking."
+              },
+              {
+                "question": "What does Sara add to the cake?",
+                "options": [
+                  "Chocolate",
+                  "Bananas",
+                  "Cheese",
+                  "Nuts"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Chocolate – sweet brown food made from cocoa."
+              },
+              {
+                "question": "Who comes to visit Sara?",
+                "options": [
+                  "Her teacher",
+                  "Her cousins",
+                  "Her friends",
+                  "Her neighbors"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Friend – someone you like and spend time with."
+              },
+              {
+                "question": "What do her friends bring?",
+                "options": [
+                  "Gifts and balloons",
+                  "Flowers",
+                  "Toys",
+                  "Books"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Gift – something you give to someone on a special day."
+              },
+              {
+                "question": "What does Sara do with the candles?",
+                "options": [
+                  "Lights them",
+                  "Throws them away",
+                  "Blows them out",
+                  "Eats them"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Blow out – to make a flame stop burning."
+              },
+              {
+                "question": "Who gives Sara a handmade card?",
+                "options": [
+                  "Her brother",
+                  "Her friend Laila",
+                  "Her mother",
+                  "Her teacher"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Card – a paper with writing or art for someone."
+              },
+              {
+                "question": "What does Sara keep by her bed?",
+                "options": [
+                  "A gift",
+                  "A balloon",
+                  "A flower",
+                  "A book"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Balloon – a round rubber shape filled with air."
+              },
+              {
+                "question": "What does Sara say to her mother?",
+                "options": [
+                  "“I am tired.”",
+                  "“It was the best birthday ever.”",
+                  "“I don’t like the cake.”",
+                  "“Let’s go to sleep.”"
+                ],
+                "correctAnswer": 1,
+                "explanation": "Best – better than all the others."
+              },
+              {
+                "question": "How does Sara feel at the end?",
+                "options": [
+                  "Angry",
+                  "Sad",
+                  "Happy",
+                  "Scared"
+                ],
+                "correctAnswer": 2,
+                "explanation": "Happy – feeling good and smiling."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "Level 3: Intermediate Stories",
+      "color": 7315662,
+      "gradient": {
+        "colors": [
+          1860026,
+          0
+        ]
+      },
+      "stories": []
+    },
+    {
+      "name": "Level 4: Advanced Stories",
+      "color": 8583392,
+      "gradient": {
+        "colors": [
+          2213028,
+          953196
+        ]
+      },
+      "stories": []
+    },
+    {
+      "name": "Level 5: Pro Stories",
+      "color": 15526025,
+      "gradient": {
+        "colors": [
+          11839533,
+          9073674
+        ]
+      },
+      "stories": []
+    },
+    {
+      "name": "Level 6: Master Stories",
+      "color": 14195429,
+      "gradient": {
+        "colors": [
+          11281846,
+          6227795
         ]
       },
       "stories": []
