@@ -21,7 +21,7 @@
             "segmentsList": [
               {
                 "segmentTitle": "The Discovery",
-                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
+                "segmentImage": "https://t3.ftcdn.net/jpg/06/01/17/18/360_F_601171827_GwbDHEuhisbGFXRfIpXFhtf7wAvsbLut.jpg",
                 "segmentAudio": "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
                 "duration": "00:00",
                 "translation": {
@@ -93,7 +93,7 @@
         },
         {
           "name": "Tom’s First Day at School",
-          "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
+          "image": "https://i.ibb.co/xSQdb00J/Gemini-Generated-Image-2mhvt92mhvt92mhv.png",
           "story": {
             "coverImage": "",
             "title": "Tom’s First Day at School",
@@ -102,7 +102,7 @@
             "segmentsList": [
               {
                 "segmentTitle": "Scene 1",
-                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
+                "segmentImage": " https://i.ibb.co/xSQdb00J/Gemini-Generated-Image-2mhvt92mhvt92mhv.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
@@ -118,7 +118,7 @@
               },
               {
                 "segmentTitle": "Scene 2",
-                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
+                "segmentImage": "https://i.ibb.co/xKd7xxX7/Gemini-Generated-Image-soidigsoidigsoid.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
@@ -297,6 +297,149 @@
               }
             ]
           }
+        },
+        {
+          "name": "12",
+          "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
+          "story": {
+            "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
+            "title": "",
+            "segments": 1,
+            "audio": "",
+            "segmentsList": [
+              {
+                "segmentTitle": "001",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
+                "segmentAudio": "",
+                "duration": "",
+                "translation": {
+                  "arabic": "",
+                  "french": ""
+                },
+                "content": "",
+                "contentTranslation": {
+                  "arabic": "",
+                  "french": ""
+                },
+                "wordTranslations": []
+              }
+            ]
+          },
+          "quiz": {
+            "title": " Quiz",
+            "questions": [
+              {
+                "question": "Question 1 for 12",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 2 for 12",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 3 for 12",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 4 for 12",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 5 for 12",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 6 for 12",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 7 for 12",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 8 for 12",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 9 for 12",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              },
+              {
+                "question": "Question 10 for 12",
+                "options": [
+                  "Option 1",
+                  "Option 2",
+                  "Option 3",
+                  "Option 4"
+                ],
+                "correctAnswer": 0,
+                "explanation": "Explanation for the answer"
+              }
+            ]
+          }
         }
       ]
     },
@@ -313,7 +456,3 @@
     }
   ]
 }
-
-
-
-
