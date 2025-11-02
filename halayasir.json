@@ -93,7 +93,7 @@
         },
         {
           "name": "Tom’s First Day at School",
-          "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
+          "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
           "story": {
             "coverImage": "",
             "title": "Tom’s First Day at School",
@@ -102,7 +102,7 @@
             "segmentsList": [
               {
                 "segmentTitle": "Scene 1",
-                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Copilot_20251024_205228.png",
+                "segmentImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/Gemini_Generated_Image_2mhvt92mhvt92mhv.png",
                 "segmentAudio": "",
                 "duration": "",
                 "translation": {
@@ -313,6 +313,7 @@
     }
   ]
 }
+
 
 
 
