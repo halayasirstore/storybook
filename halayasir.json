@@ -440,7 +440,7 @@
           "name": "Ali at the Beach",
           "image": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/1.png",
           "story": {
-            "coverImage": "",
+            "coverImage": "https://raw.githubusercontent.com/halayasirstore/pictureStories/refs/heads/main/1.png",
             "title": "Ali at the Beach",
             "segments": 5,
             "audio": "",
@@ -898,6 +898,7 @@
     }
   ]
 }
+
 
 
 
