@@ -98,17 +98,6 @@
             overflow: hidden;
         }
 
-        .hero::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="none"/><path d="M0,0 L100,100 M100,0 L0,100" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></svg>');
-            opacity: 0.3;
-        }
-
         .hero-content {
             position: relative;
             z-index: 1;
@@ -218,6 +207,9 @@
             padding: 40px;
             margin-bottom: 30px;
             transition: var(--transition);
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
         }
 
         .policy-card:hover {
@@ -261,6 +253,27 @@
             background-color: rgba(255, 140, 66, 0.1);
             padding: 2px 5px;
             border-radius: 4px;
+        }
+
+        .policy-with-image {
+            display: flex;
+            gap: 30px;
+            align-items: center;
+        }
+
+        .policy-text {
+            flex: 2;
+        }
+
+        .policy-image {
+            flex: 1;
+            max-width: 300px;
+        }
+
+        .policy-image img {
+            width: 100%;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
         }
 
         /* Footer */
@@ -314,30 +327,6 @@
             font-size: 0.9rem;
         }
 
-        /* Decorative Elements */
-        .decoration {
-            position: absolute;
-            z-index: -1;
-        }
-
-        .decoration-1 {
-            top: 10%;
-            left: 5%;
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, rgba(255, 140, 66, 0.2), rgba(255, 140, 66, 0));
-        }
-
-        .decoration-2 {
-            bottom: 10%;
-            right: 5%;
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            background: linear-gradient(135deg, rgba(74, 111, 165, 0.2), rgba(74, 111, 165, 0));
-        }
-
         /* Responsive Design */
         @media (max-width: 768px) {
             .header-content {
@@ -351,6 +340,10 @@
 
             .policy-card {
                 padding: 25px;
+            }
+
+            .policy-with-image {
+                flex-direction: column;
             }
 
             .footer-content {
@@ -392,8 +385,6 @@
                 <p class="last-updated">Last updated: November 10, 2025</p>
             </div>
         </div>
-        <div class="decoration decoration-1"></div>
-        <div class="decoration decoration-2"></div>
     </section>
 
     <!-- App Showcase Section -->
@@ -403,7 +394,7 @@
             <div class="app-screenshots">
                 <div class="screenshot-card">
                     <div class="phone-frame">
-                        <img src="https://z-cdn-media.chatglm.cn/files/a1a9e8b9-8d1a-4c3e-9f2a-3b4c5d6e7f8a_A1.png?auth_key=1862785628-9e2a3b4c5d6e7f8a9e2a3b4c5d6e7f8a-0-a1a9e8b98d1a4c3e9f2a3b4c" alt="Storio Level Progress">
+                        <img src="https://z-cdn-media.chatglm.cn/files/9c523a3b-4f90-4b5f-b771-7190a3b9b1f3_sc1.png?auth_key=1862786036-9cc75696d5d14a82875787ab2012363a-0-e530f631b936d6dff2c6badd8ab0e9f8" alt="Storio Level Progress">
                     </div>
                     <div class="screenshot-caption">
                         <i class="fas fa-chart-line"></i> Track Your Learning Progress
@@ -411,7 +402,7 @@
                 </div>
                 <div class="screenshot-card">
                     <div class="phone-frame">
-                        <img src="https://z-cdn-media.chatglm.cn/files/b2b0f9c0-9e2b-5d4f-0a3b-4c5d6e7f8a9b_A2.png?auth_key=1862785628-0a3b4c5d6e7f8a9b0a3b4c5d6e7f8a9b-0-b2b0f9c09e2b5d4f0a3b4c5d" alt="Interactive English Stories">
+                        <img src="https://z-cdn-media.chatglm.cn/files/d9e309aa-dcb9-45f5-9fb8-f5c885c28f18_sc2.png?auth_key=1862786036-a042642702ec414195e65add9a8bf1c9-0-69b7649bb7d51539f740ca8cac459966" alt="Interactive English Stories">
                     </div>
                     <div class="screenshot-caption">
                         <i class="fas fa-book-open"></i> Interactive Story Learning
@@ -419,7 +410,7 @@
                 </div>
                 <div class="screenshot-card">
                     <div class="phone-frame">
-                        <img src="https://z-cdn-media.chatglm.cn/files/c3c1a0d1-0f3c-6e50-1b4c-5d6e7f8a9b9c_A3.png?auth_key=1862785628-1b4c5d6e7f8a9b9c1b4c5d6e7f8a9b9c-0-c3c1a0d10f3c6e501b4c5d6e" alt="Vocabulary Building">
+                        <img src="https://z-cdn-media.chatglm.cn/files/b71e0adf-0b44-45b6-b1c4-14216212a45e_sc4.png?auth_key=1862786036-642a51dd20ba4fc3bb7e7b9e04ea76af-0-37c23b91df6ef92eeb91f80df7409881" alt="Vocabulary Building">
                     </div>
                     <div class="screenshot-caption">
                         <i class="fas fa-language"></i> Build Your Vocabulary
@@ -433,8 +424,15 @@
     <section class="privacy-content" id="privacy">
         <div class="container">
             <div class="policy-card">
-                <h3><i class="fas fa-info-circle"></i> About Storio</h3>
-                <p>Storio is developed using the Flutter framework and uses AI tools to generate educational stories and lessons to enhance your English skills. The app is designed to be simple, fun, and user-friendly, as shown in our interactive learning interfaces above.</p>
+                <div class="policy-with-image">
+                    <div class="policy-text">
+                        <h3><i class="fas fa-info-circle"></i> About Storio</h3>
+                        <p>Storio is developed using the Flutter framework and uses AI tools to generate educational stories and lessons to enhance your English skills. The app is designed to be simple, fun, and user-friendly, as shown in our interactive learning interfaces above.</p>
+                    </div>
+                    <div class="policy-image">
+                        <img src="https://z-cdn-media.chatglm.cn/files/9e311ef3-6fdf-4fc5-ac22-8c3eb55612ef_sc3.png?auth_key=1862786036-e688313b79774ae3abe5da87c68f33ef-0-270252fce6eb40a415f2693b20584023" alt="Storio Story Interface">
+                    </div>
+                </div>
             </div>
 
             <div class="policy-card">
@@ -460,16 +458,23 @@
             </div>
 
             <div class="policy-card">
-                <h3><i class="fas fa-cogs"></i> How We Use Your Information</h3>
-                <p>We use the collected data to:</p>
-                <ul>
-                    <li>Personalize your English learning experience</li>
-                    <li>Improve app performance and content quality</li>
-                    <li>Provide technical support</li>
-                    <li>Show relevant ads through Google AdMob</li>
-                    <li>Analyze user behavior to enhance features</li>
-                </ul>
-                <p>We <span class="highlight">do not sell or share your personal data with third parties for profit.</span></p>
+                <div class="policy-with-image">
+                    <div class="policy-text">
+                        <h3><i class="fas fa-cogs"></i> How We Use Your Information</h3>
+                        <p>We use the collected data to:</p>
+                        <ul>
+                            <li>Personalize your English learning experience</li>
+                            <li>Improve app performance and content quality</li>
+                            <li>Provide technical support</li>
+                            <li>Show relevant ads through Google AdMob</li>
+                            <li>Analyze user behavior to enhance features</li>
+                        </ul>
+                        <p>We <span class="highlight">do not sell or share your personal data with third parties for profit.</span></p>
+                    </div>
+                    <div class="policy-image">
+                        <img src="https://z-cdn-media.chatglm.cn/files/4559d961-0cb0-4dcf-9fdc-54d3ad3efa47_sc5.png?auth_key=1862786036-00f3597c9d664456a268c13f7a799a30-0-d879630bdfb4f2b83939c3cc70ec82f4" alt="Storio Quiz Interface">
+                    </div>
+                </div>
             </div>
 
             <div class="policy-card">
@@ -568,7 +573,7 @@
         // Add animation to policy cards when they come into view
         const observerOptions = {
             threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
+            rootMargin: '0px 0px -50px 0px"
         };
 
         const observer = new IntersectionObserver(function(entries) {
