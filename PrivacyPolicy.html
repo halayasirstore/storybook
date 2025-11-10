@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Storio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary-color: #FF8C42;
+            --secondary-color: #4A6FA5;
+            --accent-color: #7B68EE;
+            --text-color: #333;
+            --light-bg: #F8F9FA;
+            --white: #FFFFFF;
+            --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--light-bg);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--white);
+            padding: 20px 0;
+            box-shadow: var(--shadow);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .logo img {
+            height: 50px;
+            border-radius: 50%;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo h1 {
+            font-size: 1.8rem;
+            font-weight: 600;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav-links a {
+            color: var(--white);
+            text-decoration: none;
+            font-weight: 500;
+            transition: var(--transition);
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        .nav-links a:hover {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, rgba(255, 140, 66, 0.1), rgba(74, 111, 165, 0.1));
+            padding: 60px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="none"/><path d="M0,0 L100,100 M100,0 L0,100" stroke="rgba(255,255,255,0.1)" stroke-width="0.5"/></svg>');
+            opacity: 0.3;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h2 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .last-updated {
+            margin-top: 20px;
+            font-style: italic;
+            color: #666;
+        }
+
+        /* App Showcase Section */
+        .app-showcase {
+            padding: 60px 0;
+            background-color: var(--white);
+        }
+
+        .app-showcase h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 40px;
+            color: var(--secondary-color);
+        }
+
+        .app-screenshots {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .screenshot-card {
+            background: var(--white);
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            transition: var(--transition);
+            max-width: 300px;
+            position: relative;
+        }
+
+        .screenshot-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        .screenshot-card img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 20px;
+        }
+
+        .screenshot-caption {
+            padding: 15px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: var(--white);
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .phone-frame {
+            position: relative;
+            background: #333;
+            border-radius: 30px;
+            padding: 10px;
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .phone-frame::before {
+            content: "";
+            position: absolute;
+            top: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 5px;
+            background: #555;
+            border-radius: 10px;
+        }
+
+        .phone-frame img {
+            border-radius: 20px;
+        }
+
+        /* Privacy Policy Content */
+        .privacy-content {
+            padding: 60px 0;
+        }
+
+        .policy-card {
+            background-color: var(--white);
+            border-radius: 12px;
+            box-shadow: var(--shadow);
+            padding: 40px;
+            margin-bottom: 30px;
+            transition: var(--transition);
+        }
+
+        .policy-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .policy-card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+            color: var(--secondary-color);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .policy-card h3 i {
+            color: var(--primary-color);
+        }
+
+        .policy-card ul {
+            margin-left: 20px;
+            margin-bottom: 20px;
+        }
+
+        .policy-card li {
+            margin-bottom: 10px;
+        }
+
+        .policy-card a {
+            color: var(--accent-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .policy-card a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight {
+            background-color: rgba(255, 140, 66, 0.1);
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--secondary-color);
+            color: var(--white);
+            padding: 40px 0 20px;
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 30px;
+        }
+
+        .footer-section {
+            flex: 1;
+            min-width: 250px;
+            margin-bottom: 20px;
+        }
+
+        .footer-section h3 {
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            color: var(--primary-color);
+        }
+
+        .footer-section p, .footer-section li {
+            margin-bottom: 10px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+        }
+
+        .footer-section a {
+            color: var(--white);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-section a:hover {
+            color: var(--primary-color);
+        }
+
+        .copyright {
+            text-align: center;
+            padding-top: 20px;
+            border-top: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 0.9rem;
+        }
+
+        /* Decorative Elements */
+        .decoration {
+            position: absolute;
+            z-index: -1;
+        }
+
+        .decoration-1 {
+            top: 10%;
+            left: 5%;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(255, 140, 66, 0.2), rgba(255, 140, 66, 0));
+        }
+
+        .decoration-2 {
+            bottom: 10%;
+            right: 5%;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(74, 111, 165, 0.2), rgba(74, 111, 165, 0));
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .header-content {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .policy-card {
+                padding: 25px;
+            }
+
+            .footer-content {
+                flex-direction: column;
+            }
+
+            .app-screenshots {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="https://z-cdn-media.chatglm.cn/files/7aa1ff82-6ddc-49a3-9c83-fc4455f96f32_iconBook.png?auth_key=1862785628-6834cb1e86724521a0694dd32d5b4b4e-0-6d4b361e1fcad69851585998faf7bb34" alt="Storio Logo">
+                    <h1>Storio</h1>
+                </div>
+                <nav class="nav-links">
+                    <a href="#home">Home</a>
+                    <a href="#showcase">App Preview</a>
+                    <a href="#privacy">Privacy</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h2>Privacy Policy</h2>
+                <p>Welcome to Storio, an AI-powered English learning app designed to help users improve their English through interactive stories and activities. This policy explains how we collect, use, and protect your information.</p>
+                <p class="last-updated">Last updated: November 10, 2025</p>
+            </div>
+        </div>
+        <div class="decoration decoration-1"></div>
+        <div class="decoration decoration-2"></div>
+    </section>
+
+    <!-- App Showcase Section -->
+    <section class="app-showcase" id="showcase">
+        <div class="container">
+            <h2>Experience Storio - Your English Learning Companion</h2>
+            <div class="app-screenshots">
+                <div class="screenshot-card">
+                    <div class="phone-frame">
+                        <img src="https://z-cdn-media.chatglm.cn/files/a1a9e8b9-8d1a-4c3e-9f2a-3b4c5d6e7f8a_A1.png?auth_key=1862785628-9e2a3b4c5d6e7f8a9e2a3b4c5d6e7f8a-0-a1a9e8b98d1a4c3e9f2a3b4c" alt="Storio Level Progress">
+                    </div>
+                    <div class="screenshot-caption">
+                        <i class="fas fa-chart-line"></i> Track Your Learning Progress
+                    </div>
+                </div>
+                <div class="screenshot-card">
+                    <div class="phone-frame">
+                        <img src="https://z-cdn-media.chatglm.cn/files/b2b0f9c0-9e2b-5d4f-0a3b-4c5d6e7f8a9b_A2.png?auth_key=1862785628-0a3b4c5d6e7f8a9b0a3b4c5d6e7f8a9b-0-b2b0f9c09e2b5d4f0a3b4c5d" alt="Interactive English Stories">
+                    </div>
+                    <div class="screenshot-caption">
+                        <i class="fas fa-book-open"></i> Interactive Story Learning
+                    </div>
+                </div>
+                <div class="screenshot-card">
+                    <div class="phone-frame">
+                        <img src="https://z-cdn-media.chatglm.cn/files/c3c1a0d1-0f3c-6e50-1b4c-5d6e7f8a9b9c_A3.png?auth_key=1862785628-1b4c5d6e7f8a9b9c1b4c5d6e7f8a9b9c-0-c3c1a0d10f3c6e501b4c5d6e" alt="Vocabulary Building">
+                    </div>
+                    <div class="screenshot-caption">
+                        <i class="fas fa-language"></i> Build Your Vocabulary
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Privacy Policy Content -->
+    <section class="privacy-content" id="privacy">
+        <div class="container">
+            <div class="policy-card">
+                <h3><i class="fas fa-info-circle"></i> About Storio</h3>
+                <p>Storio is developed using the Flutter framework and uses AI tools to generate educational stories and lessons to enhance your English skills. The app is designed to be simple, fun, and user-friendly, as shown in our interactive learning interfaces above.</p>
+            </div>
+
+            <div class="policy-card">
+                <h3><i class="fas fa-database"></i> Information We Collect</h3>
+                <p>We collect limited data to ensure the app works properly and provides a better learning experience.</p>
+                
+                <h4>a. Automatically Collected Information</h4>
+                <p>When you use Storio, we may automatically collect:</p>
+                <ul>
+                    <li>Device information (model, OS version, device ID)</li>
+                    <li>App usage statistics and crash logs</li>
+                    <li>IP address and general location (for analytics and ad services)</li>
+                    <li>Advertising identifiers (for personalized ads via Google AdMob)</li>
+                </ul>
+                
+                <h4>b. User-Provided Information</h4>
+                <p>If you create an account or use certain features, we may collect:</p>
+                <ul>
+                    <li>Your name or nickname</li>
+                    <li>Email address (optional, if used for login or support)</li>
+                    <li>Learning progress or preferences</li>
+                </ul>
+            </div>
+
+            <div class="policy-card">
+                <h3><i class="fas fa-cogs"></i> How We Use Your Information</h3>
+                <p>We use the collected data to:</p>
+                <ul>
+                    <li>Personalize your English learning experience</li>
+                    <li>Improve app performance and content quality</li>
+                    <li>Provide technical support</li>
+                    <li>Show relevant ads through Google AdMob</li>
+                    <li>Analyze user behavior to enhance features</li>
+                </ul>
+                <p>We <span class="highlight">do not sell or share your personal data with third parties for profit.</span></p>
+            </div>
+
+            <div class="policy-card">
+                <h3><i class="fas fa-ad"></i> Advertising and Analytics</h3>
+                <p>We use Google AdMob to display ads in the app. AdMob may use cookies and identifiers to personalize ads.</p>
+                <p>For more information, please visit: <a href="https://policies.google.com/technologies/ads" target="_blank">https://policies.google.com/technologies/ads</a></p>
+                <p>You can manage ad personalization in your device settings.</p>
+            </div>
+
+            <div class="policy-card">
+                <h3><i class="fas fa-shield-alt"></i> Data Security</h3>
+                <p>We use industry-standard security measures to protect your data. However, no system is completely secure, and we cannot guarantee absolute protection against all potential threats.</p>
+            </div>
+
+            <div class="policy-card">
+                <h3><i class="fas fa-child"></i> Children's Privacy</h3>
+                <p>We do not knowingly collect data from children under 13 years old. If you believe your child has provided personal data, please contact us so we can delete it.</p>
+            </div>
+
+            <div class="policy-card">
+                <h3><i class="fas fa-link"></i> Third-Party Services</h3>
+                <p>Storio may use third-party services (like AdMob and analytics tools) that have their own privacy policies. Please review their terms before using those features.</p>
+            </div>
+
+            <div class="policy-card">
+                <h3><i class="fas fa-user-check"></i> Your Rights</h3>
+                <p>You can:</p>
+                <ul>
+                    <li>Access, update, or delete your personal data</li>
+                    <li>Withdraw consent for data processing</li>
+                    <li>Contact us at any time to manage your information</li>
+                </ul>
+                <p><i class="fas fa-envelope"></i> Email: [your support email here]</p>
+            </div>
+
+            <div class="policy-card">
+                <h3><i class="fas fa-sync-alt"></i> Changes to This Policy</h3>
+                <p>We may update this Privacy Policy from time to time. Any changes will be published here and take effect immediately after posting.</p>
+            </div>
+
+            <div class="policy-card" id="contact">
+                <h3><i class="fas fa-envelope-open-text"></i> Contact Us</h3>
+                <p>If you have any questions about this Privacy Policy or our data practices, please contact us:</p>
+                <ul>
+                    <li><strong>App Name:</strong> Storio</li>
+                    <li><strong>Developer:</strong> Created with AI tools, built using Flutter</li>
+                    <li><strong>Email:</strong> [your support email here]</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Storio</h3>
+                    <p>Storio is an AI-powered English learning app that makes learning fun through interactive stories and activities.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#showcase">App Preview</a></li>
+                        <li><a href="#privacy">Privacy Policy</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> [your support email here]</li>
+                        <li><i class="fab fa-twitter"></i> @StorioApp</li>
+                        <li><i class="fab fa-facebook"></i> Storio English Learning</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Storio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add animation to policy cards when they come into view
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = 1;
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.policy-card, .screenshot-card').forEach(card => {
+            card.style.opacity = 0;
+            card.style.transform = 'translateY(20px)';
+            card.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>
