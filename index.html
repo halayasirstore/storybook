@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Storytelling Management Dashboard</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
@@ -25,7 +27,7 @@
             --glass-bg: rgba(255, 255, 255, 0.1);
             --glass-border: rgba(255, 255, 255, 0.2);
         }
-        
+
         body {
             font-family: 'Inter', sans-serif;
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -34,7 +36,7 @@
             min-height: 100vh;
             position: relative;
         }
-        
+
         /* Animated Background */
         body::before {
             content: '';
@@ -48,12 +50,17 @@
             z-index: -1;
             animation: backgroundMove 20s linear infinite;
         }
-        
+
         @keyframes backgroundMove {
-            0% { background-position: 0 0; }
-            100% { background-position: 100px 100px; }
+            0% {
+                background-position: 0 0;
+            }
+
+            100% {
+                background-position: 100px 100px;
+            }
         }
-        
+
         /* Header Styles */
         .dashboard-header {
             background: var(--primary-gradient);
@@ -65,7 +72,7 @@
             overflow: hidden;
             border-radius: 0 0 30px 30px;
         }
-        
+
         .dashboard-header::before {
             content: '';
             position: absolute;
@@ -76,12 +83,12 @@
             background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23ffffff" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,144C960,149,1056,139,1152,122.7C1248,107,1344,85,1392,74.7L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>') no-repeat bottom;
             background-size: cover;
         }
-        
+
         .header-content {
             position: relative;
             z-index: 1;
         }
-        
+
         .header-title {
             font-weight: 800;
             font-size: 2.5rem;
@@ -89,13 +96,13 @@
             margin-bottom: 0.5rem;
             text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        
+
         .header-subtitle {
             font-weight: 400;
             font-size: 1.1rem;
             opacity: 0.9;
         }
-        
+
         /* API Management Section */
         .api-management-section {
             margin-bottom: 2rem;
@@ -115,7 +122,7 @@
             margin-bottom: 1.5rem;
             font-weight: 600;
         }
-        
+
         /* Stats Cards */
         .stats-container {
             display: grid;
@@ -123,7 +130,7 @@
             gap: 2rem;
             margin-bottom: 3rem;
         }
-        
+
         .stats-card {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
@@ -136,7 +143,7 @@
             overflow: hidden;
             cursor: pointer;
         }
-        
+
         .stats-card::before {
             content: '';
             position: absolute;
@@ -149,16 +156,16 @@
             transform-origin: left;
             transition: transform 0.4s ease;
         }
-        
+
         .stats-card:hover {
             transform: translateY(-8px) scale(1.02);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         }
-        
+
         .stats-card:hover::before {
             transform: scaleX(1);
         }
-        
+
         .stats-icon {
             width: 60px;
             height: 60px;
@@ -171,7 +178,7 @@
             color: white;
             font-size: 1.5rem;
         }
-        
+
         .stats-number {
             font-size: 3rem;
             font-weight: 800;
@@ -181,7 +188,7 @@
             margin-bottom: 0.5rem;
             line-height: 1;
         }
-        
+
         .stats-label {
             color: #6b7280;
             font-size: 0.875rem;
@@ -189,12 +196,12 @@
             letter-spacing: 0.05em;
             font-weight: 600;
         }
-        
+
         /* Level Cards */
         .levels-container {
             margin-bottom: 3rem;
         }
-        
+
         .level-card {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
@@ -206,7 +213,7 @@
             border: 1px solid rgba(255, 255, 255, 0.8);
             position: relative;
         }
-        
+
         .level-card::after {
             content: '';
             position: absolute;
@@ -214,17 +221,17 @@
             right: 0;
             width: 150px;
             height: 150px;
-            background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0) 70%);
+            background: radial-gradient(circle, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 70%);
             border-radius: 50%;
             transform: translate(50%, -50%);
             z-index: 1;
         }
-        
+
         .level-card:hover {
             transform: translateY(-8px);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         }
-        
+
         .level-header {
             padding: 2rem 2.5rem;
             color: white;
@@ -234,26 +241,26 @@
             align-items: center;
             z-index: 2;
         }
-        
+
         .level1-bg {
             background: linear-gradient(135deg, #a8e6cf 0%, #7fcdcd 100%);
         }
-        
+
         .level2-bg {
             background: linear-gradient(135deg, #ffd3b6 0%, #ffaaa5 100%);
         }
-        
+
         .level3-bg {
             background: linear-gradient(135deg, #d4fc79 0%, #96e6a1 100%);
         }
-        
+
         .level-title {
             font-size: 1.75rem;
             font-weight: 700;
             margin-bottom: 0.5rem;
             text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
-        
+
         .level-badge {
             background-color: rgba(255, 255, 255, 0.2);
             backdrop-filter: blur(10px);
@@ -266,25 +273,25 @@
             align-items: center;
             gap: 0.5rem;
         }
-        
+
         .level-controls {
             display: flex;
             gap: 0.75rem;
             margin-top: 1.5rem;
             z-index: 2;
         }
-        
+
         .level-content {
             padding: 2.5rem;
         }
-        
+
         /* Story Cards */
         .story-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 2rem;
         }
-        
+
         .story-card {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
@@ -299,7 +306,7 @@
             position: relative;
             overflow: hidden;
         }
-        
+
         .story-card::before {
             content: '';
             position: absolute;
@@ -307,33 +314,33 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: linear-gradient(135deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.1) 100%);
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.1) 100%);
             opacity: 0;
             transition: opacity 0.4s ease;
             pointer-events: none;
             z-index: 1;
         }
-        
+
         .story-card:hover {
             transform: translateY(-8px) scale(1.02);
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         }
-        
+
         .story-card:hover::before {
             opacity: 1;
         }
-        
+
         .story-image {
             height: 200px;
             object-fit: cover;
             width: 100%;
             transition: transform 0.6s ease;
         }
-        
+
         .story-card:hover .story-image {
             transform: scale(1.05);
         }
-        
+
         .story-body {
             padding: 2rem;
             flex-grow: 1;
@@ -342,14 +349,14 @@
             position: relative;
             z-index: 2;
         }
-        
+
         .story-title {
             font-size: 1.25rem;
             font-weight: 700;
             margin-bottom: 1rem;
             color: #1f2937;
         }
-        
+
         .story-meta {
             display: flex;
             justify-content: space-between;
@@ -358,14 +365,14 @@
             color: #6b7280;
             font-size: 0.875rem;
         }
-        
+
         .story-actions {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
             margin-top: auto;
         }
-        
+
         .btn-action {
             flex: 1;
             padding: 0.75rem;
@@ -382,7 +389,7 @@
             overflow: hidden;
             min-width: 100px;
         }
-        
+
         .btn-action::after {
             content: '';
             position: absolute;
@@ -395,66 +402,66 @@
             transform: translate(-50%, -50%);
             transition: width 0.6s, height 0.6s;
         }
-        
+
         .btn-action:active::after {
             width: 300px;
             height: 300px;
         }
-        
+
         .btn-play {
             background-color: var(--success-color);
             color: white;
         }
-        
+
         .btn-play:hover {
             background-color: #059669;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(16, 185, 129, 0.3);
         }
-        
+
         .btn-quiz {
             background-color: var(--info-color);
             color: white;
         }
-        
+
         .btn-quiz:hover {
             background-color: #2563eb;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(59, 130, 246, 0.3);
         }
-        
+
         .btn-edit {
             background-color: var(--warning-color);
             color: white;
         }
-        
+
         .btn-edit:hover {
             background-color: #d97706;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(245, 158, 11, 0.3);
         }
-        
+
         .btn-delete {
             background-color: var(--danger-color);
             color: white;
         }
-        
+
         .btn-delete:hover {
             background-color: #dc2626;
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(239, 68, 68, 0.3);
         }
-        
+
         .btn-add {
             background: var(--primary-gradient);
             color: white;
         }
-        
+
         .btn-add:hover {
             transform: translateY(-2px);
             box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
         }
-        
+
         /* Buttons */
         .btn-primary-custom {
             background: var(--primary-gradient);
@@ -469,12 +476,12 @@
             gap: 0.5rem;
             box-shadow: 0 4px 6px -1px rgba(102, 126, 234, 0.3);
         }
-        
+
         .btn-primary-custom:hover {
             transform: translateY(-3px);
             box-shadow: 0 10px 20px -5px rgba(102, 126, 234, 0.4);
         }
-        
+
         /* Modals */
         .modal-header {
             background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
@@ -483,38 +490,40 @@
             padding: 1.75rem;
             backdrop-filter: blur(10px);
         }
-        
+
         .modal-content {
             border: none;
             border-radius: 20px;
             box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
             overflow: hidden;
         }
-        
+
         .modal-body {
             padding: 2.5rem;
         }
-        
+
         .form-label {
             font-weight: 600;
             margin-bottom: 0.75rem;
             color: #374151;
         }
-        
-        .form-control, .form-select {
+
+        .form-control,
+        .form-select {
             border: 1px solid #d1d5db;
             border-radius: 12px;
             padding: 0.75rem 1rem;
             transition: all 0.3s ease;
             font-weight: 500;
         }
-        
-        .form-control:focus, .form-select:focus {
+
+        .form-control:focus,
+        .form-select:focus {
             border-color: #667eea;
             box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
             transform: translateY(-1px);
         }
-        
+
         /* Segment Input */
         .segment-input {
             background: rgba(255, 255, 255, 0.95);
@@ -526,11 +535,11 @@
             box-shadow: var(--card-shadow);
             transition: all 0.3s ease;
         }
-        
+
         .segment-input:hover {
             box-shadow: var(--hover-shadow);
         }
-        
+
         .segment-title {
             font-size: 1.125rem;
             font-weight: 700;
@@ -540,7 +549,7 @@
             align-items: center;
             gap: 0.5rem;
         }
-        
+
         .word-translation {
             background: rgba(255, 255, 255, 0.7);
             border-radius: 12px;
@@ -549,19 +558,19 @@
             border: 1px solid rgba(255, 255, 255, 0.8);
             transition: all 0.3s ease;
         }
-        
+
         .word-translation:hover {
             transform: translateY(-2px);
             box-shadow: 0 5px 15px -3px rgba(0, 0, 0, 0.1);
         }
-        
+
         .word-translation-title {
             font-size: 0.875rem;
             font-weight: 600;
             margin-bottom: 0.75rem;
             color: #4b5563;
         }
-        
+
         /* Quiz Input */
         .quiz-input {
             background: rgba(255, 255, 255, 0.95);
@@ -573,11 +582,11 @@
             box-shadow: var(--card-shadow);
             transition: all 0.3s ease;
         }
-        
+
         .quiz-input:hover {
             box-shadow: var(--hover-shadow);
         }
-        
+
         .quiz-title {
             font-size: 1.125rem;
             font-weight: 700;
@@ -587,20 +596,20 @@
             align-items: center;
             gap: 0.5rem;
         }
-        
+
         .option-input {
             display: flex;
             align-items: center;
             gap: 0.75rem;
             margin-bottom: 0.75rem;
         }
-        
+
         .option-label {
             font-weight: 600;
             color: #4b5563;
             min-width: 60px;
         }
-        
+
         .correct-badge {
             background-color: var(--success-color);
             color: white;
@@ -610,11 +619,11 @@
             font-weight: 600;
             display: none;
         }
-        
-        .option-input input[type="radio"]:checked + .correct-badge {
+
+        .option-input input[type="radio"]:checked+.correct-badge {
             display: inline-block;
         }
-        
+
         /* Toast Notifications */
         .toast-container {
             position: fixed;
@@ -622,7 +631,7 @@
             right: 1.5rem;
             z-index: 1050;
         }
-        
+
         .custom-toast {
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
@@ -637,30 +646,31 @@
             border-left: 4px solid;
             min-width: 300px;
         }
-        
+
         .toast-success {
             border-left-color: var(--success-color);
         }
-        
+
         .toast-error {
             border-left-color: var(--danger-color);
         }
-        
+
         .toast-info {
             border-left-color: var(--info-color);
         }
-        
+
         @keyframes slideIn {
             from {
                 transform: translateX(120%);
                 opacity: 0;
             }
+
             to {
                 transform: translateX(0);
                 opacity: 1;
             }
         }
-        
+
         /* Footer */
         .footer {
             background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
@@ -669,19 +679,19 @@
             margin-top: 4rem;
             border-top: 1px solid rgba(255, 255, 255, 0.1);
         }
-        
+
         .footer a {
             color: #9ca3af;
             text-decoration: none;
             transition: all 0.3s ease;
             font-weight: 500;
         }
-        
+
         .footer a:hover {
             color: white;
             transform: translateY(-2px);
         }
-        
+
         /* Loading Spinner */
         .spinner-container {
             display: flex;
@@ -689,7 +699,7 @@
             align-items: center;
             height: 200px;
         }
-        
+
         .custom-spinner {
             width: 50px;
             height: 50px;
@@ -698,43 +708,45 @@
             border-radius: 50%;
             animation: spin 1s linear infinite;
         }
-        
+
         @keyframes spin {
-            to { transform: rotate(360deg); }
+            to {
+                transform: rotate(360deg);
+            }
         }
-        
+
         /* Responsive */
         @media (max-width: 768px) {
             .story-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .stats-container {
                 grid-template-columns: 1fr;
             }
-            
+
             .level-controls {
                 flex-wrap: wrap;
             }
-            
+
             .header-title {
                 font-size: 2rem;
             }
-            
+
             .dashboard-header {
                 padding: 1.5rem 0;
                 margin-bottom: 2rem;
             }
-            
+
             .story-actions {
                 flex-direction: column;
             }
-            
+
             .btn-action {
                 width: 100%;
             }
         }
-        
+
         /* Floating Action Button */
         .fab {
             position: fixed;
@@ -753,12 +765,12 @@
             transition: all 0.3s ease;
             z-index: 1000;
         }
-        
+
         .fab:hover {
             transform: translateY(-5px) scale(1.1);
             box-shadow: 0 15px 35px -5px rgba(102, 126, 234, 0.5);
         }
-        
+
         /* Search Bar */
         .search-container {
             position: relative;
@@ -767,7 +779,7 @@
             margin-left: auto;
             margin-right: auto;
         }
-        
+
         .search-input {
             width: 100%;
             padding: 1rem 3rem 1rem 1.5rem;
@@ -779,13 +791,13 @@
             font-weight: 500;
             transition: all 0.3s ease;
         }
-        
+
         .search-input:focus {
             outline: none;
             border-color: #667eea;
             box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.2);
         }
-        
+
         .search-icon {
             position: absolute;
             right: 1.5rem;
@@ -800,6 +812,7 @@
         }
     </style>
 </head>
+
 <body>
     <!-- Header -->
     <header class="dashboard-header">
@@ -828,73 +841,11 @@
 
     <!-- Main Content -->
     <main class="container mb-5">
-        <!-- API Management Section -->
-        <div class="api-management-section">
-            <div class="api-settings-card">
-                <h4><i class="bi bi-cloud-upload me-2"></i>API & GitHub Integration</h4>
-                
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <label class="form-label">Current API Endpoint</label>
-                            <div class="input-group">
-                                <input type="text" class="form-control" id="currentApiUrl" 
-                                       value="https://raw.githubusercontent.com/halayasirstore/storybook/main/halayasir.json" readonly>
-                                <button class="btn btn-outline-secondary" type="button" onclick="copyApiUrl()">
-                                    <i class="bi bi-clipboard"></i>
-                                </button>
-                            </div>
-                            <small class="form-text text-muted">This is the URL your Flutter app is currently using</small>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-6">
-                        <div class="mb-3">
-                            <label class="form-label">API Status</label>
-                            <div class="d-flex align-items-center">
-                                <span class="badge bg-success me-2" id="apiStatusBadge">
-                                    <i class="bi bi-check-circle"></i> Connected
-                                </span>
-                                <button class="btn btn-sm btn-outline-primary" onclick="testApiConnection()">
-                                    <i class="bi bi-arrow-repeat"></i> Test Connection
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div class="col-md-12">
-                        <div class="alert alert-info">
-                            <h6><i class="bi bi-info-circle"></i> How to Update Your App</h6>
-                            <p class="mb-1">When you make changes in this dashboard, you need to:</p>
-                            <ol class="mb-0">
-                                <li>Click "Save Changes" to update local data</li>
-                                <li>Click "Update GitHub API" to push changes to your repository</li>
-                                <li>Your Flutter app will automatically fetch the updated data</li>
-                            </ol>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row mt-3">
-                    <div class="col-md-6">
-                        <button class="btn btn-primary w-100" onclick="updateGitHubApi()">
-                            <i class="bi bi-github me-2"></i>Update GitHub API
-                        </button>
-                    </div>
-                    <div class="col-md-6">
-                        <button class="btn btn-outline-secondary w-100" onclick="showApiHelp()">
-                            <i class="bi bi-question-circle me-2"></i>API Help
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!-- Search Bar -->
         <div class="search-container">
-            <input type="text" class="search-input" placeholder="Search stories, levels, or segments..." id="searchInput" onkeyup="performSearch()">
+            <input type="text" class="search-input" placeholder="Search stories, levels, or segments..."
+                id="searchInput" onkeyup="performSearch()">
             <i class="bi bi-search search-icon"></i>
         </div>
 
@@ -961,17 +912,20 @@
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <label for="levelColor" class="form-label">Color (Hex)</label>
-                                <input type="color" class="form-control form-control-color" id="levelColor" value="#4283215696">
+                                <input type="color" class="form-control form-control-color" id="levelColor"
+                                    value="#4283215696">
                             </div>
                             <div class="col-md-6 mb-4">
                                 <label for="levelGradientStart" class="form-label">Gradient Start (Hex)</label>
-                                <input type="color" class="form-control form-control-color" id="levelGradientStart" value="#4283215696">
+                                <input type="color" class="form-control form-control-color" id="levelGradientStart"
+                                    value="#4283215696">
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-6 mb-4">
                                 <label for="levelGradientEnd" class="form-label">Gradient End (Hex)</label>
-                                <input type="color" class="form-control form-control-color" id="levelGradientEnd" value="#4283215696">
+                                <input type="color" class="form-control form-control-color" id="levelGradientEnd"
+                                    value="#4283215696">
                             </div>
                         </div>
                     </form>
@@ -1054,11 +1008,11 @@
                             <label for="storySegments" class="form-label">Number of Segments</label>
                             <input type="number" class="form-control" id="storySegments" min="1" value="1" required>
                         </div>
-                        
+
                         <div id="segmentsContainer">
                             <!-- Segments will be dynamically added here -->
                         </div>
-                        
+
                         <button type="button" class="btn btn-primary-custom mt-3" onclick="addSegmentInput()">
                             <i class="bi bi-plus-circle"></i> Add Segment
                         </button>
@@ -1102,7 +1056,7 @@
                             <label for="editStorySegments" class="form-label">Number of Segments</label>
                             <input type="number" class="form-control" id="editStorySegments" min="1" required>
                         </div>
-                        
+
                         <div id="editSegmentsContainer">
                             <!-- Segments will be dynamically added here -->
                         </div>
@@ -1134,11 +1088,11 @@
                             <label for="editQuizTitle" class="form-label">Quiz Title</label>
                             <input type="text" class="form-control" id="editQuizTitle" required>
                         </div>
-                        
+
                         <div id="quizQuestionsContainer">
                             <!-- Quiz questions will be dynamically added here -->
                         </div>
-                        
+
                         <button type="button" class="btn btn-primary-custom mt-3" onclick="addQuizQuestion()">
                             <i class="bi bi-plus-circle"></i> Add Question
                         </button>
@@ -1153,7 +1107,8 @@
     </div>
 
     <!-- Delete Confirmation Modal -->
-    <div class="modal fade" id="deleteConfirmationModal" tabindex="-1" aria-labelledby="deleteConfirmationModalLabel" aria-hidden="true">
+    <div class="modal fade" id="deleteConfirmationModal" tabindex="-1" aria-labelledby="deleteConfirmationModalLabel"
+        aria-hidden="true">
         <div class="modal-dialog modal-sm">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1177,13 +1132,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <h5>Storytelling Management Dashboard</h5>
-                    <p class="mb-4">Professional content management system for interactive stories. All changes are automatically synced with your application.</p>
+                    <p class="mb-4">Professional content management system for interactive stories. All changes are
+                        automatically synced with your application.</p>
                     <button class="btn btn-sm btn-outline-light" onclick="openTranslationSettings()">
                         <i class="bi bi-translate me-2"></i>Translation Settings
                     </button>
                 </div>
                 <div class="col-md-6 text-md-end">
-                    <p><a href="#" onclick="importJSON()">Import JSON</a> | <a href="#" onclick="resetData()">Reset Data</a></p>
+                    <p><a href="#" onclick="importJSON()">Import JSON</a> | <a href="#" onclick="resetData()">Reset
+                            Data</a></p>
                     <p class="mb-0">© 2023 Story App Dashboard. All rights reserved.</p>
                 </div>
             </div>
@@ -1309,32 +1266,21 @@
         let currentEditStoryIndex = null;
         let searchTerm = '';
 
-        // API Configuration
-        const apiConfig = {
-            currentApiUrl: 'https://raw.githubusercontent.com/halayasirstore/storybook/main/halayasir.json',
-            github: {
-                username: 'halayasirstore',
-                repo: 'storybook',
-                branch: 'main',
-                filePath: 'halayasir.json',
-                commitMessage: 'Update story data from dashboard - ' + new Date().toISOString()
-            }
-        };
 
         // Toast notification function
         function showToast(message, type = 'info') {
             const toastContainer = document.getElementById('toastContainer');
             const toastId = 'toast-' + Date.now();
-            
+
             const toastHTML = `
                 <div id="${toastId}" class="custom-toast toast-${type}">
                     <i class="bi bi-${type === 'success' ? 'check-circle' : type === 'error' ? 'x-circle' : 'info-circle'}"></i>
                     <span>${message}</span>
                 </div>
             `;
-            
+
             toastContainer.insertAdjacentHTML('beforeend', toastHTML);
-            
+
             setTimeout(() => {
                 const toast = document.getElementById(toastId);
                 if (toast) {
@@ -1344,231 +1290,15 @@
             }, 3000);
         }
 
-        // API Management Functions
-        function copyApiUrl() {
-            const apiUrl = document.getElementById('currentApiUrl');
-            apiUrl.select();
-            document.execCommand('copy');
-            showToast('API URL copied to clipboard!', 'success');
-        }
-
-        async function testApiConnection() {
-            const statusBadge = document.getElementById('apiStatusBadge');
-            
-            try {
-                statusBadge.className = 'badge bg-warning me-2';
-                statusBadge.innerHTML = '<i class="bi bi-arrow-repeat"></i> Testing...';
-                
-                const response = await fetch(apiConfig.currentApiUrl, {
-                    method: 'HEAD',
-                    headers: {
-                        'Cache-Control': 'no-cache',
-                        'Pragma': 'no-cache'
-                    }
-                });
-                
-                if (response.ok) {
-                    statusBadge.className = 'badge bg-success me-2';
-                    statusBadge.innerHTML = '<i class="bi bi-check-circle"></i> Connected';
-                    showToast('API connection successful!', 'success');
-                } else {
-                    throw new Error(`HTTP ${response.status}`);
-                }
-            } catch (error) {
-                statusBadge.className = 'badge bg-danger me-2';
-                statusBadge.innerHTML = '<i class="bi bi-x-circle"></i> Failed';
-                showToast('API connection failed: ' + error.message, 'error');
-            }
-        }
-
-        async function updateGitHubApi() {
-            // Show loading state
-            const button = event.target;
-            const originalText = button.innerHTML;
-            button.innerHTML = '<i class="bi bi-arrow-repeat spinner"></i> Updating...';
-            button.disabled = true;
-            
-            try {
-                // For GitHub Pages (static hosting) - we'll create a downloadable file
-                // since we can't directly update GitHub raw content via browser
-                await downloadUpdatedJson();
-                
-                showToast('API data updated successfully! Download the JSON file and upload it to your GitHub repository.', 'success');
-                
-                // Show instructions for manual update
-                showGitHubUpdateInstructions();
-                
-            } catch (error) {
-                showToast('Failed to update API: ' + error.message, 'error');
-                console.error('API Update Error:', error);
-            } finally {
-                // Restore button state
-                button.innerHTML = originalText;
-                button.disabled = false;
-            }
-        }
-
-        function downloadUpdatedJson() {
-            return new Promise((resolve) => {
-                // Create the updated data structure that matches your Flutter app's expected format
-                const apiData = {
-                    levels: storyData.levels,
-                    lastUpdated: new Date().toISOString(),
-                    version: '1.0.' + Date.now()
-                };
-                
-                // Create download
-                const dataStr = JSON.stringify(apiData, null, 2);
-                const dataBlob = new Blob([dataStr], { type: 'application/json' });
-                const url = URL.createObjectURL(dataBlob);
-                
-                const link = document.createElement('a');
-                link.href = url;
-                link.download = 'halayasir.json';
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-                URL.revokeObjectURL(url);
-                
-                resolve();
-            });
-        }
-
-        function showGitHubUpdateInstructions() {
-            const modalHTML = `
-                <div class="modal fade" id="githubInstructionsModal" tabindex="-1">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title"><i class="bi bi-github me-2"></i>Update GitHub Repository</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="alert alert-info">
-                                    <h6><i class="bi bi-info-circle"></i> Manual Update Required</h6>
-                                    <p>Since we can't directly update GitHub from the browser, follow these steps:</p>
-                                </div>
-                                
-                                <h6>Step 1: Download the JSON File</h6>
-                                <p>The updated <code>halayasir.json</code> file has been downloaded to your computer.</p>
-                                
-                                <h6>Step 2: Update GitHub Repository</h6>
-                                <ol>
-                                    <li>Go to your GitHub repository: 
-                                        <a href="https://github.com/halayasirstore/storybook" target="_blank">
-                                            https://github.com/halayasirstore/storybook
-                                        </a>
-                                    </li>
-                                    <li>Navigate to the <code>halayasir.json</code> file</li>
-                                    <li>Click the edit button (pencil icon)</li>
-                                    <li>Replace the entire content with your downloaded file content</li>
-                                    <li>Scroll down and commit the changes with a descriptive message</li>
-                                </ol>
-                                
-                                <h6>Step 3: Verify the Update</h6>
-                                <p>Visit this URL to verify your changes: 
-                                    <a href="${apiConfig.currentApiUrl}" target="_blank">
-                                        ${apiConfig.currentApiUrl}
-                                    </a>
-                                </p>
-                                
-                                <div class="alert alert-warning">
-                                    <small><strong>Note:</strong> It may take a few minutes for GitHub to update the raw content URL.</small>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary" onclick="testApiConnection()">
-                                    <i class="bi bi-arrow-repeat"></i> Test Connection
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `;
-            
-            // Remove existing modal if any
-            const existingModal = document.getElementById('githubInstructionsModal');
-            if (existingModal) {
-                existingModal.remove();
-            }
-            
-            // Add modal to body
-            document.body.insertAdjacentHTML('beforeend', modalHTML);
-            
-            // Show modal
-            const modal = new bootstrap.Modal(document.getElementById('githubInstructionsModal'));
-            modal.show();
-        }
-
-        function showApiHelp() {
-            const modalHTML = `
-                <div class="modal fade" id="apiHelpModal" tabindex="-1">
-                    <div class="modal-dialog modal-lg">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title"><i class="bi bi-question-circle me-2"></i>API Integration Help</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                            </div>
-                            <div class="modal-body">
-                                <h6>How It Works</h6>
-                                <p>Your Flutter app fetches data from this GitHub URL:</p>
-                                <code>${apiConfig.currentApiUrl}</code>
-                                
-                                <h6 class="mt-4">Update Process</h6>
-                                <ol>
-                                    <li>Make changes in the dashboard</li>
-                                    <li>Click "Save Changes" to update local data</li>
-                                    <li>Click "Update GitHub API" to download the updated JSON</li>
-                                    <li>Manually upload the JSON to your GitHub repository</li>
-                                    <li>Your Flutter app will automatically get the new data</li>
-                                </ol>
-                                
-                                <h6>Flutter App Integration</h6>
-                                <p>Your Flutter code is already set up to fetch from this API. The <code>LevelService</code> class handles:</p>
-                                <ul>
-                                    <li>Fetching data from the GitHub URL</li>
-                                    <li>Parsing levels, stories, and quizzes</li>
-                                    <li>Handling progress tracking</li>
-                                    <li>Caching and error handling</li>
-                                </ul>
-                                
-                                <div class="alert alert-success">
-                                    <h6><i class="bi bi-lightbulb"></i> Pro Tip</h6>
-                                    <p class="mb-0">You can set up GitHub Actions to automatically update the file when you push changes, 
-                                    or consider using a backend service for direct API updates.</p>
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Got It!</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            `;
-            
-            // Remove existing modal if any
-            const existingModal = document.getElementById('apiHelpModal');
-            if (existingModal) {
-                existingModal.remove();
-            }
-            
-            // Add modal to body
-            document.body.insertAdjacentHTML('beforeend', modalHTML);
-            
-            // Show modal
-            const modal = new bootstrap.Modal(document.getElementById('apiHelpModal'));
-            modal.show();
-        }
 
         // Function to render levels
         function renderLevels() {
             const container = document.getElementById('levelsContainer');
             container.innerHTML = '';
-            
+
             storyData.levels.forEach((level, index) => {
                 const levelClass = `level${(index % 3) + 1}`;
-                
+
                 let levelHTML = `
                     <div class="level-card">
                         <div class="level-header ${levelClass}-bg">
@@ -1591,12 +1321,12 @@
                         <div class="level-content">
                             <div class="story-grid">
                 `;
-                
+
                 level.stories.forEach((story, storyIndex) => {
-                    if (searchTerm === '' || 
+                    if (searchTerm === '' ||
                         story.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                         story.story.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                        story.story.segmentsList.some(segment => 
+                        story.story.segmentsList.some(segment =>
                             segment.content.toLowerCase().includes(searchTerm.toLowerCase()) ||
                             segment.translation.arabic.toLowerCase().includes(searchTerm.toLowerCase()) ||
                             segment.translation.french.toLowerCase().includes(searchTerm.toLowerCase())
@@ -1633,27 +1363,27 @@
                         `;
                     }
                 });
-                
+
                 levelHTML += `
                             </div>
                         </div>
                     </div>
                 `;
-                
+
                 container.innerHTML += levelHTML;
             });
-            
+
             updateStats();
         }
 
         // Function to update statistics
         function updateStats() {
             document.getElementById('totalLevels').textContent = storyData.levels.length;
-            
+
             let totalStories = 0;
             let totalSegments = 0;
             let totalQuizzes = 0;
-            
+
             storyData.levels.forEach(level => {
                 totalStories += level.stories.length;
                 level.stories.forEach(story => {
@@ -1661,7 +1391,7 @@
                     totalQuizzes += story.quiz.questions.length;
                 });
             });
-            
+
             document.getElementById('totalStories').textContent = totalStories;
             document.getElementById('totalSegments').textContent = totalSegments;
             document.getElementById('totalQuizzes').textContent = totalQuizzes;
@@ -1670,7 +1400,7 @@
         // Show stats detail
         function showStatsDetail(type) {
             let message = '';
-            switch(type) {
+            switch (type) {
                 case 'levels':
                     message = `You have ${storyData.levels.length} levels in your dashboard. Levels help organize your stories by difficulty.`;
                     break;
@@ -1739,12 +1469,12 @@
         function editLevel(index) {
             currentEditLevelIndex = index;
             const level = storyData.levels[index];
-            
+
             document.getElementById('editLevelName').value = level.name;
             document.getElementById('editLevelColor').value = '#' + level.color.toString(16);
             document.getElementById('editLevelGradientStart').value = '#' + level.gradient.colors[0].toString(16);
             document.getElementById('editLevelGradientEnd').value = '#' + level.gradient.colors[1].toString(16);
-            
+
             const modal = new bootstrap.Modal(document.getElementById('editLevelModal'));
             modal.show();
         }
@@ -1768,11 +1498,11 @@
 
         function confirmDeleteLevel(index) {
             const level = storyData.levels[index];
-            document.getElementById('deleteConfirmationMessage').textContent = 
+            document.getElementById('deleteConfirmationMessage').textContent =
                 `Are you sure you want to delete "${level.name}" and all its stories?`;
-            
+
             document.getElementById('confirmDeleteBtn').onclick = () => deleteLevel(index);
-            
+
             const modal = new bootstrap.Modal(document.getElementById('deleteConfirmationModal'));
             modal.show();
         }
@@ -1790,10 +1520,10 @@
             currentLevelIndex = levelIndex;
             document.getElementById('addStoryForm').reset();
             document.getElementById('segmentsContainer').innerHTML = '';
-            
+
             // Add initial segment
             addSegmentInput();
-            
+
             // Show modal
             const modal = new bootstrap.Modal(document.getElementById('addStoryModal'));
             modal.show();
@@ -1806,7 +1536,7 @@
             const title = document.getElementById('storyTitle').value;
             const audio = document.getElementById('storyAudio').value;
             const segmentsCount = parseInt(document.getElementById('storySegments').value);
-            
+
             // Collect segment data
             const segmentsList = [];
             for (let i = 0; i < segmentsCount; i++) {
@@ -1817,17 +1547,17 @@
                 const segmentContent = document.getElementById(`segmentContent-${i}`).value;
                 const segmentArabic = document.getElementById(`segmentArabic-${i}`).value;
                 const segmentFrench = document.getElementById(`segmentFrench-${i}`).value;
-                
+
                 // Collect word translations
                 const wordTranslations = [];
                 const wordContainer = document.getElementById(`wordTranslations-${i}`);
                 const wordElements = wordContainer.children;
-                
+
                 for (let j = 0; j < wordElements.length; j++) {
                     const word = document.getElementById(`word-${i}-${j}`).value;
                     const wordArabic = document.getElementById(`wordArabic-${i}-${j}`).value;
                     const wordFrench = document.getElementById(`wordFrench-${i}-${j}`).value;
-                    
+
                     if (word && wordArabic && wordFrench) {
                         wordTranslations.push({
                             word: word,
@@ -1836,7 +1566,7 @@
                         });
                     }
                 }
-                
+
                 segmentsList.push({
                     segmentTitle: segmentTitle,
                     segmentImage: segmentImage,
@@ -1854,7 +1584,7 @@
                     wordTranslations: wordTranslations
                 });
             }
-            
+
             // Create quiz questions
             const quizQuestions = [];
             for (let i = 0; i < 10; i++) {
@@ -1865,7 +1595,7 @@
                     explanation: "Explanation for the answer"
                 });
             }
-            
+
             const newStory = {
                 name: name,
                 image: image,
@@ -1881,7 +1611,7 @@
                     questions: quizQuestions
                 }
             };
-            
+
             storyData.levels[currentLevelIndex].stories.push(newStory);
             renderLevels();
             saveStoryData();
@@ -1896,26 +1626,26 @@
             currentEditLevelIndex = levelIndex;
             currentEditStoryIndex = storyIndex;
             const story = storyData.levels[levelIndex].stories[storyIndex];
-            
+
             document.getElementById('editStoryName').value = story.name;
             document.getElementById('editStoryImage').value = story.image;
             document.getElementById('editStoryTitle').value = story.story.title;
             document.getElementById('editStoryAudio').value = story.story.audio;
             document.getElementById('editStorySegments').value = story.story.segments;
-            
+
             // Populate segments
             document.getElementById('editSegmentsContainer').innerHTML = '';
             story.story.segmentsList.forEach((segment, segIndex) => {
                 addEditSegmentInput(segment, segIndex);
             });
-            
+
             const modal = new bootstrap.Modal(document.getElementById('editStoryModal'));
             modal.show();
         }
 
         function addEditSegmentInput(segment, index) {
             const container = document.getElementById('editSegmentsContainer');
-            
+
             const segmentHTML = `
                 <div class="segment-input" id="editSegment-${index}">
                     <h5 class="segment-title">
@@ -1951,19 +1681,19 @@
                     </div>
                 </div>
             `;
-            
+
             container.insertAdjacentHTML('beforeend', segmentHTML);
         }
 
         function updateStory() {
             const story = storyData.levels[currentEditLevelIndex].stories[currentEditStoryIndex];
-            
+
             story.name = document.getElementById('editStoryName').value;
             story.image = document.getElementById('editStoryImage').value;
             story.story.title = document.getElementById('editStoryTitle').value;
             story.story.audio = document.getElementById('editStoryAudio').value;
             story.story.segments = parseInt(document.getElementById('editStorySegments').value);
-            
+
             // Update segments
             const segmentsList = [];
             for (let i = 0; i < story.story.segments; i++) {
@@ -1974,7 +1704,7 @@
                 const segmentContent = document.getElementById(`editSegmentContent-${i}`).value;
                 const segmentArabic = document.getElementById(`editSegmentArabic-${i}`).value;
                 const segmentFrench = document.getElementById(`editSegmentFrench-${i}`).value;
-                
+
                 segmentsList.push({
                     segmentTitle: segmentTitle,
                     segmentImage: segmentImage,
@@ -1992,7 +1722,7 @@
                     wordTranslations: [] // Keep existing word translations
                 });
             }
-            
+
             story.story.segmentsList = segmentsList;
 
             renderLevels();
@@ -2007,22 +1737,22 @@
             currentEditLevelIndex = levelIndex;
             currentEditStoryIndex = storyIndex;
             const story = storyData.levels[levelIndex].stories[storyIndex];
-            
+
             document.getElementById('editQuizTitle').value = story.quiz.title;
-            
+
             // Populate quiz questions
             document.getElementById('quizQuestionsContainer').innerHTML = '';
             story.quiz.questions.forEach((question, qIndex) => {
                 addQuizQuestionInput(question, qIndex);
             });
-            
+
             const modal = new bootstrap.Modal(document.getElementById('editQuizModal'));
             modal.show();
         }
 
         function addQuizQuestionInput(question, index) {
             const container = document.getElementById('quizQuestionsContainer');
-            
+
             const questionHTML = `
                 <div class="quiz-input" id="quizQuestion-${index}">
                     <h5 class="quiz-title">
@@ -2066,21 +1796,21 @@
                     ${index > 0 ? `<button type="button" class="btn btn-sm btn-outline-danger mt-2" onclick="removeQuizQuestion(${index})">Remove Question</button>` : ''}
                 </div>
             `;
-            
+
             container.insertAdjacentHTML('beforeend', questionHTML);
         }
 
         function addQuizQuestion() {
             const container = document.getElementById('quizQuestionsContainer');
             const questionIndex = container.children.length;
-            
+
             const newQuestion = {
                 question: `New Question ${questionIndex + 1}`,
                 options: ["Option 1", "Option 2", "Option 3", "Option 4"],
                 correctAnswer: 0,
                 explanation: "Explanation for the answer"
             };
-            
+
             addQuizQuestionInput(newQuestion, questionIndex);
         }
 
@@ -2091,14 +1821,14 @@
 
         function updateQuiz() {
             const story = storyData.levels[currentEditLevelIndex].stories[currentEditStoryIndex];
-            
+
             story.quiz.title = document.getElementById('editQuizTitle').value;
-            
+
             // Update quiz questions
             const questions = [];
             const container = document.getElementById('quizQuestionsContainer');
             const questionElements = container.children;
-            
+
             for (let i = 0; i < questionElements.length; i++) {
                 const question = {
                     question: document.getElementById(`question-${i}`).value,
@@ -2113,7 +1843,7 @@
                 };
                 questions.push(question);
             }
-            
+
             story.quiz.questions = questions;
 
             renderLevels();
@@ -2126,12 +1856,12 @@
         function confirmDeleteStory(levelIndex, storyIndex) {
             const level = storyData.levels[levelIndex];
             const story = level.stories[storyIndex];
-            
-            document.getElementById('deleteConfirmationMessage').textContent = 
+
+            document.getElementById('deleteConfirmationMessage').textContent =
                 `Are you sure you want to delete "${story.name}" from "${level.name}"?`;
-            
+
             document.getElementById('confirmDeleteBtn').onclick = () => deleteStory(levelIndex, storyIndex);
-            
+
             const modal = new bootstrap.Modal(document.getElementById('deleteConfirmationModal'));
             modal.show();
         }
@@ -2149,7 +1879,7 @@
         function addSegmentInput() {
             const container = document.getElementById('segmentsContainer');
             const segmentIndex = container.children.length;
-            
+
             const segmentHTML = `
                 <div class="segment-input" id="segment-${segmentIndex}">
                     <h5 class="segment-title">
@@ -2208,14 +1938,14 @@
                     ${segmentIndex > 0 ? `<button type="button" class="btn btn-sm btn-outline-danger mt-2" onclick="removeSegmentInput(${segmentIndex})">Remove Segment</button>` : ''}
                 </div>
             `;
-            
+
             container.insertAdjacentHTML('beforeend', segmentHTML);
         }
 
         function addWordTranslation(segmentIndex) {
             const container = document.getElementById(`wordTranslations-${segmentIndex}`);
             const wordIndex = container.children.length;
-            
+
             const wordHTML = `
                 <div class="word-translation">
                     <div class="word-translation-title">Word ${wordIndex + 1}</div>
@@ -2232,7 +1962,7 @@
                     </div>
                 </div>
             `;
-            
+
             container.insertAdjacentHTML('beforeend', wordHTML);
         }
 
@@ -2252,24 +1982,20 @@
 
         function saveChanges() {
             saveStoryData();
-
-            // Show API update reminder
-            setTimeout(() => {
-                showToast('Remember to update GitHub API to sync changes with your Flutter app!', 'info');
-            }, 2000);
+            showToast('Changes saved successfully!', 'success');
         }
 
         function exportJSON() {
             const dataStr = JSON.stringify(storyData, null, 2);
-            const dataUri = 'data:application/json;charset=utf-8,'+ encodeURIComponent(dataStr);
-            
+            const dataUri = 'data:application/json;charset=utf-8,' + encodeURIComponent(dataStr);
+
             const exportFileDefaultName = 'story_data.json';
-            
+
             const linkElement = document.createElement('a');
             linkElement.setAttribute('href', dataUri);
             linkElement.setAttribute('download', exportFileDefaultName);
             linkElement.click();
-            
+
             showToast('JSON exported successfully!', 'success');
         }
 
@@ -2312,10 +2038,10 @@
         function openAddStoryModal() {
             document.getElementById('addStoryForm').reset();
             document.getElementById('segmentsContainer').innerHTML = '';
-            
+
             // Add initial segment
             addSegmentInput();
-            
+
             // Show modal
             const modal = new bootstrap.Modal(document.getElementById('addStoryModal'));
             modal.show();
@@ -2393,11 +2119,12 @@
         }
 
         // Initialize the dashboard
-        document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function () {
             renderLevels();
             // Test API connection automatically
             setTimeout(testApiConnection, 1000);
         });
     </script>
 </body>
+
 </html>
